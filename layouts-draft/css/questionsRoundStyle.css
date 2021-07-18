@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    background-image: linear-gradient(greenyellow, sandybrown);
+    min-height: 74vh;
+    padding-top: 4vh;
+}
+
+.scoring {
+    display: flex;
+    justify-content: space-around;
+}
+
+.star-img {
+    margin: .11vw;
+}
+
+.added-layers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.statement-twister, .added-layers, .topic, .correct, .myth {
+    margin-bottom: 4vh;
+}
+
+.answer-options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.correct, .myth {
+    width: 11vw;
+    height: 8vh;
+    background-color:bisque;
+}
+
+.correct:hover, .myth:hover {
+    background-image: linear-gradient(sandybrown,yellow );
+    font-size: larger;
+}
