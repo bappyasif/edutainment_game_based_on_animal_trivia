@@ -1,6 +1,49 @@
 .container {
     text-align: center;
-    background-image: linear-gradient(green, coral)
+    background-image: linear-gradient(green, coral);
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .navigation-container img {
+    float: left;
+}
+
+.navigation-container img:hover {
+    content: url('../images/icons8-menu.gif');
+    width: 4vw;
+} */
+
+.navigation-container {
+    margin-bottom: 2.9vh;
+}
+
+.icon-div {
+    background-image: url('../images/icons8-menu-24.png');
+    float: left;
+    width: 2.9vw;
+    height: 11vh;
+}
+
+.icon-div:hover {
+    content: url('../images/icons8-menu.gif');
+    width: 4vw;
+    height: 13vh;
+}
+
+/* .icon-div:hover {
+    background-image: url('../images/icons8-menu.gif');
+    width: 13vw;
+    height: 38vh;
+} */
+
+nav a:hover {
+    font-size: x-large;
 }
 
 .categories-container {
