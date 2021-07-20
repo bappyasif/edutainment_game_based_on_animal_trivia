@@ -1,0 +1,51 @@
+.difficulty-container {
+    text-align: center;
+    position: relative;
+    background-color: silver;
+    width: 20vw;
+    height: 29vh;
+    margin: auto;
+    display: flex;
+}
+
+.mode-card {
+    border: .11vw solid silver;
+    background-color: turquoise;
+    opacity: 56%;
+    width: fit-content;
+    margin: auto;
+}
+
+.mode-card h2 {
+    color: honeydew;
+}
+
+#mode-easy, #mode-hard {
+    margin-top: 1.1vh;
+    font-weight: bold;
+    margin-bottom: 2.9vh;
+    line-height: 1.1em;
+}
+
+#mode-easy:hover, #mode-hard:hover {
+    color: greenyellow;
+}
+
+#mode-play {
+    background-color: inherit;
+    color: greenyellow;
+    border-radius: 11%;
+    width: 6vw;
+    height: 4vh;
+}
+
+#mode-play:hover {
+    background-color: honeydew;
+    font-size: large;
+    border: none;
+}
+
+.test-text {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
