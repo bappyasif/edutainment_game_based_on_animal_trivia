@@ -1,6 +1,85 @@
 {
     "mammals": [
-        {"data": "data"}
+        {
+            "question": "Camels store water in their humps",
+            "answer": false,
+            "explanation": "Their humps are actually fat stores, which look droopy if the animals’ bodies burn that fat when food is scarce."
+        },
+        {
+            "question": "Giraffes only sleep for 30 minutes",
+            "answer": false,
+            "explanation": "According to research from the European Sleep Research Society, giraffes actually sleep 4.6 hours a day."
+        },
+        {
+            "question": "Opossums hang from their tails",
+            "answer": false,
+            "explanation": "Baby opossums can hang from their tails for a couple of seconds, but adults are too heavy and only use their tails to help keep their balance while using their legs to climb."
+        },
+        {
+            "question": "Bats are blind",
+            "answer": false,
+            "explanation": "Many fruit bats don’t even echolocate at all. In fact, they have particularly sharp vision."
+        },
+        {
+            "question": "Bulls get mad when they see the color red",
+            "answer": false,
+            "explanation": "Bulls are actually colorblind to red and green. What really gets them riled up during a bullfight is the cape’s movement, and they’re more likely to charge at an object that’s moving the most, no matter what color it is."
+        },
+        {
+            "question": "Porcupines can shoot their quills",
+            "answer": false,
+            "explanation": "Quills are mixed onto their back, sides, and tail and lay flat unless they are feeling threatened. They do detach easily when touched though."
+        },
+        {
+            "question": "Humans evolved from chimpanzees.",
+            "answer": false,
+            "explanation": "Humans and chimpanzees shared a common ancestor millions of years ago"
+        },
+        {
+            "question": "Humans and chimpanzees have identical genes of over 98%",
+            "answer": true,
+            "explanation": "Humans and chimpanzees has uncanny similarities but both has evolved into two distinctly separate species in 'ape' family tree."
+        },
+        {
+            "question": "Dogs can only see in black and white",
+            "answer": false,
+            "expalanation": "Their vision is limited but they definitely do not see things in black and white, their vision ranges from dark blue to grey to dark and light yellow from spectrum"
+        },
+        {
+            "question": "Raccoons like clean food, that's why they wash it before eating it",
+            "answer": false,
+            "explanation": "Raccoons have extremely sensitive front feet and they appear to get more tactile information when their paws are wet than when they are dry, so when water is available they tend to turn their food over repeatedly before eating it."
+        },
+        {
+            "question": "Dogs sweat through their tongues",
+            "answer": false,
+            "explanation": "Dog pants to evaporate moisture from their tongues, nasal passages and lining of teir lungs, which helps them to cool down"
+        },
+        {
+            "question": "An elephant is only animal that can not jump",
+            "answer": false,
+            "explanation": "Yes an elephant can not jump and so are others like Rhinoceros, Hippopotamus, Manatees and Seals"
+        },
+        {
+            "question": "Cats are color blind",
+            "answer": false,
+            "explanation": "Both cats and dogs can see in blue and green, and they can see better in low light situations, for example reds and pinks would appear more green to cats"
+        },
+        {
+            "question": "We humans use only 10 percent of our brains",
+            "answer": false,
+            "explanation": "We humans virtually speaking every part of our brain and most of our brain is active almost always"
+        },
+        {
+            "question": "Polar bear fur is white",
+            "answer": false,
+            "explanation": "Their fur is not entirely white, they actually have black skin and translucent fur, which appears to be white due to its lack of pigmentation combined with way light reflects off bears snowy white surroundings"
+        },
+        {
+            "question": "Bats want to suck your blood",
+            "answer": false,
+            "explanation": "Bats don not suck any human beings blood, rather they have an anti clotting enzyme in their saliva that helps keep blood flowing"
+        }
     ],
 
     "birds": [
@@ -38,9 +117,24 @@
             "ques": "birds are stupid",
             "ans": "myth",
             "explanation": "birds can recognize relatives they haven’t seen in years, and recognize a neighbor or a stranger just by its voice, remember the location of food they hid away months earlier, and even use things as tools"
+        },
+        {
+            "question": "Owls can spin their heads 360 degrees",
+            "answer": false,
+            "explanation": "Owls are limited to turning their heads 270 degrees in one direction."
+        },
+        {
+            "question": "Turkeys can't fly",
+            "answer": false,
+            "explanation": "They’re pretty much built to stay on the ground, but wild turkeys can take to the air. They usually don’t go further than 100 yards, but they can travel at 55mph"
+        },
+        {
+            "question": "All turkeys gobble",
+            "answer": false,
+            "explanation": "Not all turkeys gobble. It’s almost exclusively the males, or toms, that get their gobble on."
         }
     ],
-    
+
     "fishes": [
         {
             "ques": "there is a species of Jellyfish doesn't technically perishes and thus immortal",
@@ -81,9 +175,14 @@
             "ques": "whales respond to scream, loud noise made by humans",
             "ans": "myth",
             "explanation": "Honestly, we all have our superstitions about what bring the whales close, but most if not all of them are just wishful thinking. For one, the sound barrier between air and water is pretty good, so when you're on shore, chances are the whales can't hear you at all"
+        },
+        {
+            "question": "Goldfish have a three-second memory",
+            "answer": false,
+            "explanation": "They have a memory span of at least three months, according to researchers at Plymouth University."
         }
     ],
-    
+
     "reptiles-and-amphibians": [
         {
             "ques": "chameleons change colors blend in with their surroundings",
@@ -124,6 +223,16 @@
             "ques": "turtles and tortoise can climb out of their shells",
             "ans": "myth",
             "explanation": "a turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs"
+        },
+        {
+            "question": "Touching toads gives you warts",
+            "answer": false,
+            "explanation": "Toads have wart-like bumps, and human warts are contagious, but you could never catch a wart from a frog or toad. While humans get warts from viruses, the bumps on the amphibians are glands."
+        },
+        {
+            "question": "Snakes do not have bones",
+            "answer": false,
+            "explanation": "All snakes are vertebrate animals, and do have bones. They have a skull and specialized jaw bones and ligaments, many connected vertebra, or a spinal backbone, and as many as 300-400 pairs of ribs or more, among a few other minor bones present."
         }
     ]
 }
