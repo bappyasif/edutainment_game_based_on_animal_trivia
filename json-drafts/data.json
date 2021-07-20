@@ -85,37 +85,37 @@
     "birds": [
         {
             "question": "owls are wise birds",
-            "answer": "myth",
+            "answer": false,
             "explanation": "though owls are used as symbol of wisdom they have smaller brains and they are not as smart as Crows and Ravens"
         },
         {
             "question": "ostriches sometimes Flop on ground",
-            "answer": "true",
+            "answer": true,
             "explanation": "ostriches when feel Threaten sometimes Flop on ground"
         },
         {
             "question": "penguins can fall backwards when they look up",
-            "answer": "myth",
+            "answer": false,
             "explanation": "it was due to an account when pilots saw penguins tumbling over when looked skywards, but in reality Penguins have ability to hold their footing even when they look up at planes"
         },
         {
             "question": "bald eagle got its name from because of it's light-colored head gives it a 'bald' appearance",
-            "answer": "true",
+            "answer": true,
             "explanation": "it's more related to an old english word 'Balde' which means color white, is source of this name 'bald eagle', which means white headed eagle and nothing to do with appearance of baldness"
         },
         {
             "question": "owls eyes are fixed in their eyes sockets",
-            "answer": "true",
+            "answer": true,
             "explanation": "unlike humans, an owl can not move their eyes from side to side, which in turn developed to a greater head turning capability as they evolved and adapted"
         },
         {
             "question": "birds sings because they are happy",
-            "answer": "myth",
+            "answer": false,
             "explanation": "male birds sings to signal others male birds to stay away as a form of aggression, and female birds like those male birds who can sing very often and have complex songs"
         },
         {
             "question": "birds are stupid",
-            "answer": "myth",
+            "answer": false,
             "explanation": "birds can recognize relatives they haven’t seen in years, and recognize a neighbor or a stranger just by its voice, remember the location of food they hid away months earlier, and even use things as tools"
         },
         {
@@ -138,42 +138,42 @@
     "fishes": [
         {
             "question": "there is a species of Jellyfish doesn't technically perishes and thus immortal",
-            "answer": "true",
+            "answer": true,
             "explanation": "a species of Jellyfish known as Turritopsis dohrnii, essentially an immortal sea creature that revert back into juvenile state after adulthood, so it can live alongside its offspring!!"
         },
         {
             "question": "sharks can smell blood from miles away",
-            "answer": "myth",
+            "answer": false,
             "explanation": "sharks have a highly enlarged portion of brain for smelling odors, and though they smell their prey from far but not from miles but few football fields away at best"
         },
         {
             "question": "any sharks that stop swimming will suffocate and die",
-            "answer": "myth",
+            "answer": false,
             "explanation": "all sharks lack swim bladder, so when they stop swimming they fall into bottom of ocean floor, and their bodies are so incompressible that it doesn't harm them, they can always ascent or descent for oxygen when needed"
         },
         {
             "question": "farmed fish is not safe to eat",
-            "answer": "myth",
+            "answer": false,
             "explanation": "farmed fishes are both safe and healthy to eat, diets and environment those fishes live are monitored throughout their life span"
         },
         {
             "question": "farmed fish does not taste as good as wild fish",
-            "answer": "myth",
+            "answer": false,
             "explanation": "it's a matter of preference, while some enjoy wild fishes, and others enjoy farmed dishes as well, moreover they are both healthy for you"
         },
         {
             "question": "goldfishes are short lived",
-            "answer": "myth",
+            "answer": false,
             "explanation": "goldfish are one of those longest lived fishes around that can we have, and can live for several decades  under right conditions"
         },
         {
             "question": "farmed salmon get their pink color from artificial injection",
-            "answer": "myth",
+            "answer": false,
             "explanation": "Both wild and farmed salmon get their pink color from a carotenoid anti-oxidant in their diet called astaxanthin which is traditionally produced by algae that wild salmon consume"
         },
         {
             "question": "whales respond to scream, loud noise made by humans",
-            "answer": "myth",
+            "answer": false,
             "explanation": "Honestly, we all have our superstitions about what bring the whales close, but most if not all of them are just wishful thinking. For one, the sound barrier between air and water is pretty good, so when you're on shore, chances are the whales can't hear you at all"
         },
         {
@@ -186,42 +186,42 @@
     "reptiles-and-amphibians": [
         {
             "question": "chameleons change colors blend in with their surroundings",
-            "answer": "myth",
+            "answer": false,
             "explanation": "yes, chameleons can change colors but to regulate their body temperature or to communicate with other chameleons but not to camouflage themselves from it's surroundings"
         },
         {
             "question": "chameleons use their array of bright colors as social signal",
-            "answer": "true",
+            "answer": true,
             "explanation": "chameleons do not have to exert a lot of effort to blend in with natural state, as they often resembles leaves or branches, but more often they use it to social interactions among them"
         },
         {
             "question": "if a baby snake is seen, mother snake could be close by",
-            "answer": "myth",
+            "answer": false,
             "explanation": "most snakes do not provide parental care like other animals to their young, and they are self sufficient at birth and their own, which means their Parent may not be near them if you spot any baby snakes around"
         },
         {
             "question": "snakes can not bite or strike under water",
-            "answer": "myth",
+            "answer": false,
             "explanation": "a snake can bite or strike above or below water surface, there are many species of snakes which hunts prey from water"
         },
         {
             "question": "snakes are aggressive and will chase people",
-            "answer": "myth",
+            "answer": false,
             "explanation": "while 'aggressive' and 'defensive' can be twisted to mean same things in broader sense, in reality there is no snake that will chase or act aggressively rather 'defensively' towards any human being"
         },
         {
             "question": "if a snake is small, it must be a baby",
-            "answer": "myth",
+            "answer": false,
             "explanation": "while many species of snakes may be small as hatchlings or babies, there are also many species of small, harmless snakes which do not exceed 8 to 15 inches long as an adult"
         },
         {
             "question": "when bitten by a venomous snakes, venom should be cut or sucked out",
-            "answer": "myth",
+            "answer": false,
             "explanation": "it has a potential of doing more harms than good, and is generally not recommended by most snake bite specialist, if not all"
         },
         {
             "question": "turtles and tortoise can climb out of their shells",
-            "answer": "myth",
+            "answer": false,
             "explanation": "a turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs"
         },
         {
