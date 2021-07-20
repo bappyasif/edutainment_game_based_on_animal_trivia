@@ -14,6 +14,47 @@
     margin: .11vw;
 }
 
+.topic {
+    margin-top: 4vh;
+}
+
+.topic, .statement-twister, .explain-why {
+    border: silver .11vw solid;
+    line-height: 2em;
+    width: 20vw;
+    margin: auto;
+}
+
+.explain-why {
+    position: absolute;
+    width: 31vw;
+    top: 15vh;
+    left: 34.4vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    opacity: 83%;
+    border: darkgreen .4vw solid;
+    font-size: large;
+}
+
+.next-question {
+    margin-top: 11%;
+    background-color: darkgreen;
+    margin-bottom: .2em;
+    min-height: 4vh;
+}
+
+.next-question:hover {
+    background-color: inherit;
+    color: green;
+    font-weight: bolder;
+    border: green .2vw solid;
+}
+
 .added-layers {
     display: flex;
     flex-direction: column;
