@@ -13,7 +13,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('../images/animal-bg.png');
+    background-image: url('../images/animal-bg-1.png');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,8 +29,8 @@ body {
 }
 
 .title {
-    margin-top: min(7rem, 9vw);
-    margin-bottom: min(9rem, 15vw);
+    margin-top: 12vh;
+    margin-bottom: 15vh;
     padding: 0.8rem;
     font-family: 'Sigmar One', cursive;
     font-size: min(4rem, 15vw);
@@ -50,7 +50,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 1rem;
     padding: 1.5rem 1rem;
     background: linear-gradient(90deg, #8fd61c 6.55%, #00761a 99.24%);
@@ -61,9 +61,21 @@ body {
     margin-bottom: 1rem;
 }
 
-/* TODO: Add responsiveness for mobile */
 @media (min-width: 1100px) {
+    .title {
+        font-size: 10vh;
+    }
     .background {
         background-position: center -400px;
+    }
+    .nav__btn {
+        padding: 2vw 1.5vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-height: 700px) {
+    .background {
+        background-position: center bottom;
     }
 }
