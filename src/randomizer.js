@@ -8,7 +8,7 @@ const data = {
     ],
 };
 
-const getQuestions = (category) => {
+export const getQuestions = (category) => {
     const categoryData = data[category];
     let prevQuestions = [];
 
@@ -30,5 +30,5 @@ const getQuestions = (category) => {
     };
 
     // returns a question iterator
-    return { reset, next: nextQuestion };
+    return { reset, next: nextQuestion }; // i tried to test from index.js but it's actually showing entire code for nextQuestion()
 };

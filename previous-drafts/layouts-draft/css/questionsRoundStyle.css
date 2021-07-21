@@ -41,14 +41,14 @@
     font-size: large;
 }
 
-.next-question {
+.explain-question {
     margin-top: 11%;
     background-color: darkgreen;
     margin-bottom: .2em;
     min-height: 4vh;
 }
 
-.next-question:hover {
+.explain-question:hover {
     background-color: inherit;
     color: green;
     font-weight: bolder;
