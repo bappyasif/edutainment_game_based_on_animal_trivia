@@ -8,6 +8,17 @@ const data = {
     ],
 };
 
+/**
+ * @typedef {Object} QuestionIterator
+ * @property {function} next - Returns a question
+ * @property {function} reset - Reset tracked questions
+ */
+
+/**
+ *
+ * @param {string} category - Any of of the following: mammals, birds, fishes, reptilesAndAmphibians
+ * @returns {QuestionIterator} - A question iterator
+ */
 export const getQuestions = (category) => {
     const categoryData = data[category];
     let prevQuestions = [];
@@ -29,6 +40,5 @@ export const getQuestions = (category) => {
         prevQuestions = [];
     };
 
-    // returns a question iterator
     return { reset, next: nextQuestion }; // i tried to test from index.js but it's actually showing entire code for nextQuestion()
 };

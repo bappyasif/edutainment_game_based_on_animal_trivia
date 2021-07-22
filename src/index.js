@@ -1,3 +1,3 @@
-import { getQuestions } from "./randomizer";
+import { getQuestions } from './randomizer';
 
-console.log(getQuestions('mammals').next)
+console.log(getQuestions('mammals').next);
