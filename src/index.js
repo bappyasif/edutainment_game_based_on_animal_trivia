@@ -1,3 +1,3 @@
-import { getQuestions } from './randomizer';
+const addingStartingScreenToDOM = require("./gameStartUpComponents/starting-screen/showItOnDOM");
 
-console.log(getQuestions('mammals').next);
+addingStartingScreenToDOM();

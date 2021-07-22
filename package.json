@@ -4,9 +4,11 @@
   "description": "edutainment based game focused around animal trivia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "watchTests": "jest --watch /src/*test.js",
     "build": "webpack",
-    "serve": "npx webpack serve --hot-only"
+    "serve": "npx webpack serve --hot-only",
+    "watchMode": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,11 @@
   },
   "homepage": "https://github.com/bappyasif/edutainment_game_based_on_animal_trivia#readme",
   "devDependencies": {
+    "css-loader": "^6.2.0",
+    "jest": "^27.0.6",
+    "style-loader": "^3.2.1",
     "web-dev-server": "^3.0.22",
-    "webpack": "^5.45.1",
+    "webpack": "^5.46.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   },

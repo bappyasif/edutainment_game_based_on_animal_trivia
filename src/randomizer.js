@@ -19,7 +19,7 @@ const data = {
  * @param {string} category - Any of of the following: mammals, birds, fishes, reptilesAndAmphibians
  * @returns {QuestionIterator} - A question iterator
  */
-export const getQuestions = (category) => {
+const getQuestions = (category) => {
     const categoryData = data[category];
     let prevQuestions = [];
 
@@ -42,3 +42,5 @@ export const getQuestions = (category) => {
 
     return { reset, next: nextQuestion }; // i tried to test from index.js but it's actually showing entire code for nextQuestion()
 };
+
+module.exports = getQuestions;
