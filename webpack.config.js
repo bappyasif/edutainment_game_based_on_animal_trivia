@@ -16,21 +16,20 @@ module.exports = {
         rules: [
             {
                 test: /\.(png|jpg|jpeg|gif|svg)$/i,
-                type: 'asset/resources',
+                type: 'asset/resource',
             },
             { 
-                test: /\.css$/, 
+                test: /\.css$/i,
                 use: [
-
                     { 
                         loader: 'style-loader' 
                     },
                     {
                         loader: 'css-loader',
                         options: {
-                        modules: true
-                    }
-          },
+                            modules: true
+                        }
+                    },
                 ] 
             },           
         ],
