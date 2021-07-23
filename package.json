@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/bappyasif/edutainment_game_based_on_animal_trivia#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.14.8",
     "jest": "^27.0.6",
     "web-dev-server": "^3.0.22",
     "webpack": "^5.45.1",
