@@ -1,3 +1,3 @@
-import { getQuestions } from './randomizer';
+import { showStartingScreenOnDOM } from "./startup-components/showStartingScreenOnDOM";
 
-console.log(getQuestions('mammals').next);
+showStartingScreenOnDOM();
