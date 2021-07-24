@@ -1,19 +1,18 @@
-let creatingQuestionRoundLayout = () => {
 export let creatingQuestionRoundLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
         `<div class="container">
             <div class="scoring">
-                <div class="wrong-scores">
-                    <img class="star-img" src="https://placebear.com/50/50" alt="01">
-                    <img class="star-img" src="https://placebear.com/50/50" alt="02">
-                    <img class="star-img" src="https://placebear.com/50/50" alt="03">
-                    <img class="star-img" src="https://placebear.com/50/50" alt="04">
-                </div>
                 <div class="correct-scores">
                     <img class="star-img" src="http://lorempixel.com/50/50/" alt="01">
                     <img class="star-img" src="http://lorempixel.com/50/50/" alt="02">
                     <img class="star-img" src="http://lorempixel.com/50/50/" alt="03">
                     <img class="star-img" src="http://lorempixel.com/50/50/" alt="04">
+                </div>
+                <div class="wrong-scores">
+                    <img class="star-img" src="https://placebear.com/50/50" alt="01">
+                    <img class="star-img" src="https://placebear.com/50/50" alt="02">
+                    <img class="star-img" src="https://placebear.com/50/50" alt="03">
+                    <img class="star-img" src="https://placebear.com/50/50" alt="04">
                 </div>
             </div>
             <div class="topic">
@@ -23,8 +22,8 @@ export let creatingQuestionRoundLayout = () => {
                 <div class="text">Statement Twister: sun rises in west</div>
             </div>
             <div class="explain-why">
-                Modal View:
-                this is why it is as such, explaining them yada yada
+                <div class="text">Modal View:
+                this is why it is as such, explaining them yada yada</div>
                 <br />
                 <button class="explain-question">Close / Continue</button>
             </div>
@@ -41,6 +40,4 @@ export let creatingQuestionRoundLayout = () => {
     ).firstChild
 
     return htmlMarkup;
-}
-
 }

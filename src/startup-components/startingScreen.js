@@ -1,4 +1,4 @@
-import { creatingStartingScreenLayout } from "../../all-layouts/creatingStartingScreenLayout"
+import { creatingStartingScreenLayout } from "../all-layouts/creatingStartingScreenLayout"
 
 export let addingStartingScreenToDOM = () => {
     let startingScreen = creatingStartingScreenLayout();

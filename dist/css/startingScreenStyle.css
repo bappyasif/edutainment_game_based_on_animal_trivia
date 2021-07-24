@@ -1,6 +1,6 @@
 .container {
     text-align: center;
-    background-image: linear-gradient(green, coral)
+    background-image: linear-gradient(green, coral);
 }
 
 .categories-container {
@@ -11,16 +11,15 @@
 }
 
 .category {
-    width: 47vw;
-    height: auto;
+    width: 35vw;
+    height: 38vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
-    margin: .4vw;
+    margin: 1.1vw;
 }
 
 .category:hover {
-    flex-grow: 4;
-    font-size: x-large;
+    /* flex-grow: 2; */
+    font-size: xx-large;
 }
