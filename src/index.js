@@ -1,3 +1,4 @@
-import { getQuestions } from './randomizer';
+import { addingStartingScreenToDOM } from "./gameStartUpComponents/navigation/addingStartingScreenToDOM";
 
-console.log(getQuestions('mammals').next);
+// adding starting screen to DOM
+addingStartingScreenToDOM();

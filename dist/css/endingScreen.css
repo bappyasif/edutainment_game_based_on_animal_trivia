@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ba73c6;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: min(3.8rem, 13vw);
+    line-height: 5rem;
+    text-align: center;
+}
+
+.score {
+    margin: auto 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.message {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: min(2.5rem, 10vw);
+    line-height: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.controls__btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 1rem;
+    padding: 1.5rem 0;
+    width: 14rem;
+    background: linear-gradient(90deg, #ae3fb8 6.55%, #7c3fff 99.24%);
+    border-radius: 24px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}

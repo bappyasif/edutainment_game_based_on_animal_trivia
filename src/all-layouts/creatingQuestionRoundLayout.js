@@ -1,4 +1,5 @@
 let creatingQuestionRoundLayout = () => {
+export let creatingQuestionRoundLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
         `<div class="container">
             <div class="scoring">
@@ -42,4 +43,4 @@ let creatingQuestionRoundLayout = () => {
     return htmlMarkup;
 }
 
-module.exports = creatingQuestionRoundLayout
+}

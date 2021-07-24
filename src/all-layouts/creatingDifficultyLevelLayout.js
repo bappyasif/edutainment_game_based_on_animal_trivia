@@ -1,4 +1,4 @@
-let creatingDifficultyLevelLayout = () => {
+export let creatingDifficultyLevelLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
         `<div class="difficulty-container">
             <div class="test-text">background visibility, background visibility, 
@@ -15,5 +15,3 @@ let creatingDifficultyLevelLayout = () => {
 
     return htmlMarkup;
 }
-
-module.exports = creatingDifficultyLevelLayout;

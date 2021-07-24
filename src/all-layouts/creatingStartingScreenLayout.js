@@ -1,4 +1,4 @@
-let creatingStartingScreenLayout = () => {
+export let creatingStartingScreenLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
         `<div class="container">
             <header>Choose category</header>
@@ -24,5 +24,3 @@ let creatingStartingScreenLayout = () => {
     ).firstChild;
     return htmlMarkup;
 }
-
-module.exports = creatingStartingScreenLayout;
