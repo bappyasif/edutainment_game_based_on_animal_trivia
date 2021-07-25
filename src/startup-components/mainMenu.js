@@ -1,5 +1,5 @@
 import { MainMenu } from '../all-layouts/MainMenu';
-import { addingStartingScreenToDOM } from './startingScreen';
+import { addStartingScreenToDOM } from './startingScreen';
 import { commenceCategorySelection } from './userInteraction';
 
 export const showMenu = () => {
@@ -8,7 +8,7 @@ export const showMenu = () => {
 
     document.querySelector('#playBtn').addEventListener('click', () => {
         document.body.innerHTML = '';
-        addingStartingScreenToDOM();
+        addStartingScreenToDOM();
         commenceCategorySelection();
     });
 };

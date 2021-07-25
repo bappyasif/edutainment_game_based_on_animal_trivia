@@ -1,4 +1,4 @@
-export let creatingQuestionRoundLayout = () => {
+export let createQuestionRoundLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
         `<div class="container">
             <div class="scoring">

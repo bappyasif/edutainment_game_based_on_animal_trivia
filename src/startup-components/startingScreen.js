@@ -1,6 +1,6 @@
-import { creatingStartingScreenLayout } from '../all-layouts/creatingStartingScreenLayout';
+import { createStartingScreenLayout } from '../all-layouts/startingScreen';
 
-export let addingStartingScreenToDOM = () => {
-    let startingScreen = creatingStartingScreenLayout();
+export let addStartingScreenToDOM = () => {
+    let startingScreen = createStartingScreenLayout();
     document.body.append(startingScreen);
 };

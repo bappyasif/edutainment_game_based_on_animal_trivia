@@ -1,4 +1,4 @@
-export let creatingStartingScreenLayout = () => {
+export let createStartingScreenLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
         `<div class="container">
             <header>Choose category</header>
@@ -15,7 +15,7 @@ export let creatingStartingScreenLayout = () => {
                     <div class="name">Fishes</div>
                     <img src="https://via.placeholder.com/400vwx200vh" alt="fishes">
                 </div>
-                <div class="reptiles-and-amphibians category">
+                <div class="reptilesAndAmphibians category">
                     <div class="name">Reptiles And Amphibians</div>
                     <img src="https://via.placeholder.com/400vwx200vh" alt="reptiles-and-amphibians">
                 </div>

@@ -1,6 +1,6 @@
 import { EndingScreen } from '../all-layouts/EndingScreen';
 import { showMenu } from './mainMenu';
-import { addingStartingScreenToDOM } from './startingScreen';
+import { addStartingScreenToDOM } from './startingScreen';
 import { commenceCategorySelection } from './userInteraction';
 
 const showEndingScreen = () => {
@@ -22,7 +22,7 @@ const handleBackToMenu = () => {
 // const handlePlayAgain = () => {
 //     // this is also in the mainMenu so maybe we could make this a fn
 //     document.body.innerHTML = '';
-//     addingStartingScreenToDOM();
+//     addStartingScreenToDOM();
 //     commenceCategorySelection();
 // };
 

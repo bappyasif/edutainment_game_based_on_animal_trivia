@@ -1,8 +1,9 @@
-import { transitioningToQuestionRound } from '../questions-round';
+import { transitionToQuestionRound } from '../questions-round';
 
-export let commenceCategorySelection = () => {
-    let categoriesContainer = document.querySelector('.categories-container');
-    categoriesContainer.addEventListener('click', handleCategorySelection);
+let $ = selector => document.querySelector(selector);
+
+let commenceCategorySelection = () => {
+    $('.categories-container').addEventListener('click', handleCategorySelection);
 };
 
 let handleCategorySelection = (evt) => {
@@ -25,5 +26,7 @@ let chosenCategory = (category) => {
             console.log("something's wrong!!");
     }
     // transitioning to question round
-    transitioningToQuestionRound(category);
+    transitionToQuestionRound(category);
 };
+
+export {$, commenceCategorySelection}

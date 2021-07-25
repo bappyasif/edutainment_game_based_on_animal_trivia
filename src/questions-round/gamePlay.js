@@ -1,15 +1,16 @@
 import { getQuestions } from '../randomizer';
+import { $ } from '../startup-components/userInteraction';
 let questionData = {};
-let answersDiv = document.querySelector('.answer-options');
+let modalDiv;
 
 // initially hiding modal view from DOM
 let hidingModal = () => {
-    let modalDiv = document.querySelector('.explain-why');
+    modalDiv = $('.explain-why');
     modalDiv.style.display = 'none';
 };
 
 // fires up process for starting playing question round
-export let commencePlaying = (category) => {
+let commencePlaying = (category) => {
     hidingModal();
     feedQuestion(category);
     showQuestion(questionData.question);
@@ -31,25 +32,24 @@ let feedQuestion = (category) => {
 
 // show question in questionDiv
 let showQuestion = (text) => {
-    let statementDiv = document.querySelector('.topic .text');
+    let statementDiv = $('.topic .text');
     statementDiv.textContent = text;
 };
 
 // add descriptive text to explanation div
 let showExplanation = (text) => {
-    let explanationDiv = document.querySelector('.explain-why .text');
+    let explanationDiv = $('.explain-why .text');
     explanationDiv.textContent = text;
 };
 
 // make visible modal div
 let showingModal = () => {
-    let modalDiv = document.querySelector('.explain-why');
     modalDiv.style.display = 'flex';
 };
 
 // listen for which option they choosing from
 let listenForUserResponse = () => {
-    let answersDiv = document.querySelector('.answer-options');
+    let answersDiv = $('.answer-options');
     answersDiv.addEventListener('click', handleResponse);
 };
 
@@ -81,3 +81,5 @@ let removeClickEvents = () => {
     let answersDiv = document.querySelector('.answer-options');
     answersDiv.removeEventListener('click', handleResponse);
 };
+
+ export {commencePlaying}

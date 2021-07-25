@@ -1,4 +1,4 @@
-import { creatingQuestionRoundLayout } from '../all-layouts/creatingQuestionRoundLayout';
+import { createQuestionRoundLayout} from '../all-layouts/questionRound';
 import { commencePlaying } from './gamePlay';
 import { showEndingScreen } from '../startup-components/endingScreen';
 
@@ -8,7 +8,7 @@ let clearStartingScreenLayout = () => {
 };
 
 // makes necessary adjustments to make visibe question round layout on screen
-export let transitioningToQuestionRound = (category) => {
+let transitionToQuestionRound = (category) => {
     clearStartingScreenLayout();
     showLayout();
     // this will start actual game play
@@ -24,6 +24,8 @@ export let transitioningToQuestionRound = (category) => {
 
 // showing question round layout on DOM
 let showLayout = () => {
-    let questionRound = creatingQuestionRoundLayout();
+    let questionRound = createQuestionRoundLayout();
     document.body.append(questionRound);
 };
+
+export {transitionToQuestionRound}
