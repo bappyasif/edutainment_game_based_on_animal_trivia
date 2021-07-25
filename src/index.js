@@ -3,11 +3,7 @@ import { addingStartingScreenToDOM } from './startup-components/startingScreen';
 import { commenceCategorySelection } from './startup-components/userInteraction';
 
 showMenu();
-document.querySelector('#playBtn').addEventListener('click', () => {
-    document.body.innerHTML = '';
-    addingStartingScreenToDOM();
-    commenceCategorySelection();
-});
+
 // adding starting screen to DOM
 // addingStartingScreenToDOM();
 

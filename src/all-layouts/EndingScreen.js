@@ -101,8 +101,8 @@ export const EndingScreen = () =>
         </div>
         <p class="message">Too bad... Try again later</p>
         <div class="controls">
-            <button class="controls__btn">Play Again</button>
-            <button class="controls__btn">Main Menu</button>
+            <button id="ed-playAgain" class="controls__btn">Play Again</button>
+            <button id="ed-mainMenu" class="controls__btn">Main Menu</button>
         </div>
     </div>
 `);
