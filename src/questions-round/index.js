@@ -14,12 +14,12 @@ export let transitioningToQuestionRound = (category) => {
     // this will start actual game play
     commencePlaying(category);
 
-    // just to show the ending screen for now
-    document
-        .querySelector('.explain-question')
-        .addEventListener('click', () => {
-            showEndingScreen();
-        });
+    // // just to show the ending screen for now
+    // document
+    //     .querySelector('.explain-question')
+    //     .addEventListener('click', () => {
+    //         showEndingScreen();
+    //     });
 };
 
 // showing question round layout on DOM
