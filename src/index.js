@@ -1,6 +1,5 @@
-import { addingStartingScreenToDOM } from "./startup-components/startingScreen";
-import { commenceCategorySelection } from "./startup-components/userInteraction";
-
+import { addingStartingScreenToDOM } from './startup-components/startingScreen';
+import { commenceCategorySelection } from './startup-components/userInteraction';
 
 // adding starting screen to DOM
 addingStartingScreenToDOM();
