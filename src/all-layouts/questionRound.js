@@ -1,6 +1,6 @@
 export let createQuestionRoundLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
-        `<div class="container">
+        `<div class="question-round-container">
             <div class="scoring">
                 <div class="correct-scores">
                     <img class="star-img" src="http://lorempixel.com/50/50/" alt="01">

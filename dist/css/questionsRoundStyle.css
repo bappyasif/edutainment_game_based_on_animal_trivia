@@ -1,4 +1,4 @@
-.container {
+.question-round-container {
     text-align: center;
     background-image: linear-gradient(greenyellow, sandybrown);
     min-height: 74vh;
@@ -30,7 +30,7 @@
     width: 31vw;
     top: 15vh;
     left: 34.4vw;
-    height: 20vh;
+    /* height: 20vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;

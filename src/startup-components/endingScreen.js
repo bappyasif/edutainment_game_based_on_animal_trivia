@@ -10,20 +10,20 @@ const showEndingScreen = () => {
     document
         .querySelector('#ed-playAgain')
         .addEventListener('click', handlePlayAgain);
-    // document
-    //     .querySelector('#ed-mainMenu')
-    //     .addEventListener('click', handleBackToMenu);
+    document
+        .querySelector('#ed-mainMenu')
+        .addEventListener('click', handleBackToMenu);
 };
 
 const handleBackToMenu = () => {
     showMenu();
 };
 
-// const handlePlayAgain = () => {
-//     // this is also in the mainMenu so maybe we could make this a fn
-//     document.body.innerHTML = '';
-//     addStartingScreenToDOM();
-//     commenceCategorySelection();
-// };
+const handlePlayAgain = () => {
+    // this is also in the mainMenu so maybe we could make this a fn
+    document.body.innerHTML = '';
+    addStartingScreenToDOM();
+    commenceCategorySelection();
+};
 
 export { showEndingScreen, handleBackToMenu };

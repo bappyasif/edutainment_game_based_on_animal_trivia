@@ -1,6 +1,6 @@
 export let createStartingScreenLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
-        `<div class="container">
+        `<div class="starting-screen-container">
             <header>Choose category</header>
             <div class="categories-container">
                 <div class="mammals category">
