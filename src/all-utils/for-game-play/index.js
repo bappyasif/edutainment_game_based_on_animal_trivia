@@ -16,9 +16,9 @@ let showQuestion = (text) => {
 };
 
 // add descriptive text to explanation div
-let showExplanation = (text) => {
+let prepareExplanation = (text) => {
     let explanationDiv = $('.explain-why .text');
     explanationDiv.textContent = text;
 };
 
-export {hideModal, showModal, showQuestion, showExplanation}
+export {hideModal, showModal, showQuestion, prepareExplanation}

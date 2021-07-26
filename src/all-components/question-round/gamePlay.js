@@ -1,5 +1,5 @@
 import { $ } from "../../all-utils/for-dom-calls";
-import { hideModal, showExplanation, showQuestion } from "../../all-utils/for-game-play";
+import { hideModal, prepareExplanation, showQuestion } from "../../all-utils/for-game-play";
 import { getQuestions } from "../question-generator/randomizer";
 import { handleResponse, playingFullBundleQuestions } from "./afterEveryQuestion";
 let count = 1, questionData = {};
@@ -16,9 +16,6 @@ let commencePlaying = (category) => {
     // listen for user response on each question
     listenForUserResponse();
 
-    // showing up modal and explanation in it on screen
-    showExplanation(questionData.explanation);
-
     // playing a full round of whatever 'bundle' vaue is defined at begining of this file 
     playingFullBundleQuestions(category, count);
 };
@@ -33,6 +30,9 @@ let makingQuestionPhaseReady = (category) => {
 
     // showing up question text in modal
     showQuestion(questionData.question);
+
+    // showing up modal and explanation in it on screen
+    prepareExplanation(questionData.explanation);
 }
 
 // feeding question data into a an object after recieving a question
