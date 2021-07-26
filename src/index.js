@@ -1,9 +1,6 @@
-import { showMenu } from './startup-components/mainMenu';
-import { addingStartingScreenToDOM } from './startup-components/startingScreen';
-import { commenceCategorySelection } from './startup-components/userInteraction';
+import { showMenu } from './all-components/main-menu/showLayout';
 
 showMenu();
-
 // adding starting screen to DOM
 // addingStartingScreenToDOM();
 
