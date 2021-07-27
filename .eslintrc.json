@@ -4,7 +4,7 @@
     "rules": {
         "prettier/prettier": "warn",
         "no-unused-vars": "warn",
-        "arrow-body-style": "warn",
+        "arrow-body-style": "off",
         "no-console": "off",
         "func-names": "off",
         "object-shorthand": "off",
@@ -13,7 +13,7 @@
         "no-underscore-dangle": "off",
         "no-param-reassign": "off",
         "no-alert": "off",
-        "no-use-before-define": "warn",
+        "no-use-before-define": "off",
         "no-continue": "warn",
         "prefer-destructuring": [
             "error",
