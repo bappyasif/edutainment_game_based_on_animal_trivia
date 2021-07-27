@@ -33,6 +33,7 @@ let makingQuestionPhaseReady = (category) => {
 
     // showing up modal and explanation in it on screen
     prepareExplanation(questionData.explanation);
+    // console.log(questionData.explanation)
 }
 
 // feeding question data into a an object after recieving a question

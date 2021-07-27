@@ -1,6 +1,6 @@
 import { MainMenu } from "../../all-layouts/MainMenu";
 import { $, clearScreen } from "../../all-utils/for-dom-calls";
-import { handleButtons } from "../../all-utils/for-main-menu";
+import { handleButtons } from "./handleButtons";
 
 
 export const showMenu = () => {
@@ -11,5 +11,5 @@ export const showMenu = () => {
 
 let configuringButtons = () => {
     $('#playBtn').addEventListener('click', handleButtons);
-    // whene there are more, we can configure them all in here
+    // when there are more buttons from main menu, we can configure them all in here
 }
