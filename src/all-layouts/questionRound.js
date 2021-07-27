@@ -1,29 +1,20 @@
-import Star from "./star";
-
-let star = Star('');
-
-// let yellowStar = Star('yellow');
-// let redStar = Star('red');
-
 export let createQuestionRoundLayout = () => {
     let htmlMarkup = document.createRange().createContextualFragment(
         `<div class="question-round-container">
             <div class="scoring">
                 <div class="correct-scores">
-                    <div class="star">${star}</div>
-                    <div class="star">${star}</div>
-                    <div class="star">${star}</div>
-                    <div class="star">${star}</div>
-                    <div class="star">${star}</div>
+                    <img class="star-img" src="http://lorempixel.com/50/50/" alt="01">
+                    <img class="star-img" src="http://lorempixel.com/50/50/" alt="02">
+                    <img class="star-img" src="http://lorempixel.com/50/50/" alt="03">
+                    <img class="star-img" src="http://lorempixel.com/50/50/" alt="04">
                 </div>
                 <div class="wrong-scores">
-                    <div class="star-img">${star}</div>
-                    <div class="star-img">${star}</div>
-                    <div class="star-img">${star}</div>
-                    <div class="star-img">${star}</div>
-                    <div class="star-img">${star}</div>
+                    <img class="star-img" src="https://placebear.com/50/50" alt="01">
+                    <img class="star-img" src="https://placebear.com/50/50" alt="02">
+                    <img class="star-img" src="https://placebear.com/50/50" alt="03">
+                    <img class="star-img" src="https://placebear.com/50/50" alt="04">
                 </div>
-            </div>            
+            </div>
             <div class="topic">
                 <div class="text">Topic Sentence: humans can breath under water</div>
             </div>

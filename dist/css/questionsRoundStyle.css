@@ -14,29 +14,6 @@
     margin: .11vw;
 }
 
-.star {
-    width: 6vw;
-    fill:silver
-}
-
-.filled-yellow {
-    fill: rgb(255, 251, 0);
-}
-
-.filled-red {
-    fill: rgb(255, 251, 0);
-}
-
-/* it's an alternative approach, hasn't implemented yet */
-.filled {
-    fill: red;
-}
-
-.correct-scores, .wrong-scores {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .topic {
     margin-top: 4vh;
 }

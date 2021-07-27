@@ -1,31 +1,25 @@
-import Star from "../../all-layouts/star";
 import { $ } from "../../all-utils/for-dom-calls";
 import { showModal } from "../../all-utils/for-game-play";
 import { showEndingScreen } from "../ending-screen/showLayout";
-import { fillStars } from "./fillStars";
 import { makingQuestionPhaseReady, questionData } from "./gamePlay";
 
 // how many number of questions will be in a round, it's 5 but for development pjurpose using 2
-let bundle = 3;
+let bundle = 2;
 
 // will check for which answer they chose and decide whether it's a correctr response or not
 let handleResponse = (evt) => {
     let answeredDiv = evt.target.className;
     if (answeredDiv == 'correct') {
         if (questionData.answer == true) {
-            fillStars('correct')
-            alert('yeppi');            
+            alert('yeppi');
         } else {
             alert('oopss');
-            fillStars('wrong');
         }
     } else if (answeredDiv == 'myth') {
         if (questionData.answer == false) {
             alert('yeppi');
-            fillStars('correct')
         } else {
             alert('oopss');
-            fillStars('wrong');
         }
     }
     // regardless showing up modal, to provide explanation for why
