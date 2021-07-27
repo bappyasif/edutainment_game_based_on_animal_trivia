@@ -1,1 +1,7 @@
-this will have detail explanation of what kind of project that i am working in team effort to carry out a game jam project in collaboration, so psyched about it....
+gName: Myth Busters
+
+gDescription: we can also include some snapshots
+
+gInstructions: explain gamel flow from star to end for in each mode
+
+gContributors: shin, and a.b.
