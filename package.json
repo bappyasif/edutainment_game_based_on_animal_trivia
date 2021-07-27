@@ -1,33 +1,44 @@
 {
-  "name": "game-jam",
-  "version": "1.0.0",
-  "description": "edutainment based game focused around animal trivia",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "watchTests": "jest --watch /src/*test.js",
-    "build": "webpack",
-    "serve": "npx webpack serve --hot-only"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bappyasif/edutainment_game_based_on_animal_trivia.git"
-  },
-  "author": "ab",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bappyasif/edutainment_game_based_on_animal_trivia/issues"
-  },
-  "homepage": "https://github.com/bappyasif/edutainment_game_based_on_animal_trivia#readme",
-  "devDependencies": {
-    "@babel/preset-env": "^7.14.8",
-    "jest": "^27.0.6",
-    "web-dev-server": "^3.0.22",
-    "webpack": "^5.45.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
-  },
-  "dependencies": {
-    "gh-pages": "^3.2.3"
-  }
+    "name": "game-jam",
+    "version": "1.0.0",
+    "description": "edutainment based game focused around animal trivia",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "watchTests": "jest --watch /src/*test.js",
+        "build": "webpack",
+        "serve": "npx webpack serve --hot-only"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bappyasif/edutainment_game_based_on_animal_trivia.git"
+    },
+    "author": "ab",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bappyasif/edutainment_game_based_on_animal_trivia/issues"
+    },
+    "homepage": "https://github.com/bappyasif/edutainment_game_based_on_animal_trivia#readme",
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.14.8",
+        "eslint": "^7.31.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "jest": "^27.0.6",
+        "prettier": "^2.3.2",
+        "web-dev-server": "^3.0.22",
+        "webpack": "^5.45.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "gh-pages": "^3.2.3"
+    }
 }
