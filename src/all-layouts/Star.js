@@ -1,20 +1,24 @@
-const COLORS = {
-    yellow: '#ffbf00',
-    red: '#ff2825',
+const SIZE = {
+    small: 50,
+    large: 100,
 };
 
-const Star = (color) => {
+// use size = 'small' for question round
+// size = 'large' for ending screen
+const Star = (color = 'default', size = 'small') => {
     return `
-    <div class="star--red">
+    <div>
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-star"
-            width="100"
-            height="100"
+            class="star icon icon-tabler icon-tabler-star ${
+                color === 'default' ? '' : `star--${color}`
+            }"
+            width="${SIZE[size.toLowerCase()]}"
+            height="${SIZE[size.toLowerCase()]}"
             viewBox="0 0 24 24"
             stroke-width="1.5"
-            stroke="${COLORS[color.toLowerCase()]}"
-            fill="${COLORS[color.toLowerCase()]}"
+            stroke="#E5E5E5"
+            fill="#E5E5E5"
             stroke-linecap="round"
             stroke-linejoin="round"
         >

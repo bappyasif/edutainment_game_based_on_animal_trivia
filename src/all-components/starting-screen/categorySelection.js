@@ -1,8 +1,9 @@
-import { transitionToQuestionRound } from '../questions-round';
+import { $ } from "../../all-utils/for-dom-calls";
+import { transitionToQuestionRound } from "../question-round/beforeGameplay";
+// import { chosenCategory } from "../../all-utils/for-starting-screen";
 
-let $ = selector => document.querySelector(selector);
 
-let commenceCategorySelection = () => {
+export let commenceCategorySelection = () => {
     $('.categories-container').addEventListener('click', handleCategorySelection);
 };
 
@@ -11,7 +12,6 @@ let handleCategorySelection = (evt) => {
     chosenCategory(category);
 };
 
-// i can use "if - else if" statement if that makes more sense
 let chosenCategory = (category) => {
     switch (category) {
         case 'mammals':
@@ -28,5 +28,3 @@ let chosenCategory = (category) => {
     // transitioning to question round
     transitionToQuestionRound(category);
 };
-
-export {$, commenceCategorySelection}

@@ -1,9 +1,8 @@
-import { showMenu } from './startup-components/mainMenu';
-import { addingStartingScreenToDOM } from './startup-components/startingScreen';
-import { commenceCategorySelection } from './startup-components/userInteraction';
+import { showMenu } from './all-components/main-menu/showLayout';
+// import QuestionRound from './all-layouts/QuestionRound';
 
 showMenu();
-
+// document.body.append(QuestionRound());
 // adding starting screen to DOM
 // addingStartingScreenToDOM();
 

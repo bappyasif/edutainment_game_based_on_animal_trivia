@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container--vertical {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.star--yellow {
+    fill: #ffbf00;
+    stroke: #ffbf00;
+}
+
+.star--red {
+    fill: #ff2825;
+    stroke: #ff2825;
+}
