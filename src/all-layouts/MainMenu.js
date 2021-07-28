@@ -1,7 +1,7 @@
-export const MainMenu = () =>
+const MainMenu = () =>
     document.createRange().createContextualFragment(`
     <div class="background">
-        <div class="container">
+        <div class="container container--vertical">
             <h1 class="title">Myth Busters</h1>
             <div class="nav">
                 <button id="playBtn" class="nav__btn">Play</button>
@@ -11,3 +11,5 @@ export const MainMenu = () =>
         </div>
     </div>
 `);
+
+export default MainMenu;

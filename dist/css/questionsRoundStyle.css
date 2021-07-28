@@ -11,12 +11,12 @@
 }
 
 .star-img {
-    margin: .11vw;
+    margin: 0.11vw;
 }
 
 .star {
     width: 6vw;
-    fill:silver
+    fill: silver;
 }
 
 .filled-yellow {
@@ -32,7 +32,8 @@
     fill: red;
 }
 
-.correct-scores, .wrong-scores {
+.correct-scores,
+.wrong-scores {
     display: flex;
     justify-content: space-evenly;
 }
@@ -41,8 +42,10 @@
     margin-top: 4vh;
 }
 
-.topic, .statement-twister, .explain-why {
-    border: silver .11vw solid;
+.topic,
+.statement-twister,
+.explain-why {
+    border: silver 0.11vw solid;
     line-height: 2em;
     width: 20vw;
     margin: auto;
@@ -60,14 +63,14 @@
     align-items: center;
     background-color: silver;
     opacity: 83%;
-    border: darkgreen .4vw solid;
+    border: darkgreen 0.4vw solid;
     font-size: large;
 }
 
 .explain-question {
     margin-top: 11%;
     background-color: darkgreen;
-    margin-bottom: .2em;
+    margin-bottom: 0.2em;
     min-height: 4vh;
 }
 
@@ -75,7 +78,7 @@
     background-color: inherit;
     color: green;
     font-weight: bolder;
-    border: green .2vw solid;
+    border: green 0.2vw solid;
 }
 
 .added-layers {
@@ -86,7 +89,11 @@
     margin-top: 8vh;
 }
 
-.statement-twister, .added-layers, .topic, .correct, .myth {
+.statement-twister,
+.added-layers,
+.topic,
+.correct,
+.myth {
     margin-bottom: 4vh;
 }
 
@@ -95,13 +102,15 @@
     justify-content: space-evenly;
 }
 
-.correct, .myth {
+.correct,
+.myth {
     width: 11vw;
     height: 8vh;
-    background-color:bisque;
+    background-color: bisque;
 }
 
-.correct:hover, .myth:hover {
-    background-image: linear-gradient(sandybrown,yellow );
+.correct:hover,
+.myth:hover {
+    background-image: linear-gradient(sandybrown, yellow);
     font-size: larger;
 }
