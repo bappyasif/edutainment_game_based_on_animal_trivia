@@ -4,13 +4,16 @@ import { showModal } from '../../all-utils/for-game-play';
 import { showEndingScreen } from '../ending-screen/showLayout';
 import { makingQuestionPhaseReady, questionData } from './gamePlay';
 import fillStars from './fillStars';
+import { announceResult, countStars } from './afterRound';
 
 // how many number of questions will be in a round, it's 5 but for development pjurpose using 2
 const bundle = 5;
 
 // will check for which answer they chose and decide whether it's a correctr response or not
 const handleResponse = (e) => {
+    // mapping responses from button classes to make assesment against questionData.answer value
     const selectedAnswer = e.target.dataset.answer;
+    // checking either true==true or false==false, from button class and questionData.answer
     const isCorrectAnswer = selectedAnswer === `${questionData.answer}`;
 
     if (isCorrectAnswer) {
@@ -21,23 +24,6 @@ const handleResponse = (e) => {
         alert('oopss');
     }
 
-    // if (answeredDiv == 'correct') {
-    //     if (questionData.answer == true) {
-    //         fillStars('correct');
-    //         alert('yeppi');
-    //     } else {
-    //         alert('oopss');
-    //         fillStars('wrong');
-    //     }
-    // } else if (answeredDiv == 'myth') {
-    //     if (questionData.answer == false) {
-    //         alert('yeppi');
-    //         fillStars('correct');
-    //     } else {
-    //         alert('oopss');
-    //         fillStars('wrong');
-    //     }
-    // }
     // show result in the modal
     $('#result').textContent = isCorrectAnswer ? 'Correct!' : 'Wrong!';
 
@@ -70,7 +56,10 @@ const playingFullBundleQuestions = (category, count) => {
         if (count < bundle) {
             continueToNextQuestion(category);
         } else {
-            showEndingScreen();
+            let [starsCounted, result] = [...announceResult()];
+            showEndingScreen(starsCounted, result);
+
+            // showEndingScreen(starsCounted);
         }
         count++;
     });
