@@ -1,9 +1,10 @@
-import { createQuestionRoundLayout } from "../../all-layouts/questionRound";
-import { clearScreen } from "../../all-utils/for-dom-calls";
+import QuestionRound from '../../all-layouts/QuestionRound';
+import { clearScreen } from '../../all-utils/for-dom-calls';
 
 // showing question round layout on DOM
-export let showLayout = () => {
-    clearScreen()
-    let questionRound = createQuestionRoundLayout();
-    document.body.append(questionRound);
+const showLayout = () => {
+    clearScreen();
+    document.body.append(QuestionRound());
 };
+
+export default showLayout;

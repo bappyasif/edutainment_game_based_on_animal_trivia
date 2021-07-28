@@ -1,8 +1,8 @@
-import { clearScreen } from "../../all-utils/for-dom-calls";
-import { commencePlaying } from "./gamePlay";
-import { showLayout } from "./showLayout";
+import { clearScreen } from '../../all-utils/for-dom-calls';
+import { commencePlaying } from './gamePlay';
+import showLayout from './showLayout';
 
-export let transitionToQuestionRound = (category) => {
+export const transitionToQuestionRound = (category) => {
     // clearing out starting screen
     clearScreen();
 

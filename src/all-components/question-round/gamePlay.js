@@ -9,11 +9,12 @@ import {
     handleResponse,
     playingFullBundleQuestions,
 } from './afterEveryQuestion';
-let count = 1,
-    questionData = {};
+
+let count = 1;
+let questionData = {};
 
 // fires up process for starting playing question round
-let commencePlaying = (category) => {
+const commencePlaying = (category) => {
     // resetting counter to 1 each time, so that it starts from initial count for each round
     count = 1;
 
@@ -29,7 +30,7 @@ let commencePlaying = (category) => {
 };
 
 // seperated question functionality so that it has access mobility
-let makingQuestionPhaseReady = (category) => {
+const makingQuestionPhaseReady = (category) => {
     // clearing out modal layout from screen
     hideModal();
 
@@ -45,22 +46,21 @@ let makingQuestionPhaseReady = (category) => {
 };
 
 // feeding question data into a an object after recieving a question
-let feedQuestion = (category) => {
+const feedQuestion = (category) => {
     // currently clearing out previous data as im considering we will feed question one by one,
     // we need to discuss how we would deal with it and refactor it accordingly
     questionData = {};
 
     // getting a randomized question from randomizer module
-    let readyQuestion = getQuestions(category).next();
+    const readyQuestion = getQuestions(category).next();
 
     // keeping question data temporarily for access
     questionData = readyQuestion;
 };
 
 // listen for which option they choosing from
-let listenForUserResponse = () => {
-    let answersDiv = $('.answer-options');
-    answersDiv.addEventListener('click', handleResponse);
+const listenForUserResponse = () => {
+    $('#choices').addEventListener('click', handleResponse);
 };
 
 export { commencePlaying, questionData, makingQuestionPhaseReady };

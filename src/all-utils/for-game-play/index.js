@@ -1,24 +1,22 @@
-import { $ } from "../for-dom-calls";
+import { $ } from '../for-dom-calls';
 
 // initially hiding modal view from DOM
-let hideModal = () => {
-    $('.explain-why').style.display = 'none';
+const hideModal = () => {
+    $('.backdrop').style.display = 'none';
 };
 
 // make visible modal div
-let showModal = () => {
-    $('.explain-why').style.display = 'flex';
+const showModal = () => {
+    $('.backdrop').style.display = 'block';
 };
 
-let showQuestion = (text) => {
-    let statementDiv = $('.topic .text');
-    statementDiv.textContent = text;
+const showQuestion = (text) => {
+    $('#question').textContent = text;
 };
 
 // add descriptive text to explanation div
-let prepareExplanation = (text) => {
-    let explanationDiv = $('.explain-why .text');
-    explanationDiv.textContent = text;
+const prepareExplanation = (text) => {
+    $('#explanation-text').textContent = text;
 };
 
-export {hideModal, showModal, showQuestion, prepareExplanation}
+export { hideModal, showModal, showQuestion, prepareExplanation };

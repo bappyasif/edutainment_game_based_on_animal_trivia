@@ -1,4 +1,4 @@
-import Star from './star';
+import Star from './Star';
 
 const EndingScreen = (score = 0) =>
     document.createRange().createContextualFragment(`
@@ -8,7 +8,7 @@ const EndingScreen = (score = 0) =>
             <div class="score__stars">
                 ${new Array(5)
                     .fill()
-                    .map((_, i) => Star(i < score ? 'yellow' : 'red'))
+                    .map((_, i) => Star(i < score ? 'yellow' : 'red', 'large'))
                     .join('')}
             </div>
             <p class="score__message">Too bad... Try again later</p>

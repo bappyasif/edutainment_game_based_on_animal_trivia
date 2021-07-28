@@ -20,3 +20,13 @@ body {
     align-content: center;
     flex-direction: column;
 }
+
+.star--yellow {
+    fill: #ffbf00;
+    stroke: #ffbf00;
+}
+
+.star--red {
+    fill: #ff2825;
+    stroke: #ff2825;
+}

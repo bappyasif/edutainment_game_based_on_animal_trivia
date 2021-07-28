@@ -1,33 +1,46 @@
-import Star from "../../all-layouts/star";
-import { $ } from "../../all-utils/for-dom-calls";
-import { showModal } from "../../all-utils/for-game-play";
-import { showEndingScreen } from "../ending-screen/showLayout";
-import { fillStars } from "./fillStars";
-import { makingQuestionPhaseReady, questionData } from "./gamePlay";
+import Star from '../../all-layouts/Star';
+import { $ } from '../../all-utils/for-dom-calls';
+import { showModal } from '../../all-utils/for-game-play';
+import { showEndingScreen } from '../ending-screen/showLayout';
+import { makingQuestionPhaseReady, questionData } from './gamePlay';
+import fillStars from './fillStars';
 
 // how many number of questions will be in a round, it's 5 but for development pjurpose using 2
-let bundle = 3;
+const bundle = 5;
 
 // will check for which answer they chose and decide whether it's a correctr response or not
-let handleResponse = (evt) => {
-    let answeredDiv = evt.target.className;
-    if (answeredDiv == 'correct') {
-        if (questionData.answer == true) {
-            fillStars('correct')
-            alert('yeppi');            
-        } else {
-            alert('oopss');
-            fillStars('wrong');
-        }
-    } else if (answeredDiv == 'myth') {
-        if (questionData.answer == false) {
-            alert('yeppi');
-            fillStars('correct')
-        } else {
-            alert('oopss');
-            fillStars('wrong');
-        }
+const handleResponse = (e) => {
+    const selectedAnswer = e.target.dataset.answer;
+    const isCorrectAnswer = selectedAnswer === `${questionData.answer}`;
+
+    if (isCorrectAnswer) {
+        fillStars(true);
+        alert('yeppi');
+    } else {
+        fillStars(false);
+        alert('oopss');
     }
+
+    // if (answeredDiv == 'correct') {
+    //     if (questionData.answer == true) {
+    //         fillStars('correct');
+    //         alert('yeppi');
+    //     } else {
+    //         alert('oopss');
+    //         fillStars('wrong');
+    //     }
+    // } else if (answeredDiv == 'myth') {
+    //     if (questionData.answer == false) {
+    //         alert('yeppi');
+    //         fillStars('correct');
+    //     } else {
+    //         alert('oopss');
+    //         fillStars('wrong');
+    //     }
+    // }
+    // show result in the modal
+    $('#result').textContent = isCorrectAnswer ? 'Correct!' : 'Wrong!';
+
     // regardless showing up modal, to provide explanation for why
     showModal();
 
@@ -36,31 +49,31 @@ let handleResponse = (evt) => {
 };
 
 // removing clicking events from answersDiv
-let removeClickEvents = () => {
-    $('.answer-options').removeEventListener('click', handleResponse);
+const removeClickEvents = () => {
+    $('#choices').removeEventListener('click', handleResponse);
 };
 
 // getting clicking events back up on for next question to use those buttons to choose their response from for checking if they answered it correctly or not
-let reviveClickEvents = () => {
-    $('.answer-options').addEventListener('click', handleResponse);
-}
+const reviveClickEvents = () => {
+    $('#choices').addEventListener('click', handleResponse);
+};
 
 // triggering continue from modal would transition to ending screen
-let continueToNextQuestion = (category) => {
+const continueToNextQuestion = (category) => {
     makingQuestionPhaseReady(category);
     reviveClickEvents();
-}
+};
 
 // playing entire round of 'bundle' number of questions to decide entire game score for that round for any player
-let playingFullBundleQuestions = (category, count) => {
-    $('.explain-question').addEventListener('click', () => {
-        if(count < bundle) {
+const playingFullBundleQuestions = (category, count) => {
+    $('#next-question').addEventListener('click', () => {
+        if (count < bundle) {
             continueToNextQuestion(category);
         } else {
             showEndingScreen();
         }
         count++;
     });
-}
+};
 
-export {bundle, playingFullBundleQuestions, handleResponse}
+export { bundle, playingFullBundleQuestions, handleResponse };
