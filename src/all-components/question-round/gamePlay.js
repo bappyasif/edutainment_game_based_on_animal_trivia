@@ -12,30 +12,35 @@ import {
 
 let count = 1;
 let questionData = {};
+let roundQuestions = [];
 
 // fires up process for starting playing question round
 const commencePlaying = (category) => {
     // resetting counter to 1 each time, so that it starts from initial count for each round
     count = 1;
 
+    // generating bundle of question
+    generateBundleOfQuestions(category);
+
     // separated questions fedding functionality so that it can be used for mutiple times
     // to complete a bundle of question to sum up to a round
-    makingQuestionPhaseReady(category);
+    makingQuestionPhaseReady();
 
     // listen for user response on each question
     listenForUserResponse();
 
-    // playing a full round of whatever 'bundle' vaue is defined at begining of this file
-    playingFullBundleQuestions(category, count);
+    // playing a full round of whatever 'bundle' value is defined at begining of this file
+    playingFullBundleQuestions(count);
 };
 
 // seperated question functionality so that it has access mobility
-const makingQuestionPhaseReady = (category) => {
+const makingQuestionPhaseReady = () => {
     // clearing out modal layout from screen
     hideModal();
 
     // making ready next randomly selected question from randomizer
-    feedQuestion(category);
+    // feedQuestion(category);
+    feedQuestion();
 
     // showing up question text in modal
     showQuestion(questionData.question);
@@ -45,18 +50,29 @@ const makingQuestionPhaseReady = (category) => {
     // console.log(questionData.explanation)
 };
 
-// feeding question data into a an object after recieving a question
-const feedQuestion = (category) => {
-    // currently clearing out previous data as im considering we will feed question one by one,
-    // we need to discuss how we would deal with it and refactor it accordingly
+// generating a bundle of questions from json data set using randomizer module and assigning it to a variable for future uses
+let generateBundleOfQuestions = category => {
+    // commencing getQuestions with a user selected category name as a parameter to initiate getQuestions
+    let questions = getQuestions(category);
+
+    // generating 5 randomly chosen unique question from json data set
+    let questionsBundle = new Array(5).fill().map(questions.next);
+    
+    // assigning roundQuestion with bundle of questions for to use throughout this round in turns 
+    roundQuestions = questionsBundle;
+}
+
+// bringing in a single question each time from roundQuestion to feed into DOM for further uses
+let feedQuestion = () => {
+    // clearing previously held all question data
     questionData = {};
 
-    // getting a randomized question from randomizer module
-    const readyQuestion = getQuestions(category).next();
-
-    // keeping question data temporarily for access
+    // getting last question in from bucket
+    const readyQuestion = roundQuestions.pop();
+    
+    // providing questionData current question object to extract data from to use in DOM through other functions
     questionData = readyQuestion;
-};
+}
 
 // listen for which option they choosing from
 const listenForUserResponse = () => {

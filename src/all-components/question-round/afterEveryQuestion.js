@@ -45,16 +45,16 @@ const reviveClickEvents = () => {
 };
 
 // triggering continue from modal would transition to ending screen
-const continueToNextQuestion = (category) => {
-    makingQuestionPhaseReady(category);
+const continueToNextQuestion = () => {
+    makingQuestionPhaseReady();
     reviveClickEvents();
 };
 
 // playing entire round of 'bundle' number of questions to decide entire game score for that round for any player
-const playingFullBundleQuestions = (category, count) => {
+const playingFullBundleQuestions = (count) => {
     $('#next-question').addEventListener('click', () => {
         if (count < bundle) {
-            continueToNextQuestion(category);
+            continueToNextQuestion();
         } else {
             let [starsCounted, result] = [...announceResult()];
             showEndingScreen(starsCounted, result);
