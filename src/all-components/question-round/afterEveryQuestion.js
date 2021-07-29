@@ -51,15 +51,13 @@ const continueToNextQuestion = () => {
 };
 
 // playing entire round of 'bundle' number of questions to decide entire game score for that round for any player
-const playingFullBundleQuestions = (count) => {
+const playingFullBundleQuestions = (count, category) => {
     $('#next-question').addEventListener('click', () => {
         if (count < bundle) {
             continueToNextQuestion();
         } else {
-            // let [starsCounted, result] = [...announceResult()];
-            showEndingScreen(countScore());
-
-            // showEndingScreen(starsCounted);
+            // passing in number yellow stars scored from that round to ending screen module
+            showEndingScreen(countScore(), category);
         }
         count++;
     });

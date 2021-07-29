@@ -4,14 +4,14 @@ const EndingScreen = (noOfCorrect = 0) => {
     const showMessage = () => {
         // SUGGESTION: add another message for score of 3
         if (noOfCorrect === 3) {
-            return 'Not bad';
+            return 'Good going, keep it up!!';
         }
 
-        if (noOfCorrect > 2) {
+        if (noOfCorrect > 3) {
             return 'Winner winner chicken dinner!!';
         }
 
-        return 'Too bad... Try again later';
+        return 'Tough round... Try again later';
     };
 
     return document.createRange().createContextualFragment(`
@@ -35,19 +35,5 @@ const EndingScreen = (noOfCorrect = 0) => {
     </div>
 `);
 };
-
-// let drawStars = (score, result) => {
-//     if (result == 'winner') {
-//         return new Array(5)
-//             .fill()
-//             .map((_, i) => Star(i < score ? 'yellow' : 'red', 'large'))
-//             .join('');
-//     } else {
-//         return new Array(5)
-//             .fill()
-//             .map((_, i) => Star(i < score ? 'red' : 'yellow', 'large'))
-//             .join('');
-//     }
-// };
 
 export default EndingScreen;

@@ -30,7 +30,7 @@ const commencePlaying = (category) => {
     listenForUserResponse();
 
     // playing a full round of whatever 'bundle' value is defined at begining of this file
-    playingFullBundleQuestions(count);
+    playingFullBundleQuestions(count, category);
 };
 
 // seperated question functionality so that it has access mobility
