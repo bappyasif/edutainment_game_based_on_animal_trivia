@@ -1,9 +1,18 @@
-import { $all } from "../../all-utils/for-dom-calls"
+import { $all } from '../../all-utils/for-dom-calls';
 
-export let announceResult = () => {
-    let corrects = $all('.star--yellow').length
-    let wrongs = $all('.star--red').length
-    return corrects > wrongs ? [corrects, 'winner'] : [wrongs, 'loser']
-}
+// this isn't really "announcing" the scores
+// rather it is counting the scores
+// so I think naming this as countScore is more appropriate
+const announceResult = () => {
+    // since we know that we only have 5 questions per round
+    // and that there's only two outcomes
+    // all we really need to check is the number of correct answers
+    const noOfCorrect = $all('.star--yellow').length;
+    // const wrongs = $all('.star--red').length
+
+    return noOfCorrect;
+};
+
+export default announceResult;
 
 // export {corrects, wrongs}
