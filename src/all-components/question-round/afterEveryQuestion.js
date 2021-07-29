@@ -56,10 +56,7 @@ const playingFullBundleQuestions = (count) => {
         if (count < bundle) {
             continueToNextQuestion();
         } else {
-            // let [starsCounted, result] = [...announceResult()];
             showEndingScreen(countScore());
-
-            // showEndingScreen(starsCounted);
         }
         count++;
     });
