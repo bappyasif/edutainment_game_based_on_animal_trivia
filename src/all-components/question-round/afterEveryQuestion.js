@@ -4,7 +4,7 @@ import { showModal } from '../../all-utils/for-game-play';
 import { showEndingScreen } from '../ending-screen/showLayout';
 import { makingQuestionPhaseReady, questionData } from './gamePlay';
 import fillStars from './fillStars';
-import announceResult from './afterRound';
+import countScore from './afterRound';
 
 // how many number of questions will be in a round, it's 5 but for development pjurpose using 2
 const bundle = 5;
@@ -57,7 +57,7 @@ const playingFullBundleQuestions = (count) => {
             continueToNextQuestion();
         } else {
             // let [starsCounted, result] = [...announceResult()];
-            showEndingScreen(announceResult());
+            showEndingScreen(countScore());
 
             // showEndingScreen(starsCounted);
         }
