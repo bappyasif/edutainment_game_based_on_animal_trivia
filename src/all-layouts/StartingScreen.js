@@ -20,7 +20,7 @@ const StartingScreen = () => {
                     <p class="category__text">Fishes</p>
                 </div>
             </div>
-            <span class="return-button">&#8249; Back to menu</span>
+            <span id="backToMenu" class="return-button">&#8249; Back to menu</span>
         </div>
     `);
 };
