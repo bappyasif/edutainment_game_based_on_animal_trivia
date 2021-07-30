@@ -1,17 +1,19 @@
 .difficulty-container {
     text-align: center;
-    position: relative;
+    position: absolute;
     background-color: silver;
-    width: 20vw;
-    height: 29vh;
+    /* width: 20vw;
+    height: 27vh; */
     margin: auto;
     display: flex;
+    border: 4px solid silver;
+    border-radius: 11px;
 }
 
 .mode-card {
     border: .11vw solid silver;
     background-color: turquoise;
-    opacity: 56%;
+    /* opacity: 56%; */
     width: fit-content;
     margin: auto;
 }
