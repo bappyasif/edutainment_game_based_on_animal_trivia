@@ -2,13 +2,13 @@ import EndingScreen from '../../all-layouts/EndingScreen';
 import { $, clearScreen } from '../../all-utils/for-dom-calls';
 import { handleBackToMenu, handlePlayAgain } from './buttonsConfiguration';
 
-export const showEndingScreen = (starsCount) => {
+export const showEndingScreen = (starsCount, mode) => {
     clearScreen();
     document.body.append(EndingScreen(starsCount));
-    handleButtons();
+    handleButtons(mode);
 };
 
-let handleButtons = () => {
-    $('#ed-playAgain').addEventListener('click', handlePlayAgain);
+let handleButtons = (mode) => {
+    $('#ed-playAgain').addEventListener('click', evt => handlePlayAgain(mode));
     $('#ed-mainMenu').addEventListener('click', handleBackToMenu);
 };

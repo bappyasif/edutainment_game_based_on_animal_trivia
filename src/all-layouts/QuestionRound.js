@@ -15,16 +15,26 @@ const QuestionRound = (mode = 'easy') => {
 
     return document.createRange().createContextualFragment(
         `<div class="question-round" data-mode="${mode}">
+        ${
+            mode == 'hard' 
+            ? `<div class='tooltip-container'>
+                    <div class="law-used">law used</div>
+                    <div id='truth-table'></div>
+                </div>` 
+            : ``
+        }
+
             <div class="header">
                 <div id="correct-score" class="score">${stars}</div>
                 <div id="wrong-score" class="score">${stars}</div>
-            </div>   
+            </div>
+            
             <div class="container">
                 <div class="question">
                     <p id="question" class="question__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
 
-                <!-- Twister Question
+
                 ${
                     // only show the twister statement if mode is hard
                     mode === 'hard'
@@ -33,7 +43,7 @@ const QuestionRound = (mode = 'easy') => {
                         </div>`
                         : ''
                 }
-                -->
+
 
                 <div id="choices" class="choices">
                     <button data-answer="true" class="choices__btn">True</button>

@@ -10,6 +10,7 @@ const commenceCategorySelection = (mode) => {
 };
 
 const handleCategorySelection = (e, mode) => {
+    console.log('here!!', mode)
     transitionToQuestionRound(e.currentTarget.dataset.category, mode);
 };
 

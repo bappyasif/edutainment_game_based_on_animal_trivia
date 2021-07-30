@@ -3,102 +3,162 @@
         {
             "question": "Camels use their humps as nourishment when food is scarce",
             "answer": true,
-            "explanation": "Some think they hold water but it's not. Their humps are fat stores, which look droopy if the animals’ bodies burn that fat when food is scarce. "
+            "explanation": "Some think they hold water but it's not. Their humps are fat stores, which look droopy if the animals’ bodies burn that fat when food is scarce. ",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "Giraffes only sleep for 30 minutes",
             "answer": false,
-            "explanation": "According to research from the European Sleep Research Society, giraffes actually sleep 4.6 hours a day."
+            "explanation": "According to research from the European Sleep Research Society, giraffes actually sleep 4.6 hours a day.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Opossums can hang from their tails",
             "answer": false,
-            "explanation": "Baby opossums can hang from their tails for a couple of seconds, but adults are too heavy and only use their tails to help keep their balance while using their legs to climb."
+            "explanation": "Baby opossums can hang from their tails for a couple of seconds, but adults are too heavy and only use their tails to help keep their balance while using their legs to climb.",
+            "twister": "consider a either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Bats have small eyes with sensitive vision that help them see in the dark",
             "answer": true,
-            "explanation": "Bats do not use echolocatation only. Many fruit bats don’t even echolocate at all. In fact, they have particularly sharp vision."
+            "explanation": "Bats do not use echolocatation only. Many fruit bats don’t even echolocate at all. In fact, they have particularly sharp vision.",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Bulls are colorblind to red",
             "answer": true,
-            "explanation": "It may seem that bulls get mad at the color red but that's not true. They are colorblind to it. What really gets them riled up during a bullfight is the cape’s movement, and they’re more likely to charge at an object that’s moving the most, no matter what color it is."
+            "explanation": "It may seem that bulls get mad at the color red but that's not true. They are colorblind to it. What really gets them riled up during a bullfight is the cape’s movement, and they’re more likely to charge at an object that’s moving the most, no matter what color it is.",
+            "twister": "consider a true statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Porcupines can shoot their quills",
             "answer": false,
-            "explanation": "Quills are mixed onto their back, sides, and tail and lay flat unless they are feeling threatened. They do detach easily when touched though."
+            "explanation": "Quills are mixed onto their back, sides, and tail and lay flat unless they are feeling threatened. They do detach easily when touched though.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Humans evolved from chimpanzees",
             "answer": false,
-            "explanation": "Humans and monkeys are both primates. But humans are not descended from monkeys or any other primate living today. We do share a common ape ancestor with chimpanzees."
+            "explanation": "Humans and monkeys are both primates. But humans are not descended from monkeys or any other primate living today. We do share a common ape ancestor with chimpanzees.",
+            "twister": "consider a either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Humans and chimpanzees have identical genes of over 98%",
             "answer": true,
-            "explanation": "Humans and chimpanzees has uncanny similarities but both has evolved into two distinctly separate species in 'ape' family tree."
+            "explanation": "Humans and chimpanzees has uncanny similarities but both has evolved into two distinctly separate species in 'ape' family tree.",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Dogs can only see in black and white",
             "answer": false,
-            "explanation": "Their vision is limited but they definitely do not see things in black and white, their vision ranges from dark blue to grey to dark and light yellow from spectrum"
+            "explanation": "Their vision is limited but they definitely do not see things in black and white, their vision ranges from dark blue to grey to dark and light yellow from spectrum",
+            "twister": "consider a either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Raccoons like clean food, that's why they wash it before eating it",
             "answer": false,
-            "explanation": "Raccoons have extremely sensitive front feet and they appear to get more tactile information when their paws are wet than when they are dry, so when water is available they tend to turn their food over repeatedly before eating it."
+            "explanation": "Raccoons have extremely sensitive front feet and they appear to get more tactile information when their paws are wet than when they are dry, so when water is available they tend to turn their food over repeatedly before eating it.",
+            "twister": "consider a true statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Dogs sweat through their tongues",
             "answer": false,
-            "explanation": "Dog pants to evaporate moisture from their tongues, nasal passages and lining of their lungs, which helps them to cool down"
+            "explanation": "Dog pants to evaporate moisture from their tongues, nasal passages and lining of their lungs, which helps them to cool down",
+            "twister": "consider a true statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "An elephant is not the only animal that cannot jump",
             "answer": true,
-            "explanation": "An elephant can not jump and so are others like Rhinoceros, Hippopotamus, Manatees and Seals"
+            "explanation": "An elephant can not jump and so are others like Rhinoceros, Hippopotamus, Manatees and Seals",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Cats are color blind",
             "answer": false,
-            "explanation": "Both cats and dogs can see in blue and green, and they can see better in low light situations, for example reds and pinks would appear more green to cats"
+            "explanation": "Both cats and dogs can see in blue and green, and they can see better in low light situations, for example reds and pinks would appear more green to cats",
+            "twister": "consider a either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "We humans use only 10 percent of our brains",
             "answer": false,
-            "explanation": "We humans virtually speaking every part of our brain and most of our brain is active almost always"
+            "explanation": "We humans virtually speaking every part of our brain and most of our brain is active almost always",
+            "twister": "consider a true statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Polar bear fur is not entirely white",
             "answer": true,
-            "explanation": "Polar bears actually have black skin and translucent fur, which appears to be white due to its lack of pigmentation combined with way light reflects off bears snowy white surroundings"
+            "explanation": "Polar bears actually have black skin and translucent fur, which appears so that result is white due to its lack of pigmentation combined with way light reflects off bears snowy white surroundings",
+            "twister": "consider a true statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Bats do not suck blood",
             "answer": true,
-            "explanation": "Bats do not suck any human beings blood, rather they have an anti clotting enzyme in their saliva that helps keep blood flowing"
+            "explanation": "Bats do not suck any human beings blood, rather they have an anti clotting enzyme in their saliva that helps keep blood flowing",
+            "twister": "consider a false statment so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Anteaters eat ants through their nose",
             "answer": false,
-            "explanation": "It’s a myth that an anteater will consume ants through its nose. Instead, anteaters use their claws to rip open anthills and then use their long tongues to eat the insects."
+            "explanation": "It’s a myth that an anteater will consume ants through its nose. Instead, anteaters use their claws to rip open anthills and then use their long tongues to eat the insects.",
+            "twister": "consider a either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Lemmings commit suicide",
             "answer": false,
-            "explanation": "No, they don't. Not ever. The erroneous notion that lemmings catapult themselves off cliffs en masse apparently got major traction from a 1958 Academy Award-winning Disney nature documentary called \"White Wilderness\"."
+            "explanation": "No, they don't. Not ever. The erroneous notion that lemmings catapult themselves off cliffs en masse apparently got major traction from a 1958 Academy Award-winning Disney nature documentary called \"White Wilderness\".",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Bears go into torpor or a deep sleep during the winter",
             "answer": true,
-            "explanation": "Bears don't hibernate, however, they go into torpor or a deep sleep, during the winter. The difference between the two is that animals easily wake up from noises in torpor, and their body temperature is still relatively high."
+            "explanation": "Bears don't hibernate, however, they go into torpor or a deep sleep, during the winter. The difference between the two is that animals easily wake up from noises in torpor, and their body temperature is still relatively high.",
+            "twister": "consider a true statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Mice only eat cheese",
             "answer": false,
-            "explanation": "A popular myth portrayed in many kids’ cartoons is a mouse always seeking a chunk of cheese to eat. While mice will eat just about anything available, they prefer sweet, sugary foods over cheese."
+            "explanation": "A popular myth portrayed in many kids’ cartoons is a mouse always seeking a chunk of cheese to eat. While mice will eat just about anything available, they prefer sweet, sugary foods over cheese.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         }
     ],
 

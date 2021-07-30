@@ -2,7 +2,10 @@ import { $ } from '../../all-utils/for-dom-calls';
 import {
     hideModal,
     prepareExplanation,
+    prepareQuestionStatementTwister,
+    showLawTruthTable,
     showQuestion,
+    whichLawIsUsed,
 } from '../../all-utils/for-game-play';
 import { getQuestions } from '../question-generator/randomizer';
 import {
@@ -15,7 +18,7 @@ let questionData = {};
 let roundQuestions = [];
 
 // fires up process for starting playing question round
-const commencePlaying = (category) => {
+const commencePlaying = (category, mode) => {
     // resetting counter to 1 each time, so that it starts from initial count for each round
     count = 1;
 
@@ -24,17 +27,17 @@ const commencePlaying = (category) => {
 
     // separated questions fedding functionality so that it can be used for mutiple times
     // to complete a bundle of question to sum up to a round
-    makingQuestionPhaseReady();
+    makingQuestionPhaseReady(mode);
 
     // listen for user response on each question
-    listenForUserResponse();
+    listenForUserResponse(mode);
 
     // playing a full round of whatever 'bundle' value is defined at begining of this file
-    playingFullBundleQuestions(count);
+    playingFullBundleQuestions(count, mode);
 };
 
 // seperated question functionality so that it has access mobility
-const makingQuestionPhaseReady = () => {
+const makingQuestionPhaseReady = (mode) => {
     // clearing out modal layout from screen
     hideModal();
 
@@ -43,7 +46,15 @@ const makingQuestionPhaseReady = () => {
     feedQuestion();
 
     // showing up question text in modal
+    // mode == 'hard' ? showQuestion(questionData.twister) : showQuestion(questionData.question) 
     showQuestion(questionData.question);
+
+    // showing question twister statement
+    if(mode == 'hard') {
+        prepareQuestionStatementTwister(questionData.twister);
+        whichLawIsUsed(questionData.lawUsed);
+        showLawTruthTable(questionData.lawUsed);
+    }
 
     // showing up modal and explanation in it on screen
     prepareExplanation(questionData.explanation);
@@ -75,8 +86,8 @@ let feedQuestion = () => {
 };
 
 // listen for which option they choosing from
-const listenForUserResponse = () => {
-    $('#choices').addEventListener('click', handleResponse);
+const listenForUserResponse = (mode) => {
+    $('#choices').addEventListener('click', evt => handleResponse(evt, mode));
 };
 
 export { commencePlaying, questionData, makingQuestionPhaseReady };

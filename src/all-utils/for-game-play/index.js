@@ -19,4 +19,28 @@ const prepareExplanation = (text) => {
     $('#explanation-text').textContent = text;
 };
 
-export { hideModal, showModal, showQuestion, prepareExplanation };
+// make ready twister statement
+let prepareQuestionStatementTwister = (text) => {
+    $('#twister').innerText = text;
+    $('#twister').classList.add('question__text');
+}
+
+// show twister statement rules is used
+let whichLawIsUsed = (text) => {
+    $('.law-used').textContent = text;
+}
+
+// show laws truth table
+let showLawTruthTable = laws => {
+
+    let implicationLaws = new Image();
+    implicationLaws.src = './images/implicationLaws.png';
+
+    let biconditionalLaws = new Image();
+    biconditionalLaws.src = './images/biconditionalLaws.png';
+    
+    $('#truth-table').innerHTML = '';
+    laws == 'implication' ? $('#truth-table').append(implicationLaws) : $('#truth-table').append(biconditionalLaws)
+}
+
+export { hideModal, showModal, showQuestion, prepareExplanation, prepareQuestionStatementTwister, whichLawIsUsed, showLawTruthTable };

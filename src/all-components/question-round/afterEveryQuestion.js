@@ -10,11 +10,13 @@ import countScore from './afterRound';
 const bundle = 5;
 
 // will check for which answer they chose and decide whether it's a correctr response or not
-const handleResponse = (e) => {
+const handleResponse = (e, mode) => {
     // mapping responses from button classes to make assesment against questionData.answer value
     const selectedAnswer = e.target.dataset.answer;
     // checking either true==true or false==false, from button class and questionData.answer
-    const isCorrectAnswer = selectedAnswer === `${questionData.answer}`;
+    let checkingMode = mode === 'hard' ? `${questionData.twistedAnswer}` : `${questionData.answer}`
+    const isCorrectAnswer = selectedAnswer === checkingMode;
+    // const isCorrectAnswer = selectedAnswer === `${questionData.answer}`;
 
     if (isCorrectAnswer) {
         fillStars(true);
@@ -45,18 +47,18 @@ const reviveClickEvents = () => {
 };
 
 // triggering continue from modal would transition to ending screen
-const continueToNextQuestion = () => {
-    makingQuestionPhaseReady();
+const continueToNextQuestion = (mode) => {
+    makingQuestionPhaseReady(mode);
     reviveClickEvents();
 };
 
 // playing entire round of 'bundle' number of questions to decide entire game score for that round for any player
-const playingFullBundleQuestions = (count) => {
+const playingFullBundleQuestions = (count, mode) => {
     $('#next-question').addEventListener('click', () => {
         if (count < bundle) {
-            continueToNextQuestion();
+            continueToNextQuestion(mode);
         } else {
-            showEndingScreen(countScore());
+            showEndingScreen(countScore(), mode);
         }
         count++;
     });

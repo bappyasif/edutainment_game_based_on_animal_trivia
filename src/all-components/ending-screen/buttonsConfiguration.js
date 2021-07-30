@@ -7,11 +7,12 @@ const handleBackToMenu = () => {
     showMenu();
 };
 
-const handlePlayAgain = () => {
+const handlePlayAgain = (mode) => {
     // this is also in the mainMenu so maybe we could make this a fn
     clearScreen();
     showStartingScreen();
-    commenceCategorySelection();
+    commenceCategorySelection(mode);
+    console.log(mode, "here")
 };
 
 export { handleBackToMenu, handlePlayAgain };
