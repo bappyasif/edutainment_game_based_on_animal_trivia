@@ -1,9 +1,9 @@
 {
     "mammals": [
         {
-            "question": "Camels store water in their humps",
-            "answer": false,
-            "explanation": "Their humps are actually fat stores, which look droopy if the animals’ bodies burn that fat when food is scarce."
+            "question": "Camels use their humps as nourishment when food is scarce",
+            "answer": true,
+            "explanation": "Some think they hold water but it's not. Their humps are fat stores, which look droopy if the animals’ bodies burn that fat when food is scarce. "
         },
         {
             "question": "Giraffes only sleep for 30 minutes",
@@ -11,19 +11,19 @@
             "explanation": "According to research from the European Sleep Research Society, giraffes actually sleep 4.6 hours a day."
         },
         {
-            "question": "Opossums hang from their tails",
+            "question": "Opossums can hang from their tails",
             "answer": false,
             "explanation": "Baby opossums can hang from their tails for a couple of seconds, but adults are too heavy and only use their tails to help keep their balance while using their legs to climb."
         },
         {
-            "question": "Bats are blind",
-            "answer": false,
-            "explanation": "Many fruit bats don’t even echolocate at all. In fact, they have particularly sharp vision."
+            "question": "Bats have small eyes with sensitive vision that help them see in the dark",
+            "answer": true,
+            "explanation": "Bats do not use echolocatation only. Many fruit bats don’t even echolocate at all. In fact, they have particularly sharp vision."
         },
         {
-            "question": "Bulls get mad when they see the color red",
-            "answer": false,
-            "explanation": "Bulls are actually colorblind to red and green. What really gets them riled up during a bullfight is the cape’s movement, and they’re more likely to charge at an object that’s moving the most, no matter what color it is."
+            "question": "Bulls are colorblind to red",
+            "answer": true,
+            "explanation": "It may seem that bulls get mad at the color red but that's not true. They are colorblind to it. What really gets them riled up during a bullfight is the cape’s movement, and they’re more likely to charge at an object that’s moving the most, no matter what color it is."
         },
         {
             "question": "Porcupines can shoot their quills",
@@ -31,9 +31,9 @@
             "explanation": "Quills are mixed onto their back, sides, and tail and lay flat unless they are feeling threatened. They do detach easily when touched though."
         },
         {
-            "question": "Humans evolved from chimpanzees.",
+            "question": "Humans evolved from chimpanzees",
             "answer": false,
-            "explanation": "Humans and chimpanzees shared a common ancestor millions of years ago"
+            "explanation": "Humans and monkeys are both primates. But humans are not descended from monkeys or any other primate living today. We do share a common ape ancestor with chimpanzees."
         },
         {
             "question": "Humans and chimpanzees have identical genes of over 98%",
@@ -53,12 +53,12 @@
         {
             "question": "Dogs sweat through their tongues",
             "answer": false,
-            "explanation": "Dog pants to evaporate moisture from their tongues, nasal passages and lining of teir lungs, which helps them to cool down"
+            "explanation": "Dog pants to evaporate moisture from their tongues, nasal passages and lining of their lungs, which helps them to cool down"
         },
         {
-            "question": "An elephant is only animal that can not jump",
-            "answer": false,
-            "explanation": "Yes an elephant can not jump and so are others like Rhinoceros, Hippopotamus, Manatees and Seals"
+            "question": "An elephant is not the only animal that cannot jump",
+            "answer": true,
+            "explanation": "An elephant can not jump and so are others like Rhinoceros, Hippopotamus, Manatees and Seals"
         },
         {
             "question": "Cats are color blind",
@@ -71,14 +71,14 @@
             "explanation": "We humans virtually speaking every part of our brain and most of our brain is active almost always"
         },
         {
-            "question": "Polar bear fur is white",
-            "answer": false,
-            "explanation": "Their fur is not entirely white, they actually have black skin and translucent fur, which appears to be white due to its lack of pigmentation combined with way light reflects off bears snowy white surroundings"
+            "question": "Polar bear fur is not entirely white",
+            "answer": true,
+            "explanation": "Polar bears actually have black skin and translucent fur, which appears to be white due to its lack of pigmentation combined with way light reflects off bears snowy white surroundings"
         },
         {
-            "question": "Bats want to suck your blood",
-            "answer": false,
-            "explanation": "Bats don not suck any human beings blood, rather they have an anti clotting enzyme in their saliva that helps keep blood flowing"
+            "question": "Bats do not suck blood",
+            "answer": true,
+            "explanation": "Bats do not suck any human beings blood, rather they have an anti clotting enzyme in their saliva that helps keep blood flowing"
         },
         {
             "question": "Anteaters eat ants through their nose",
@@ -91,8 +91,8 @@
             "explanation": "No, they don't. Not ever. The erroneous notion that lemmings catapult themselves off cliffs en masse apparently got major traction from a 1958 Academy Award-winning Disney nature documentary called \"White Wilderness\"."
         },
         {
-            "question": "Bears hibernate",
-            "answer": false,
+            "question": "Bears go into torpor or a deep sleep during the winter",
+            "answer": true,
             "explanation": "Bears don't hibernate, however, they go into torpor or a deep sleep, during the winter. The difference between the two is that animals easily wake up from noises in torpor, and their body temperature is still relatively high."
         },
         {
@@ -104,48 +104,48 @@
 
     "birds": [
         {
-            "question": "owls are wise birds",
+            "question": "Owls are wise birds",
             "answer": false,
-            "explanation": "though owls are used as symbol of wisdom they have smaller brains and they are not as smart as Crows and Ravens"
+            "explanation": "Though owls are used as symbol of wisdom they have smaller brains and they are not as smart as crows and ravens"
         },
         {
-            "question": "ostriches sometimes Flop on ground",
+            "question": "Ostriches sometimes flop on ground",
             "answer": true,
-            "explanation": "ostriches when feel Threaten sometimes Flop on ground"
+            "explanation": "When feeiling threatened, ostriches sometimes flop on the ground"
         },
         {
-            "question": "penguins can fall backwards when they look up",
+            "question": "Penguins can fall backwards when they look up",
             "answer": false,
-            "explanation": "it was due to an account when pilots saw penguins tumbling over when looked skywards, but in reality Penguins have ability to hold their footing even when they look up at planes"
+            "explanation": "It was due to an account when pilots saw penguins tumbling over when looked skywards, but in reality penguins have ability to hold their footing even when they look up at planes"
         },
         {
-            "question": "bald eagle got its name from because of it's light-colored head gives it a 'bald' appearance",
+            "question": "Bald eagle got its name because of its light-colored head which gives it a 'bald' appearance",
+            "answer": false,
+            "explanation": "It's more related to an old english word 'Balde' which means color white. It has nothing to do with the appearance of baldness"
+        },
+        {
+            "question": "Owls eyes are fixed in their eyes sockets",
             "answer": true,
-            "explanation": "it's more related to an old english word 'Balde' which means color white, is source of this name 'bald eagle', which means white headed eagle and nothing to do with appearance of baldness"
+            "explanation": "Unlike humans, an owl can not move their eyes from side to side, which in turn developed to a greater head turning capability as they evolved and adapted"
         },
         {
-            "question": "owls eyes are fixed in their eyes sockets",
+            "question": "Birds sing because they are happy",
+            "answer": false,
+            "explanation": "Male birds sings to signal others male birds to stay away as a form of aggression, and female birds like those male birds can sing very often and have complex songs"
+        },
+        {
+            "question": "Birds are stupid",
+            "answer": false,
+            "explanation": "Birds can recognize relatives they haven’t seen in years, and recognize a neighbor or a stranger just by its voice, remember the location of food they hid away months earlier, and even use things as tools"
+        },
+        {
+            "question": "Owls can spin their heads 270 degrees",
             "answer": true,
-            "explanation": "unlike humans, an owl can not move their eyes from side to side, which in turn developed to a greater head turning capability as they evolved and adapted"
-        },
-        {
-            "question": "birds sings because they are happy",
-            "answer": false,
-            "explanation": "male birds sings to signal others male birds to stay away as a form of aggression, and female birds like those male birds who can sing very often and have complex songs"
-        },
-        {
-            "question": "birds are stupid",
-            "answer": false,
-            "explanation": "birds can recognize relatives they haven’t seen in years, and recognize a neighbor or a stranger just by its voice, remember the location of food they hid away months earlier, and even use things as tools"
-        },
-        {
-            "question": "Owls can spin their heads 360 degrees",
-            "answer": false,
             "explanation": "Owls are limited to turning their heads 270 degrees in one direction."
         },
         {
-            "question": "Turkeys can't fly",
-            "answer": false,
+            "question": "Turkeys can fly",
+            "answer": true,
             "explanation": "They’re pretty much built to stay on the ground, but wild turkeys can take to the air. They usually don’t go further than 100 yards, but they can travel at 55mph"
         },
         {
@@ -159,55 +159,50 @@
             "explanation": "It’s not true that vultures stalk living animals that they know are about to die. In reality, they just have excellent senses, which helps them find food—which, in their case, is typically already-dead creatures"
         },
         {
-            "question": "Hens don't have teeth",
-            "answer": false,
+            "question": "Hens have teeth",
+            "answer": true,
             "explanation": "You may have heard the idiom “rare as hen’s teeth,” but according to a study published in 2006, hens can grow teeth. Around 70-80 million years ago, birds had chompers. They went away, but the genes are still there."
-        },
-        {
-            "question": "A duck's quack does not echo",
-            "answer": false,
-            "explanation": "The myth that a duck’s quack doesn’t echo is false. All sounds echo, it’s just that a duck’s quack is usually very quiet."
         }
     ],
 
     "fishes": [
         {
-            "question": "there is a species of Jellyfish doesn't technically perishes and thus immortal",
+            "question": "There is a species of jellyfish that technically doesn't perish and thus immortal",
             "answer": true,
-            "explanation": "a species of Jellyfish known as Turritopsis dohrnii, essentially an immortal sea creature that revert back into juvenile state after adulthood, so it can live alongside its offspring!!"
+            "explanation": "A species of jellyfish known as Turritopsis dohrnii is essentially an immortal sea creature that revert back into juvenile state after adulthood, so it can live alongside its offspring!"
         },
         {
-            "question": "sharks can smell blood from miles away",
+            "question": "Sharks can smell blood from miles away",
             "answer": false,
-            "explanation": "sharks have a highly enlarged portion of brain for smelling odors, and though they smell their prey from far but not from miles but few football fields away at best"
+            "explanation": "Sharks have a highly enlarged portion of brain for smelling odors, and though they smell their prey from far but not from miles but few football fields away at best"
         },
         {
-            "question": "any sharks that stop swimming will suffocate and die",
+            "question": "Any sharks that stop swimming will suffocate and die",
             "answer": false,
-            "explanation": "all sharks lack swim bladder, so when they stop swimming they fall into bottom of ocean floor, and their bodies are so incompressible that it doesn't harm them, they can always ascent or descent for oxygen when needed"
+            "explanation": "All sharks lack swim bladder, so when they stop swimming they fall into bottom of ocean floor, and their bodies are so incompressible that it doesn't harm them, they can always ascent or descent for oxygen when needed"
         },
         {
-            "question": "farmed fish is not safe to eat",
+            "question": "Farmed fish is not safe to eat",
             "answer": false,
-            "explanation": "farmed fishes are both safe and healthy to eat, diets and environment those fishes live are monitored throughout their life span"
+            "explanation": "Farmed fishes are both safe and healthy to eat, diets and environment those fishes live are monitored throughout their life span"
         },
         {
-            "question": "farmed fish does not taste as good as wild fish",
-            "answer": false,
-            "explanation": "it's a matter of preference, while some enjoy wild fishes, and others enjoy farmed dishes as well, moreover they are both healthy for you"
+            "question": "Farmed fish taste just as good as wild fish",
+            "answer": true,
+            "explanation": "It's a matter of preference. While some enjoy wild fishes, and others enjoy farmed dishes as well, moreover they are both healthy for you"
         },
         {
-            "question": "goldfishes are short lived",
-            "answer": false,
-            "explanation": "goldfish are one of those longest lived fishes around that can we have, and can live for several decades  under right conditions"
+            "question": "Goldfish can live for several decades",
+            "answer": true,
+            "explanation": "Goldfish are one of those longest lived fishes around that can we have, and can live for several decades under right conditions"
         },
         {
-            "question": "farmed salmon get their pink color from artificial injection",
+            "question": "Farmed salmon get their pink color from artificial injection",
             "answer": false,
             "explanation": "Both wild and farmed salmon get their pink color from a carotenoid anti-oxidant in their diet called astaxanthin which is traditionally produced by algae that wild salmon consume"
         },
         {
-            "question": "whales respond to scream, loud noise made by humans",
+            "question": "Whales respond to screams and other loud noises made by humans",
             "answer": false,
             "explanation": "Honestly, we all have our superstitions about what bring the whales close, but most if not all of them are just wishful thinking. For one, the sound barrier between air and water is pretty good, so when you're on shore, chances are the whales can't hear you at all"
         },
@@ -230,44 +225,44 @@
 
     "reptilesAndAmphibians": [
         {
-            "question": "chameleons change colors blend in with their surroundings",
+            "question": "Chameleons change colors to blend in with their surroundings",
             "answer": false,
-            "explanation": "yes, chameleons can change colors but to regulate their body temperature or to communicate with other chameleons but not to camouflage themselves from it's surroundings"
+            "explanation": "Yes, chameleons can change colors but it is to regulate their body temperature or to communicate with other chameleons but not to camouflage themselves from its surroundings"
         },
         {
-            "question": "chameleons use their array of bright colors as social signal",
+            "question": "Chameleons use their array of bright colors as social signal",
             "answer": true,
-            "explanation": "chameleons do not have to exert a lot of effort to blend in with natural state, as they often resembles leaves or branches, but more often they use it to social interactions among them"
+            "explanation": "Chameleons do not have to exert a lot of effort to blend in with natural state, as they often resembles leaves or branches, but more often they use it to social interactions among them"
         },
         {
-            "question": "if a baby snake is seen, mother snake could be close by",
-            "answer": false,
-            "explanation": "most snakes do not provide parental care like other animals to their young, and they are self sufficient at birth and their own, which means their Parent may not be near them if you spot any baby snakes around"
+            "question": "Baby snakes don't need parental guidance",
+            "answer": true,
+            "explanation": "Most snakes do not provide parental care like other animals to their young, and they are self sufficient at birth and their own, which means their parent may not be near them if you spot any baby snakes around"
         },
         {
-            "question": "snakes can not bite or strike under water",
-            "answer": false,
-            "explanation": "a snake can bite or strike above or below water surface, there are many species of snakes which hunts prey from water"
+            "question": "Snakes can bite or strike under water",
+            "answer": true,
+            "explanation": "A snake can bite or strike above or below water surface. There are many species of snakes which hunts prey from water"
         },
         {
-            "question": "snakes are aggressive and will chase people",
+            "question": "Snakes are aggressive and will chase people",
             "answer": false,
-            "explanation": "while 'aggressive' and 'defensive' can be twisted to mean same things in broader sense, in reality there is no snake that will chase or act aggressively rather 'defensively' towards any human being"
+            "explanation": "While 'aggressive' and 'defensive' can be twisted to mean same things in broader sense, in reality there is no snake that will chase or act aggressively rather 'defensively' towards any human being"
         },
         {
-            "question": "if a snake is small, it must be a baby",
-            "answer": false,
-            "explanation": "while many species of snakes may be small as hatchlings or babies, there are also many species of small, harmless snakes which do not exceed 8 to 15 inches long as an adult"
+            "question": "Not all small snakes you see are babies",
+            "answer": true,
+            "explanation": "While many species of snakes may be small as hatchlings or babies, there are also many species of small, harmless snakes which do not exceed 8 to 15 inches long as an adult"
         },
         {
-            "question": "when bitten by a venomous snakes, venom should be cut or sucked out",
+            "question": "When bitten by a venomous snakes, venom should be cut or sucked out",
             "answer": false,
-            "explanation": "it has a potential of doing more harms than good, and is generally not recommended by most snake bite specialist, if not all"
+            "explanation": "It has a potential of doing more harm than good, and is generally not recommended by most snake bite specialist, if not all"
         },
         {
-            "question": "turtles and tortoise can climb out of their shells",
+            "question": "Turtles and tortoise can climb out of their shells",
             "answer": false,
-            "explanation": "a turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs"
+            "explanation": "A turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs"
         },
         {
             "question": "Touching toads gives you warts",
@@ -285,9 +280,9 @@
             "explanation": "This is another useful metaphor, yet untrue. A frog will try to escape a slowly heating pot of water when the temperature goes past its comfort zone."
         },
         {
-            "question": "You can charm a snake with music",
-            "answer": false,
-            "explanation": "Without ears, snakes are unable to hear music or sounds. Instead, they pick up vibrations, warning them of danger and helping them locate prey."
+            "question": "Snakes do not have ears",
+            "answer": true,
+            "explanation": "Snakes lack both an outer ear and middle ear, according to a 2012 study in the Journal of Experimental Biology. However, they have one middle ear bone that connects the inner ear to the jaw. This enables snakes to hear vibrations, such as a predator creeping closer on the forest floor"
         },
         {
             "question": "Snakes unhinge their jaws to swallow their prey",
@@ -298,11 +293,6 @@
             "question": "Lizards are loners",
             "answer": false,
             "explanation": "Recent research has shown some lizards are devoted parents, and mates that can distinguish their kin from strangers; they can even recognize individuals."
-        },
-        {
-            "question": "Crocodiles fake tears",
-            "answer": false,
-            "explanation": "Researchers found that crocodiles do tear up when they eat, but for still undetermined biological reasons. One theory is that when crocodiles hiss and huff while eating, air pushed through the nose mixes with tears and empties into the eyes."
         },
         {
             "question": "A turtle or tortoise cannot feel when its shell is carved or painted into",
