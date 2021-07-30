@@ -51,16 +51,16 @@ const makingQuestionPhaseReady = () => {
 };
 
 // generating a bundle of questions from json data set using randomizer module and assigning it to a variable for future uses
-let generateBundleOfQuestions = category => {
+let generateBundleOfQuestions = (category) => {
     // commencing getQuestions with a user selected category name as a parameter to initiate getQuestions
     let questions = getQuestions(category);
 
     // generating 5 randomly chosen unique question from json data set
     let questionsBundle = new Array(5).fill().map(questions.next);
-    
-    // assigning roundQuestion with bundle of questions for to use throughout this round in turns 
+
+    // assigning roundQuestion with bundle of questions for to use throughout this round in turns
     roundQuestions = questionsBundle;
-}
+};
 
 // bringing in a single question each time from roundQuestion to feed into DOM for further uses
 let feedQuestion = () => {
@@ -69,10 +69,10 @@ let feedQuestion = () => {
 
     // getting last question in from bucket
     const readyQuestion = roundQuestions.pop();
-    
+
     // providing questionData current question object to extract data from to use in DOM through other functions
     questionData = readyQuestion;
-}
+};
 
 // listen for which option they choosing from
 const listenForUserResponse = () => {

@@ -1,5 +1,9 @@
-let $ = selector => document.querySelector(selector);
-let $all = selector => document.querySelectorAll(selector);
-let clearScreen = () => document.body.innerHTML = '';
+const $ = (selector) => document.querySelector(selector);
 
-export {$, $all, clearScreen}
+const $all = (selector) => document.querySelectorAll(selector);
+
+const clearScreen = () => {
+    document.body.innerHTML = '';
+};
+
+export { $, $all, clearScreen };

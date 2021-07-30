@@ -1,30 +1,33 @@
-import { $ } from "../../all-utils/for-dom-calls";
-import { transitionToQuestionRound } from "../question-round/beforeGameplay";
+import { $ } from '../../all-utils/for-dom-calls';
+import { transitionToQuestionRound } from '../question-round/beforeGameplay';
 // import { chosenCategory } from "../../all-utils/for-starting-screen";
 
-
-export let commenceCategorySelection = () => {
-    $('.categories-container').addEventListener('click', handleCategorySelection);
+const commenceCategorySelection = () => {
+    Array.from($('#categories').children).forEach((child) => {
+        child.addEventListener('click', handleCategorySelection);
+    });
+    // $('#categories').addEventListener('click', handleCategorySelection);
 };
 
-let handleCategorySelection = (evt) => {
-    let category = evt.target.parentNode.classList[0];
-    chosenCategory(category);
+const handleCategorySelection = (e) => {
+    transitionToQuestionRound(e.currentTarget.dataset.category);
 };
 
-let chosenCategory = (category) => {
-    switch (category) {
-        case 'mammals':
-            break;
-        case 'birds':
-            break;
-        case 'fishes':
-            break;
-        case 'reptiles-and-amphibians':
-            break;
-        default:
-            console.log("something's wrong!!");
-    }
-    // transitioning to question round
-    transitionToQuestionRound(category);
-};
+// const chosenCategory = (category) => {
+//     switch (category) {
+//         case 'mammals':
+//             break;
+//         case 'birds':
+//             break;
+//         case 'fishes':
+//             break;
+//         case 'reptilesAndAmphibians':
+//             break;
+//         default:
+//             console.log("something's wrong!!");
+//     }
+//     // transitioning to question round
+//     transitionToQuestionRound(category);
+// };
+
+export default commenceCategorySelection;
