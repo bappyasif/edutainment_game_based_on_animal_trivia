@@ -1,6 +1,10 @@
-import { createStartingScreenLayout } from "../../all-layouts/startingScreen";
+import StartingScreen from '../../all-layouts/StartingScreen';
+import { $ } from '../../all-utils/for-dom-calls';
+import showMenu from '../main-menu/showLayout';
 
-export let addStartingScreenToDOM = () => {
-    let startingScreen = createStartingScreenLayout();
-    document.body.append(startingScreen);
+const showStartingScreen = () => {
+    document.body.append(StartingScreen());
+    $('#backToMenu').addEventListener('click', () => showMenu());
 };
+
+export default showStartingScreen;

@@ -1,8 +1,8 @@
 import MainMenu from '../../all-layouts/MainMenu';
 import { $, clearScreen } from '../../all-utils/for-dom-calls';
-import { handleButtons } from './handleButtons';
+import handleButtons from './handleButtons';
 
-export const showMenu = () => {
+const showMenu = () => {
     clearScreen();
     document.body.append(MainMenu());
     configuringButtons();
@@ -12,3 +12,5 @@ let configuringButtons = () => {
     $('#playBtn').addEventListener('click', handleButtons);
     // when there are more buttons from main menu, we can configure them all in here
 };
+
+export default showMenu;
