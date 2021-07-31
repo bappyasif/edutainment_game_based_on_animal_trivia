@@ -26,4 +26,4 @@ All credits for most if not all questions in this game goes to their rightful ow
 
 # Contributors
 
-Bappy (@bappyasif) and Shin Andrei Riego (@lemonadee71)
+Bappy ([@bappyasif](https://github.com/bappyasif)) and Shin Andrei Riego ([@lemonadee71](https://github.com/lemonadee71))
