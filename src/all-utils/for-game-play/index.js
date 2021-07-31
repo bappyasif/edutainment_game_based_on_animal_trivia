@@ -1,3 +1,4 @@
+import { biconditionalLawsLayout, implicationLawsLayout } from '../../all-layouts/truthTables';
 import { $ } from '../for-dom-calls';
 
 // initially hiding modal view from DOM
@@ -33,11 +34,17 @@ let whichLawIsUsed = (text) => {
 // show laws truth table
 let showLawTruthTable = laws => {
 
-    let implicationLaws = new Image();
-    implicationLaws.src = './images/implicationLaws.png';
+    // let implicationLaws = new Image();
+    // implicationLaws.src = './images/implicationLaws.png';
 
-    let biconditionalLaws = new Image();
-    biconditionalLaws.src = './images/biconditionalLaws.png';
+    // let biconditionalLaws = new Image();
+    // biconditionalLaws.src = './images/biconditionalLaws.png';
+
+    let implicationLaws = implicationLawsLayout();
+
+    let biconditionalLaws = biconditionalLawsLayout();
+
+    console.log(implicationLaws, biconditionalLaws)
     
     $('#truth-table').innerHTML = '';
     laws == 'implication' ? $('#truth-table').append(implicationLaws) : $('#truth-table').append(biconditionalLaws)

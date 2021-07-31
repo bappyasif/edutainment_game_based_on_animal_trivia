@@ -157,3 +157,17 @@
     height: 11vh;
     margin: auto;
 }
+
+table {
+    width: 31vw;
+}
+
+table, th, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1.1px;
+    text-align: center;
+}
