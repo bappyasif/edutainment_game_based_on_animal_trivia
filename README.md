@@ -11,6 +11,18 @@ Choose from the four categories (mammals, birds, fishes or reptiles and amphibia
 ![question round](https://i.imgur.com/s9MQXrh.png)
 ![ending screen](https://i.imgur.com/Fc66Kmh.png)
 
+# Game Modes
+
+it has two options to choose from, "easy" and "hard"
+once you choose to play, you should click on "Play" button, you will be asked to choose from those two provided game modes
+
+# Easy 
+
+you will be presented a "statement" and will be asked to "decide" if that statement is "True" or "Myth - as in False"
+
+# Hard
+
+it will be mostly "easy" mode like game play with an added layer on top of it, what we are calling "Twister", another statement which is more or less related to "initial statement" and will be asked use to "a form of discrete mathematics" to decide whether those two statement satisfies those laws or not
 
 # References
 
@@ -32,4 +44,4 @@ All credits for most if not all questions in this game goes to their rightful ow
 
 # Contributors
 
-Bappy ([@bappyasif](https://github.com/bappyasif)) and Shin Andrei Riego ([@lemonadee71](https://github.com/lemonadee71))
+Shin Andrei Riego ([@lemonadee71](https://github.com/lemonadee71)) and Bappy ([@bappyasif](https://github.com/bappyasif))
