@@ -6,6 +6,12 @@ Bust common animal myths in this trivia game! This game was made for The Odin Pr
 
 Choose from the four categories (mammals, birds, fishes or reptiles and amphibians) and start busting some myths!
 
+![main menu](https://i.imgur.com/fcvoPUx.png)
+![starting screen](https://i.imgur.com/chjZbJx.png)
+![question round](https://i.imgur.com/s9MQXrh.png)
+![ending screen](https://i.imgur.com/Fc66Kmh.png)
+
+
 # References
 
 All credits for most if not all questions in this game goes to their rightful owner.
