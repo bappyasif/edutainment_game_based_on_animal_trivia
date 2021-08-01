@@ -9,6 +9,6 @@ export const showEndingScreen = (starsCount, mode) => {
 };
 
 let handleButtons = (mode) => {
-    $('#ed-playAgain').addEventListener('click', evt => handlePlayAgain(mode));
+    $('#ed-playAgain').addEventListener('click', () => handlePlayAgain(mode));
     $('#ed-mainMenu').addEventListener('click', handleBackToMenu);
 };

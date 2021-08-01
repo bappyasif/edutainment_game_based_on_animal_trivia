@@ -9,8 +9,4 @@ const commenceCategorySelection = (mode) => {
     });
 };
 
-// const handleCategorySelection = (category, mode) => {
-//     transitionToQuestionRound(category, mode);
-// };
-
 export default commenceCategorySelection;
