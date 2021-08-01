@@ -46,11 +46,11 @@ const makingQuestionPhaseReady = (mode) => {
     feedQuestion();
 
     // showing up question text in modal
-    // mode == 'hard' ? showQuestion(questionData.twister) : showQuestion(questionData.question) 
+    // mode == 'hard' ? showQuestion(questionData.twister) : showQuestion(questionData.question)
     showQuestion(questionData.question);
 
     // showing question twister statement
-    if(mode == 'hard') {
+    if (mode === 'hard') {
         prepareQuestionStatementTwister(questionData.twister);
         whichLawIsUsed(questionData.lawUsed);
         showLawTruthTable(questionData.lawUsed);
@@ -87,7 +87,7 @@ let feedQuestion = () => {
 
 // listen for which option they choosing from
 const listenForUserResponse = (mode) => {
-    $('#choices').addEventListener('click', evt => handleResponse(evt, mode));
+    $('#choices').addEventListener('click', (evt) => handleResponse(evt, mode));
 };
 
 export { commencePlaying, questionData, makingQuestionPhaseReady };

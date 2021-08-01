@@ -28,8 +28,8 @@ const EndingScreen = (noOfCorrect = 0) => {
             </div>
             <p class="score__message">${showMessage()}</p>
             <div class="controls">
-                <button id="ed-playAgain" class="controls__btn">Play Again</button>
-                <button id="ed-mainMenu" class="controls__btn">Main Menu</button>
+                <button id="ed-playAgain" class="btn--primary controls__btn">Play Again</button>
+                <button id="ed-mainMenu" class="btn--primary controls__btn">Main Menu</button>
             </div>
         </div>
     </div>

@@ -1,27 +1,17 @@
 import Star from './Star';
 
 const QuestionRound = (mode = 'easy') => {
-    // Changes to selectors
-    // .scoring -->
-    // .correct-scores --> #correct-score
-    // .wrong-scores --> #wrong-score
-    // .topic --> #question
-    // .explain-why --> #explanation
-    // .explain-question --> #next-question
-    // .answer-options --> #choices
-    // .correct --> data-answer="true"
-    // .myth --> data-answer="false"
     const stars = new Array(5).fill(Star()).join('');
 
     return document.createRange().createContextualFragment(
         `<div class="question-round" data-mode="${mode}">
         ${
-            mode == 'hard' 
-            ? `<div class='tooltip-container'>
+            mode === 'hard'
+                ? `<div class='tooltip-container'>
                     <div class="law-used">law used</div>
                     <div id='truth-table'></div>
-                </div>` 
-            : ``
+                </div>`
+                : ``
         }
 
             <div class="header">
@@ -38,12 +28,12 @@ const QuestionRound = (mode = 'easy') => {
                 ${
                     // only show the twister statement if mode is hard
                     mode === 'hard'
-                        ? `<div id="twister" class="question question--twister">
-                            <p class="question__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        ? `
+                        <div class="twister">
+                            <p id="twister" class="question__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                         </div>`
                         : ''
                 }
-
 
                 <div id="choices" class="choices">
                     <button data-answer="true" class="choices__btn">True</button>
@@ -53,29 +43,18 @@ const QuestionRound = (mode = 'easy') => {
                 <!-- Explanation Modal -->
                 <div class="backdrop">
                     <div class="modal">
-                        <div id="explanation" class="explanation modal__container container container--vertical">
-                            <p id="result" class="result">Wrong!</p>
-                            <p id="explanation-text" class="explanation__text">
+                        <div class="modal__container container--vertical" id="explanation">
+                            <p class="modal__title" id="result">Wrong!</p>
+                            <p class="modal__body" id="explanation-text">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto officiis cumque pariatur odit impedit. Reprehenderit non dolores omnis est minima!
                             </p>
-                            <button id="next-question" class="explanation__button">Continue</button>
+                            <button class="btn--secondary" id="next-question">Continue</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>`
     );
-
-    //     <!--
-    //     <div class="statement-twister">
-    //         <div class="text">Statement Twister: sun rises in west</div>
-    //     </div>
-    //     <div class="added-layers">
-    //         <div class="round-sprite">
-    //             <img src="http://placeimg.com/110/110/any" alt="">
-    //         </div>
-    //     </div>
-    //     -->
 };
 
 export default QuestionRound;

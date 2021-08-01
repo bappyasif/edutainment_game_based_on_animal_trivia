@@ -43,16 +43,5 @@
 }
 
 .controls__btn {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.7rem;
-    line-height: 1rem;
-    padding: 1.5rem 0;
-    width: 14rem;
     background: linear-gradient(90deg, #ae3fb8 6.55%, #7c3fff 99.24%);
-    border-radius: 24px;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
 }

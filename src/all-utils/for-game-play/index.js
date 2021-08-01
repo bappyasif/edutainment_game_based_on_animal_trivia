@@ -1,4 +1,7 @@
-import { biconditionalLawsLayout, implicationLawsLayout } from '../../all-layouts/truthTables';
+import {
+    biconditionalLawsLayout,
+    implicationLawsLayout,
+} from '../../all-layouts/truthTables';
 import { $ } from '../for-dom-calls';
 
 // initially hiding modal view from DOM
@@ -21,33 +24,43 @@ const prepareExplanation = (text) => {
 };
 
 // make ready twister statement
-let prepareQuestionStatementTwister = (text) => {
-    $('#twister').innerText = text;
-    $('#twister').classList.add('question__text');
-}
+const prepareQuestionStatementTwister = (text) => {
+    $('#twister').textContent = text;
+};
 
 // show twister statement rules is used
-let whichLawIsUsed = (text) => {
+const whichLawIsUsed = (text) => {
     $('.law-used').textContent = text;
-}
+};
 
 // show laws truth table
-let showLawTruthTable = laws => {
-
+const showLawTruthTable = (laws) => {
     // let implicationLaws = new Image();
     // implicationLaws.src = './images/implicationLaws.png';
 
     // let biconditionalLaws = new Image();
     // biconditionalLaws.src = './images/biconditionalLaws.png';
 
-    let implicationLaws = implicationLawsLayout();
+    const implicationLaws = implicationLawsLayout();
 
-    let biconditionalLaws = biconditionalLawsLayout();
+    const biconditionalLaws = biconditionalLawsLayout();
 
-    console.log(implicationLaws, biconditionalLaws)
-    
+    console.log(implicationLaws, biconditionalLaws);
+
     $('#truth-table').innerHTML = '';
-    laws == 'implication' ? $('#truth-table').append(implicationLaws) : $('#truth-table').append(biconditionalLaws)
-}
+    if (laws === 'implication') {
+        $('#truth-table').append(implicationLaws);
+    } else {
+        $('#truth-table').append(biconditionalLaws);
+    }
+};
 
-export { hideModal, showModal, showQuestion, prepareExplanation, prepareQuestionStatementTwister, whichLawIsUsed, showLawTruthTable };
+export {
+    hideModal,
+    showModal,
+    showQuestion,
+    prepareExplanation,
+    prepareQuestionStatementTwister,
+    whichLawIsUsed,
+    showLawTruthTable,
+};
