@@ -166,62 +166,98 @@
         {
             "question": "Owls are wise birds",
             "answer": false,
-            "explanation": "Though owls are used as symbol of wisdom they have smaller brains and they are not as smart as crows and ravens"
+            "explanation": "Though owls are used as symbol of wisdom they have smaller brains and they are not as smart as crows and ravens",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Ostriches sometimes flop on ground",
             "answer": true,
-            "explanation": "When feeiling threatened, ostriches sometimes flop on the ground"
+            "explanation": "When feeiling threatened, ostriches sometimes flop on the ground",
+            "twister": "consider a true statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Penguins can fall backwards when they look up",
             "answer": false,
-            "explanation": "It was due to an account when pilots saw penguins tumbling over when looked skywards, but in reality penguins have ability to hold their footing even when they look up at planes"
+            "explanation": "It was due to an account when pilots saw penguins tumbling over when looked skywards, but in reality penguins have ability to hold their footing even when they look up at planes",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Bald eagle got its name because of its light-colored head which gives it a 'bald' appearance",
             "answer": false,
-            "explanation": "It's more related to an old english word 'Balde' which means color white. It has nothing to do with the appearance of baldness"
+            "explanation": "It's more related to an old english word 'Balde' which means color white. It has nothing to do with the appearance of baldness",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Owls eyes are fixed in their eyes sockets",
             "answer": true,
-            "explanation": "Unlike humans, an owl can not move their eyes from side to side, which in turn developed to a greater head turning capability as they evolved and adapted"
+            "explanation": "Unlike humans, an owl can not move their eyes from side to side, which in turn developed to a greater head turning capability as they evolved and adapted",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Birds sing because they are happy",
             "answer": false,
-            "explanation": "Male birds sings to signal others male birds to stay away as a form of aggression, and female birds like those male birds can sing very often and have complex songs"
+            "explanation": "Male birds sings to signal others male birds to stay away as a form of aggression, and female birds like those male birds can sing very often and have complex songs",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Birds are stupid",
             "answer": false,
-            "explanation": "Birds can recognize relatives they haven’t seen in years, and recognize a neighbor or a stranger just by its voice, remember the location of food they hid away months earlier, and even use things as tools"
+            "explanation": "Birds can recognize relatives they haven’t seen in years, and recognize a neighbor or a stranger just by its voice, remember the location of food they hid away months earlier, and even use things as tools",
+            "twister": "consider a true statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Owls can spin their heads 270 degrees",
             "answer": true,
-            "explanation": "Owls are limited to turning their heads 270 degrees in one direction."
+            "explanation": "Owls are limited to turning their heads 270 degrees in one direction.",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "Turkeys can fly",
             "answer": true,
-            "explanation": "They’re pretty much built to stay on the ground, but wild turkeys can take to the air. They usually don’t go further than 100 yards, but they can travel at 55mph"
+            "explanation": "They’re pretty much built to stay on the ground, but wild turkeys can take to the air. They usually don’t go further than 100 yards, but they can travel at 55mph",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "All turkeys gobble",
             "answer": false,
-            "explanation": "Not all turkeys gobble. It’s almost exclusively the males, or toms, that get their gobble on."
+            "explanation": "Not all turkeys gobble. It’s almost exclusively the males, or toms, that get their gobble on.",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Vultures stalk living animals",
             "answer": false,
-            "explanation": "It’s not true that vultures stalk living animals that they know are about to die. In reality, they just have excellent senses, which helps them find food—which, in their case, is typically already-dead creatures"
+            "explanation": "It’s not true that vultures stalk living animals that they know are about to die. In reality, they just have excellent senses, which helps them find food—which, in their case, is typically already-dead creatures",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Hens have teeth",
             "answer": true,
-            "explanation": "You may have heard the idiom “rare as hen’s teeth,” but according to a study published in 2006, hens can grow teeth. Around 70-80 million years ago, birds had chompers. They went away, but the genes are still there."
+            "explanation": "You may have heard the idiom “rare as hen’s teeth,” but according to a study published in 2006, hens can grow teeth. Around 70-80 million years ago, birds had chompers. They went away, but the genes are still there.",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         }
     ],
 
@@ -229,57 +265,90 @@
         {
             "question": "There is a species of jellyfish that technically doesn't perish and thus immortal",
             "answer": true,
-            "explanation": "A species of jellyfish known as Turritopsis dohrnii is essentially an immortal sea creature that revert back into juvenile state after adulthood, so it can live alongside its offspring!"
+            "explanation": "A species of jellyfish known as Turritopsis dohrnii is essentially an immortal sea creature that revert back into juvenile state after adulthood, so it can live alongside its offspring!",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "Sharks can smell blood from miles away",
             "answer": false,
-            "explanation": "Sharks have a highly enlarged portion of brain for smelling odors, and though they smell their prey from far but not from miles but few football fields away at best"
+            "explanation": "Sharks have a highly enlarged portion of brain for smelling odors, and though they smell their prey from far but not from miles but few football fields away at best",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Any sharks that stop swimming will suffocate and die",
             "answer": false,
-            "explanation": "All sharks lack swim bladder, so when they stop swimming they fall into bottom of ocean floor, and their bodies are so incompressible that it doesn't harm them, they can always ascent or descent for oxygen when needed"
+            "explanation": "All sharks lack swim bladder, so when they stop swimming they fall into bottom of ocean floor, and their bodies are so incompressible that it doesn't harm them, they can always ascent or descent for oxygen when needed",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Farmed fish is not safe to eat",
             "answer": false,
-            "explanation": "Farmed fishes are both safe and healthy to eat, diets and environment those fishes live are monitored throughout their life span"
+            "explanation": "Farmed fishes are both safe and healthy to eat, diets and environment those fishes live are monitored throughout their life span",
+            "twister": "consider a true statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Farmed fish taste just as good as wild fish",
             "answer": true,
-            "explanation": "It's a matter of preference. While some enjoy wild fishes, and others enjoy farmed dishes as well, moreover they are both healthy for you"
+            "explanation": "It's a matter of preference. While some enjoy wild fishes, and others enjoy farmed dishes as well, moreover they are both healthy for you",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "Goldfish can live for several decades",
             "answer": true,
-            "explanation": "Goldfish are one of those longest lived fishes around that can we have, and can live for several decades under right conditions"
+            "explanation": "Goldfish are one of those longest lived fishes around that can we have, and can live for several decades under right conditions",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Farmed salmon get their pink color from artificial injection",
             "answer": false,
-            "explanation": "Both wild and farmed salmon get their pink color from a carotenoid anti-oxidant in their diet called astaxanthin which is traditionally produced by algae that wild salmon consume"
+            "explanation": "Both wild and farmed salmon get their pink color from a carotenoid anti-oxidant in their diet called astaxanthin which is traditionally produced by algae that wild salmon consume",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Whales respond to screams and other loud noises made by humans",
             "answer": false,
-            "explanation": "Honestly, we all have our superstitions about what bring the whales close, but most if not all of them are just wishful thinking. For one, the sound barrier between air and water is pretty good, so when you're on shore, chances are the whales can't hear you at all"
+            "explanation": "Honestly, we all have our superstitions about what bring the whales close, but most if not all of them are just wishful thinking. For one, the sound barrier between air and water is pretty good, so when you're on shore, chances are the whales can't hear you at all",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Goldfish have a three-second memory",
             "answer": false,
-            "explanation": "They have a memory span of at least three months, according to researchers at Plymouth University."
+            "explanation": "They have a memory span of at least three months, according to researchers at Plymouth University.",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Sharks don't get cancer",
             "answer": false,
-            "explanation": "The 1992 book Sharks Don’t Get Cancer by I. William Lane is to blame for this animal myth. The author used the book’s premise to promote shark cartilage extract for cancer prevention. Cancerous tumors have in fact been found in sharks, disproving this theory."
+            "explanation": "The 1992 book Sharks Don’t Get Cancer by I. William Lane is to blame for this animal myth. The author used the book’s premise to promote shark cartilage extract for cancer prevention. Cancerous tumors have in fact been found in sharks, disproving this theory.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Piranhas can devour a human being in seconds.",
             "answer": false,
-            "explanation": "Yes, piranhas are fearsome-looking creatures with knife-sharp teeth, but by all accounts they're shy and non-aggressive. In fact, piranhas mostly scavenge for fish, plants and insects in South American rivers and lakes where they live."
+            "explanation": "Yes, piranhas are fearsome-looking creatures with knife-sharp teeth, but by all accounts they're shy and non-aggressive. In fact, piranhas mostly scavenge for fish, plants and insects in South American rivers and lakes where they live.",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         }
     ],
 
@@ -287,77 +356,122 @@
         {
             "question": "Chameleons change colors to blend in with their surroundings",
             "answer": false,
-            "explanation": "Yes, chameleons can change colors but it is to regulate their body temperature or to communicate with other chameleons but not to camouflage themselves from its surroundings"
+            "explanation": "Yes, chameleons can change colors but it is to regulate their body temperature or to communicate with other chameleons but not to camouflage themselves from its surroundings",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Chameleons use their array of bright colors as social signal",
             "answer": true,
-            "explanation": "Chameleons do not have to exert a lot of effort to blend in with natural state, as they often resembles leaves or branches, but more often they use it to social interactions among them"
+            "explanation": "Chameleons do not have to exert a lot of effort to blend in with natural state, as they often resembles leaves or branches, but more often they use it to social interactions among them",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "Baby snakes don't need parental guidance",
             "answer": true,
-            "explanation": "Most snakes do not provide parental care like other animals to their young, and they are self sufficient at birth and their own, which means their parent may not be near them if you spot any baby snakes around"
+            "explanation": "Most snakes do not provide parental care like other animals to their young, and they are self sufficient at birth and their own, which means their parent may not be near them if you spot any baby snakes around",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Snakes can bite or strike under water",
             "answer": true,
-            "explanation": "A snake can bite or strike above or below water surface. There are many species of snakes which hunts prey from water"
+            "explanation": "A snake can bite or strike above or below water surface. There are many species of snakes which hunts prey from water",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "Snakes are aggressive and will chase people",
             "answer": false,
-            "explanation": "While 'aggressive' and 'defensive' can be twisted to mean same things in broader sense, in reality there is no snake that will chase or act aggressively rather 'defensively' towards any human being"
+            "explanation": "While 'aggressive' and 'defensive' can be twisted to mean same things in broader sense, in reality there is no snake that will chase or act aggressively rather 'defensively' towards any human being",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Not all small snakes you see are babies",
             "answer": true,
-            "explanation": "While many species of snakes may be small as hatchlings or babies, there are also many species of small, harmless snakes which do not exceed 8 to 15 inches long as an adult"
+            "explanation": "While many species of snakes may be small as hatchlings or babies, there are also many species of small, harmless snakes which do not exceed 8 to 15 inches long as an adult",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "When bitten by a venomous snakes, venom should be cut or sucked out",
             "answer": false,
-            "explanation": "It has a potential of doing more harm than good, and is generally not recommended by most snake bite specialist, if not all"
+            "explanation": "It has a potential of doing more harm than good, and is generally not recommended by most snake bite specialist, if not all",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Turtles and tortoise can climb out of their shells",
             "answer": false,
-            "explanation": "A turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs"
+            "explanation": "A turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "Touching toads gives you warts",
             "answer": false,
-            "explanation": "Toads have wart-like bumps, and human warts are contagious, but you could never catch a wart from a frog or toad. While humans get warts from viruses, the bumps on the amphibians are glands."
+            "explanation": "Toads have wart-like bumps, and human warts are contagious, but you could never catch a wart from a frog or toad. While humans get warts from viruses, the bumps on the amphibians are glands.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Snakes do not have bones",
             "answer": false,
-            "explanation": "All snakes are vertebrate animals, and do have bones. They have a skull and specialized jaw bones and ligaments, many connected vertebra, or a spinal backbone, and as many as 300-400 pairs of ribs or more, among a few other minor bones present."
+            "explanation": "All snakes are vertebrate animals, and do have bones. They have a skull and specialized jaw bones and ligaments, many connected vertebra, or a spinal backbone, and as many as 300-400 pairs of ribs or more, among a few other minor bones present.",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "A frog will sit in slowly heated water until it dies",
             "answer": false,
-            "explanation": "This is another useful metaphor, yet untrue. A frog will try to escape a slowly heating pot of water when the temperature goes past its comfort zone."
+            "explanation": "This is another useful metaphor, yet untrue. A frog will try to escape a slowly heating pot of water when the temperature goes past its comfort zone.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Snakes do not have ears",
             "answer": true,
-            "explanation": "Snakes lack both an outer ear and middle ear, according to a 2012 study in the Journal of Experimental Biology. However, they have one middle ear bone that connects the inner ear to the jaw. This enables snakes to hear vibrations, such as a predator creeping closer on the forest floor"
+            "explanation": "Snakes lack both an outer ear and middle ear, according to a 2012 study in the Journal of Experimental Biology. However, they have one middle ear bone that connects the inner ear to the jaw. This enables snakes to hear vibrations, such as a predator creeping closer on the forest floor",
+            "twister": "consider a false statement so that result is FALSE",
+            "twistedAnswer": false,
+            "lawUsed": "implication"
         },
         {
             "question": "Snakes unhinge their jaws to swallow their prey",
             "answer": false,
-            "explanation": "A snake swallowing large prey like a mouse or a bird doesn’t unhinge its jaws to swallow the meal. Instead, its jaws extend (because of it’s lower jaw quadrate bone) and its mouth gape increases (by way of flexible jaw bone ligaments) in order to begin swallowing."
+            "explanation": "A snake swallowing large prey like a mouse or a bird doesn’t unhinge its jaws to swallow the meal. Instead, its jaws extend (because of it’s lower jaw quadrate bone) and its mouth gape increases (by way of flexible jaw bone ligaments) in order to begin swallowing.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         },
         {
             "question": "Lizards are loners",
             "answer": false,
-            "explanation": "Recent research has shown some lizards are devoted parents, and mates that can distinguish their kin from strangers; they can even recognize individuals."
+            "explanation": "Recent research has shown some lizards are devoted parents, and mates that can distinguish their kin from strangers; they can even recognize individuals.",
+            "twister": "consider either way so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "implication"
         },
         {
             "question": "A turtle or tortoise cannot feel when its shell is carved or painted into",
             "answer": false,
-            "explanation": "Just as with human fingernails and skin, a turtle or tortoise’s shell has sensitive nerve endings which can feel sensations to what may seemingly be hardened armor also designed to protect them from predators."
+            "explanation": "Just as with human fingernails and skin, a turtle or tortoise’s shell has sensitive nerve endings which can feel sensations to what may seemingly be hardened armor also designed to protect them from predators.",
+            "twister": "consider a false statement so that result is TRUE",
+            "twistedAnswer": true,
+            "lawUsed": "bi-conditional"
         }
     ]
 }

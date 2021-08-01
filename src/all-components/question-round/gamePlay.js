@@ -60,11 +60,11 @@ const makingQuestionPhaseReady = (mode) => {
 
     // showing up question text in modal
     // mode == 'hard' ? showQuestion(questionData.twister) : showQuestion(questionData.question)
-    showQuestion(questionData.question);
+    showQuestion(questionData.question, mode);
 
     // showing question twister statement
     if (mode === 'hard') {
-        prepareQuestionStatementTwister(questionData.twister);
+        prepareQuestionStatementTwister(questionData.twister, mode);
         whichLawIsUsed(questionData.lawUsed);
         showLawTruthTable(questionData.lawUsed);
     }

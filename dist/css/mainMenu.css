@@ -31,7 +31,18 @@
 }
 
 .difficulty__btn:first-child {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-right: 2rem;
+}
+
+.difficulty {
+    flex-direction: row;
+}
+
+.difficulty__btn:hover {
+    color: #f28119;
+    background-color: greenyellow;
+    
 }
 
 @media (min-width: 1100px) {

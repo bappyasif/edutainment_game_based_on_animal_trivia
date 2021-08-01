@@ -4,8 +4,8 @@ import {
 } from '../../all-layouts/truthTables';
 import { $ } from '../for-dom-calls';
 
-const showQuestion = (text) => {
-    $('#question').textContent = text;
+const showQuestion = (text, mode) => {
+    $('#question').textContent = mode == 'hard' ? `(A): ${text}` : text;
 };
 
 // add descriptive text to explanation div
@@ -14,13 +14,13 @@ const prepareExplanation = (text) => {
 };
 
 // make ready twister statement
-const prepareQuestionStatementTwister = (text) => {
-    $('#twister').textContent = text;
+const prepareQuestionStatementTwister = (text, mode) => {
+    $('#twister').textContent = mode == 'hard' ? `(B): ${text}` : text;
 };
 
 // show twister statement rules is used
 const whichLawIsUsed = (text) => {
-    $('#law').textContent = text;
+    $('#law').textContent = "Use "+'"'+text+'"'+ " law. click ("+"\u003F"+") for more info";
 };
 
 // show laws truth table
