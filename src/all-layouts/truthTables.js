@@ -1,7 +1,7 @@
 const implicationLawsLayout = () => {
     return document.createRange().createContextualFragment(`
-        <table>
-        <caption>Description: Implication Logic is FALSE if "A" is "true" and "B" is "false", rest of cases are TRUE</caption>
+        <table class="modal__body">
+            <caption>Description: Implication Logic is <strong>FALSE</strong> if "A" is true and "B" is false. The rest of cases are <strong>TRUE</strong></caption>
             <tr>
                 <th>A</th>
                 <th>B</th>
@@ -33,8 +33,8 @@ const implicationLawsLayout = () => {
 
 const biconditionalLawsLayout = () => {
     return document.createRange().createContextualFragment(`
-        <table>
-        <caption>Description: Bi-Conditional Logic is TRUE when both "A" and "B" are same (True/False), otherwise FALSE</caption>
+        <table class="modal__body">
+            <caption>Description: Bi-Conditional Logic is <strong>TRUE</strong> when both "A" and "B" are same (either both are true or false), otherwise <strong>FALSE</strong></caption>
             <tr>
                 <th>A</th>
                 <th>B</th>

@@ -11,6 +11,13 @@ const QuestionRound = (mode = 'easy') => {
             </div>
             
             <div class="container">
+                            
+                ${
+                    mode === 'hard'
+                        ? '<p class="question__text" id="law" style="margin-bottom: 2rem;"></p>'
+                        : ''
+                }
+
                 <div class="question">
                     <p id="question" class="question__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
@@ -46,10 +53,7 @@ const QuestionRound = (mode = 'easy') => {
                             <!-- Help Modal -->
                             <div id="help-modal" class="backdrop">
                                 <div class="modal">
-                                    <div class="modal__container container--vertical">
-                                        <p class="modal__title" id="law"></p>
-                                        <div id="truth-table"></div>
-                                    </div>
+                                    <div class="modal__container container--vertical" id="truth-table"></div>
                                 </div>
                             </div>
 
