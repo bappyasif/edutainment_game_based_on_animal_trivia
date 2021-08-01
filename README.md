@@ -2,31 +2,30 @@
 
 Bust common animal myths in this trivia game! This game was made for The Odin Project's [first game jam](https://itch.io/jam/top-jam-1) with the theme Edutainment.
 
-# How to Play
+## How to Play
 
 Choose from the four categories (mammals, birds, fishes or reptiles and amphibians) and start busting some myths!
+
+## Game Modes
+
+### Easy 
+
+You will be presented with a statement and you have to decide if it's true or a myth. It's that simple!
+
+### Hard
+
+Same gameplay but with a twist! Aside from the first statement, you'll also get what we call a "twister". You'll also be given a "condition" and you'll need to decide if the two statements satisfy that.
+
+## Preview
 
 ![main menu](https://i.imgur.com/fcvoPUx.png)
 ![starting screen](https://i.imgur.com/chjZbJx.png)
 ![question round](https://i.imgur.com/s9MQXrh.png)
 ![ending screen](https://i.imgur.com/Fc66Kmh.png)
 
-# Game Modes
+## References
 
-it has two options to choose from, "easy" and "hard"
-once you choose to play, you should click on "Play" button, you will be asked to choose from those two provided game modes
-
-# Easy 
-
-you will be presented a "statement" and will be asked to "decide" if that statement is "True" or "Myth - as in False"
-
-# Hard
-
-it will be mostly "easy" mode like game play with an added layer on top of it, what we are calling "Twister", another statement which is more or less related to "initial statement" and will be asked use to "a form of discrete mathematics" to decide whether those two statement satisfies those laws or not
-
-# References
-
-All credits for most if not all questions in this game goes to their rightful owner.
+All credits for the questions in this game goes to their rightful owner.
 
 -   [Animal Myths Busted](https://kids.nationalgeographic.com/nature/article/animal-myths-busted) by Stefan Lovgren, _National Geographic Kids_
 -   [7 Animal Myths You Shouldn't Believe](https://www.mentalfloss.com/article/562876/animal-myths-you-shouldnt-believe) by Shaunacy Ferro, _Mental Floss_
@@ -42,6 +41,6 @@ All credits for most if not all questions in this game goes to their rightful ow
 -   [Myths about animals that are just not true](https://www.lakenewsonline.com/story/sports/outdoors/2020/12/12/animal-myths-not-true/6515325002/) by Francis Skalicky, _Lake News Online_
 -   [10 Common Misconceptions Surrounding Aquaculture](https://www.deeptrekker.com/resources/10-common-fish-farm-misconceptions) by _Deep Trekker_
 
-# Contributors
+## Contributors
 
 Shin Andrei Riego ([@lemonadee71](https://github.com/lemonadee71)) and Bappy ([@bappyasif](https://github.com/bappyasif))
