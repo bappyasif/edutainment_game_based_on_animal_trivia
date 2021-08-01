@@ -52,8 +52,8 @@ body {
 }
 
 .btn--secondary {
-    position: relative;
-    margin: auto;
+    /* position: relative;
+    margin: auto; */
 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

@@ -1,5 +1,5 @@
-let implicationLawsLayout = () => {
-    let htmlMarkup = document.createRange().createContextualFragment(`
+const implicationLawsLayout = () => {
+    return document.createRange().createContextualFragment(`
         <table>
         <caption>Description: Implication Logic is FALSE if "A" is "true" and "B" is "false", rest of cases are TRUE</caption>
             <tr>
@@ -29,11 +29,10 @@ let implicationLawsLayout = () => {
             </tr>
         </table>
     `);
-    return htmlMarkup;
-}
+};
 
-let biconditionalLawsLayout = () => {
-    let htmlMarkup = document.createRange().createContextualFragment(`
+const biconditionalLawsLayout = () => {
+    return document.createRange().createContextualFragment(`
         <table>
         <caption>Description: Bi-Conditional Logic is TRUE when both "A" and "B" are same (True/False), otherwise FALSE</caption>
             <tr>
@@ -63,7 +62,6 @@ let biconditionalLawsLayout = () => {
             </tr>
         </table>
     `);
-    return htmlMarkup;
-}
+};
 
-export {implicationLawsLayout, biconditionalLawsLayout}
+export { implicationLawsLayout, biconditionalLawsLayout };

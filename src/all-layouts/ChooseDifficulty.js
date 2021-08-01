@@ -1,9 +1,3 @@
-// .difficulty-container
-// .mode-card
-// .nav__btn
-// #mode-easy
-// #mode-hard
-
 const ChooseDifficulty = () =>
     document.createRange().createContextualFragment(
         `<div class="modal" style="--modal-width: 40%; --modal-my: 10%;">
