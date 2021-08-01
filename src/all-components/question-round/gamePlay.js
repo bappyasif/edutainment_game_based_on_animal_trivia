@@ -1,6 +1,7 @@
 import { $ } from '../../all-utils/for-dom-calls';
 import {
-    hideModal,
+    hideElement,
+    showElement,
     prepareExplanation,
     prepareQuestionStatementTwister,
     showLawTruthTable,
@@ -34,12 +35,24 @@ const commencePlaying = (category, mode) => {
 
     // playing a full round of whatever 'bundle' value is defined at begining of this file
     playingFullBundleQuestions(count, mode);
+
+    if (mode === 'hard') {
+        $('#help').addEventListener('click', () => {
+            showElement('#help-modal');
+        });
+
+        $('#help-modal').addEventListener('click', (e) => {
+            if (e.target.matches('.backdrop')) {
+                hideElement('#help-modal');
+            }
+        });
+    }
 };
 
 // seperated question functionality so that it has access mobility
 const makingQuestionPhaseReady = (mode) => {
     // clearing out modal layout from screen
-    hideModal();
+    hideElement('#explanation-modal');
 
     // making ready next randomly selected question from randomizer
     // feedQuestion(category);
@@ -62,9 +75,9 @@ const makingQuestionPhaseReady = (mode) => {
 };
 
 // generating a bundle of questions from json data set using randomizer module and assigning it to a variable for future uses
-let generateBundleOfQuestions = (category) => {
+const generateBundleOfQuestions = (category) => {
     // commencing getQuestions with a user selected category name as a parameter to initiate getQuestions
-    let questions = getQuestions(category);
+    const questions = getQuestions(category);
 
     // generating 5 randomly chosen unique question from json data set
     let questionsBundle = new Array(5).fill().map(questions.next);
@@ -74,7 +87,7 @@ let generateBundleOfQuestions = (category) => {
 };
 
 // bringing in a single question each time from roundQuestion to feed into DOM for further uses
-let feedQuestion = () => {
+const feedQuestion = () => {
     // clearing previously held all question data
     questionData = {};
 

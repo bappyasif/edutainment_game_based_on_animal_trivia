@@ -1,6 +1,5 @@
-import Star from '../../all-layouts/Star';
 import { $ } from '../../all-utils/for-dom-calls';
-import { showModal } from '../../all-utils/for-game-play';
+import { showElement } from '../../all-utils/for-game-play';
 import { showEndingScreen } from '../ending-screen/showLayout';
 import { makingQuestionPhaseReady, questionData } from './gamePlay';
 import fillStars from './fillStars';
@@ -14,23 +13,19 @@ const handleResponse = (e, mode) => {
     // mapping responses from button classes to make assesment against questionData.answer value
     const selectedAnswer = e.target.dataset.answer;
     // checking either true==true or false==false, from button class and questionData.answer
-    let checkingMode = mode === 'hard' ? `${questionData.twistedAnswer}` : `${questionData.answer}`
-    const isCorrectAnswer = selectedAnswer === checkingMode;
-    // const isCorrectAnswer = selectedAnswer === `${questionData.answer}`;
+    const correctAnswer =
+        mode === 'hard'
+            ? `${questionData.twistedAnswer}`
+            : `${questionData.answer}`;
+    const isCorrectAnswer = selectedAnswer === correctAnswer;
 
-    if (isCorrectAnswer) {
-        fillStars(true);
-        alert('yeppi');
-    } else {
-        fillStars(false);
-        alert('oopss');
-    }
+    fillStars(isCorrectAnswer);
 
     // show result in the modal
     $('#result').textContent = isCorrectAnswer ? 'Correct!' : 'Wrong!';
 
     // regardless showing up modal, to provide explanation for why
-    showModal();
+    showElement('#explanation-modal');
 
     // removing click event listener
     removeClickEvents();

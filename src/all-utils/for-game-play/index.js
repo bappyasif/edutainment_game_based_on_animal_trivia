@@ -4,16 +4,6 @@ import {
 } from '../../all-layouts/truthTables';
 import { $ } from '../for-dom-calls';
 
-// initially hiding modal view from DOM
-const hideModal = () => {
-    $('.backdrop').style.display = 'none';
-};
-
-// make visible modal div
-const showModal = () => {
-    $('.backdrop').style.display = 'block';
-};
-
 const showQuestion = (text) => {
     $('#question').textContent = text;
 };
@@ -30,34 +20,32 @@ const prepareQuestionStatementTwister = (text) => {
 
 // show twister statement rules is used
 const whichLawIsUsed = (text) => {
-    $('.law-used').textContent = text;
+    $('#law').textContent = text;
 };
 
 // show laws truth table
 const showLawTruthTable = (laws) => {
-    // let implicationLaws = new Image();
-    // implicationLaws.src = './images/implicationLaws.png';
+    const table = $('#truth-table');
+    table.innerHTML = '';
 
-    // let biconditionalLaws = new Image();
-    // biconditionalLaws.src = './images/biconditionalLaws.png';
-
-    const implicationLaws = implicationLawsLayout();
-
-    const biconditionalLaws = biconditionalLawsLayout();
-
-    console.log(implicationLaws, biconditionalLaws);
-
-    $('#truth-table').innerHTML = '';
     if (laws === 'implication') {
-        $('#truth-table').append(implicationLaws);
+        table.append(implicationLawsLayout());
     } else {
-        $('#truth-table').append(biconditionalLaws);
+        table.append(biconditionalLawsLayout());
     }
 };
 
+const hideElement = (selector) => {
+    $(selector).style.display = 'none';
+};
+
+const showElement = (selector) => {
+    $(selector).style.display = 'block';
+};
+
 export {
-    hideModal,
-    showModal,
+    hideElement,
+    showElement,
     showQuestion,
     prepareExplanation,
     prepareQuestionStatementTwister,
