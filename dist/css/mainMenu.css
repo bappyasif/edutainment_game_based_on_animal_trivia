@@ -2,8 +2,8 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('../images/animal-bg-1.png');
-    background-position: center bottom;
+    background-image: url('../images/main-menu.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,7 +16,7 @@
     font-size: min(4rem, 15vw);
     /* line-height: 5rem; */
     text-align: center;
-    color: #2e2828;
+    color: black;
 }
 
 .nav {
@@ -31,7 +31,6 @@
 }
 
 .difficulty__btn:first-child {
-    /* margin-bottom: 2rem; */
     margin-right: 2rem;
 }
 
@@ -42,15 +41,11 @@
 .difficulty__btn:hover {
     color: #f28119;
     background-color: greenyellow;
-    
 }
 
 @media (min-width: 1100px) {
     .title {
         font-size: 10vh;
-    }
-    .background {
-        background-position: center -400px;
     }
     .nav__btn {
         padding: 2vw 1.5vw;
