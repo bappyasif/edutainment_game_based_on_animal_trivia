@@ -1,6 +1,6 @@
 import MainMenu from '../../all-layouts/MainMenu';
 import { $, clearScreen } from '../../all-utils/for-dom-calls';
-import { handlePlay } from './handleButtons';
+import { handlePlay, showAbout, showHowToPlay } from './handleButtons';
 
 const showMenu = () => {
     clearScreen();
@@ -10,8 +10,8 @@ const showMenu = () => {
 
 const setupListeners = () => {
     $('#playBtn').addEventListener('click', handlePlay);
-    // when there are more buttons from main menu, we can configure them all in here
-    // $('#mode').addEventListener('click', handleShowDifficultyMode);
+    $('#howToPlay').addEventListener('click', showHowToPlay);
+    $('#about').addEventListener('click', showAbout);
 };
 
 export default showMenu;

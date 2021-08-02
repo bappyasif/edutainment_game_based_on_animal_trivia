@@ -9,9 +9,14 @@ body {
     height: 100%;
 }
 
+p {
+    margin: 0;
+}
+
 :root {
     --modal-width: 80%;
     --modal-my: 5%;
+    --modal-body-mb: 5rem;
 }
 
 .container {
@@ -111,6 +116,16 @@ body {
     margin-bottom: 2rem;
 }
 
+.modal__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
 .modal__body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -118,5 +133,5 @@ body {
     font-size: 30px;
     line-height: 37px;
     text-align: justify;
-    margin-bottom: 5rem;
+    margin-bottom: var(--modal-body-mb);
 }

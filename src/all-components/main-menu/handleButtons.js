@@ -1,4 +1,6 @@
+import About from '../../all-layouts/About';
 import ChooseDifficulty from '../../all-layouts/ChooseDifficulty';
+import HowToPlay from '../../all-layouts/HowToPlay';
 import { $, clearScreen } from '../../all-utils/for-dom-calls';
 import commenceCategorySelection from '../starting-screen/categorySelection';
 import showStartingScreen from '../starting-screen/showLayout';
@@ -25,6 +27,14 @@ const handlePlay = () => {
     );
 };
 
+const showHowToPlay = () => {
+    showModal(HowToPlay());
+};
+
+const showAbout = () => {
+    showModal(About());
+};
+
 // concerns about firing up category selection process from "starting screen" module
 const initiateCategorySelection = (mode) => {
     clearScreen();
@@ -32,4 +42,4 @@ const initiateCategorySelection = (mode) => {
     commenceCategorySelection(mode);
 };
 
-export { handlePlay };
+export { handlePlay, showHowToPlay, showAbout };
