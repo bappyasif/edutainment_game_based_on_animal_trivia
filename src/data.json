@@ -4,160 +4,180 @@
             "question": "Camels use their humps as nourishment when food is scarce",
             "answer": true,
             "explanation": "Some think they hold water but it's not. Their humps are fat stores, which look droopy if the animals’ bodies burn that fat when food is scarce. ",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "camels use their humps to hold water for consumptions",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by implication Law True & False  results to FALSE",
             "lawUsed": "implication"
         },
         {
             "question": "Giraffes only sleep for 30 minutes",
             "answer": false,
             "explanation": "According to research from the European Sleep Research Society, giraffes actually sleep 4.6 hours a day.",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Giraffes does not sleep at all",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Opossums can hang from their tails",
             "answer": false,
             "explanation": "Baby opossums can hang from their tails for a couple of seconds, but adults are too heavy and only use their tails to help keep their balance while using their legs to climb.",
-            "twister": "consider a either way so that result is TRUE",
+            "twister": "only baby possums can hang from their tails for a couple of seconds",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Bats have small eyes with sensitive vision that help them see in the dark",
             "answer": true,
             "explanation": "Bats do not use echolocatation only. Many fruit bats don’t even echolocate at all. In fact, they have particularly sharp vision.",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "Bats is completely blind",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Bulls are colorblind to red",
             "answer": true,
             "explanation": "It may seem that bulls get mad at the color red but that's not true. They are colorblind to it. What really gets them riled up during a bullfight is the cape’s movement, and they’re more likely to charge at an object that’s moving the most, no matter what color it is.",
-            "twister": "consider a true statement so that result is TRUE",
+            "twister": "Bullfighters Cape Movement is what makes Bulls riled up",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law True & True  results TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Porcupines can shoot their quills",
             "answer": false,
             "explanation": "Quills are mixed onto their back, sides, and tail and lay flat unless they are feeling threatened. They do detach easily when touched though.",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Procupines lay flat Face Down when they are threatened",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Humans evolved from chimpanzees",
             "answer": false,
             "explanation": "Humans and monkeys are both primates. But humans are not descended from monkeys or any other primate living today. We do share a common ape ancestor with chimpanzees.",
-            "twister": "consider a either way so that result is TRUE",
+            "twister": "Humans and Monkeys are both primates",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Humans and chimpanzees have identical genes of over 98%",
             "answer": true,
             "explanation": "Humans and chimpanzees has uncanny similarities but both has evolved into two distinctly separate species in 'ape' family tree.",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "Both humans and chimpanzees has not evolved into two distinctly different species",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Dogs can only see in black and white",
             "answer": false,
             "explanation": "Their vision is limited but they definitely do not see things in black and white, their vision ranges from dark blue to grey to dark and light yellow from spectrum",
-            "twister": "consider a either way so that result is TRUE",
+            "twister": "Dogs vision is limited but it's not all black and white, theres is a spectrum of colors",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Raccoons like clean food, that's why they wash it before eating it",
             "answer": false,
             "explanation": "Raccoons have extremely sensitive front feet and they appear to get more tactile information when their paws are wet than when they are dry, so when water is available they tend to turn their food over repeatedly before eating it.",
-            "twister": "consider a true statement so that result is FALSE",
+            "twister": "Raccoons have extremely sensitive front feet and gets tactile information about their food",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by bi-conditional Law False & True  results to FALSE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Dogs sweat through their tongues",
             "answer": false,
             "explanation": "Dog pants to evaporate moisture from their tongues, nasal passages and lining of their lungs, which helps them to cool down",
-            "twister": "consider a true statement so that result is TRUE",
+            "twister": "Dog pants to evaporate moisture from their tongues",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "An elephant is not the only animal that cannot jump",
             "answer": true,
             "explanation": "An elephant can not jump and so are others like Rhinoceros, Hippopotamus, Manatees and Seals",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "No animals can jump even if they want to ",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law True & False  result to FALSE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Cats are color blind",
             "answer": false,
             "explanation": "Both cats and dogs can see in blue and green, and they can see better in low light situations, for example reds and pinks would appear more green to cats",
-            "twister": "consider a either way so that result is TRUE",
+            "twister": "Both cats and dogs can see in blue and green",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "We humans use only 10 percent of our brains",
             "answer": false,
             "explanation": "We humans virtually speaking every part of our brain and most of our brain is active almost always",
-            "twister": "consider a true statement so that result is FALSE",
+            "twister": "Humans brain is almost always active",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by bi-conditional Law False & True  results to FALSE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Polar bear fur is not entirely white",
             "answer": true,
             "explanation": "Polar bears actually have black skin and translucent fur, which appears so that result is white due to its lack of pigmentation combined with way light reflects off bears snowy white surroundings",
-            "twister": "consider a true statement so that result is TRUE",
+            "twister": "Polar bear has actually black skin with translucent fur",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law True & True  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Bats do not suck blood",
             "answer": true,
             "explanation": "Bats do not suck any human beings blood, rather they have an anti clotting enzyme in their saliva that helps keep blood flowing",
-            "twister": "consider a false statment so that result is FALSE",
+            "twister": "Bats only sucks humans blood, yum yum!!",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Anteaters eat ants through their nose",
             "answer": false,
             "explanation": "It’s a myth that an anteater will consume ants through its nose. Instead, anteaters use their claws to rip open anthills and then use their long tongues to eat the insects.",
-            "twister": "consider a either way so that result is TRUE",
+            "twister": "Anteaters uses its long toungues to eat ants",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Lemmings commit suicide",
             "answer": false,
             "explanation": "No, they don't. Not ever. The erroneous notion that lemmings catapult themselves off cliffs en masse apparently got major traction from a 1958 Academy Award-winning Disney nature documentary called \"White Wilderness\".",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Lemmings catapult themselves off cliffs always",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Bears go into torpor or a deep sleep during the winter",
             "answer": true,
             "explanation": "Bears don't hibernate, however, they go into torpor or a deep sleep, during the winter. The difference between the two is that animals easily wake up from noises in torpor, and their body temperature is still relatively high.",
-            "twister": "consider a true statement so that result is TRUE",
+            "twister": "Bears do not hibernate",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law True & True results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Mice only eat cheese",
             "answer": false,
             "explanation": "A popular myth portrayed in many kids’ cartoons is a mouse always seeking a chunk of cheese to eat. While mice will eat just about anything available, they prefer sweet, sugary foods over cheese.",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Mice hates anything sweet and sugary foods",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         }
     ],
@@ -169,6 +189,7 @@
             "explanation": "Though owls are used as symbol of wisdom they have smaller brains and they are not as smart as crows and ravens",
             "twister": "consider a false statement so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -177,6 +198,7 @@
             "explanation": "When feeiling threatened, ostriches sometimes flop on the ground",
             "twister": "consider a true statement so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -185,6 +207,7 @@
             "explanation": "It was due to an account when pilots saw penguins tumbling over when looked skywards, but in reality penguins have ability to hold their footing even when they look up at planes",
             "twister": "consider a false statement so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -193,6 +216,7 @@
             "explanation": "It's more related to an old english word 'Balde' which means color white. It has nothing to do with the appearance of baldness",
             "twister": "consider either way so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -201,6 +225,7 @@
             "explanation": "Unlike humans, an owl can not move their eyes from side to side, which in turn developed to a greater head turning capability as they evolved and adapted",
             "twister": "consider a false statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -209,6 +234,7 @@
             "explanation": "Male birds sings to signal others male birds to stay away as a form of aggression, and female birds like those male birds can sing very often and have complex songs",
             "twister": "consider either way so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -217,6 +243,7 @@
             "explanation": "Birds can recognize relatives they haven’t seen in years, and recognize a neighbor or a stranger just by its voice, remember the location of food they hid away months earlier, and even use things as tools",
             "twister": "consider a true statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -225,6 +252,7 @@
             "explanation": "Owls are limited to turning their heads 270 degrees in one direction.",
             "twister": "consider a false statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -233,6 +261,7 @@
             "explanation": "They’re pretty much built to stay on the ground, but wild turkeys can take to the air. They usually don’t go further than 100 yards, but they can travel at 55mph",
             "twister": "consider a false statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -241,6 +270,7 @@
             "explanation": "Not all turkeys gobble. It’s almost exclusively the males, or toms, that get their gobble on.",
             "twister": "consider either way so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -249,6 +279,7 @@
             "explanation": "It’s not true that vultures stalk living animals that they know are about to die. In reality, they just have excellent senses, which helps them find food—which, in their case, is typically already-dead creatures",
             "twister": "consider a false statement so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -257,6 +288,7 @@
             "explanation": "You may have heard the idiom “rare as hen’s teeth,” but according to a study published in 2006, hens can grow teeth. Around 70-80 million years ago, birds had chompers. They went away, but the genes are still there.",
             "twister": "consider a false statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         }
     ],
@@ -268,6 +300,7 @@
             "explanation": "A species of jellyfish known as Turritopsis dohrnii is essentially an immortal sea creature that revert back into juvenile state after adulthood, so it can live alongside its offspring!",
             "twister": "consider a false statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -276,6 +309,7 @@
             "explanation": "Sharks have a highly enlarged portion of brain for smelling odors, and though they smell their prey from far but not from miles but few football fields away at best",
             "twister": "consider a false statement so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -284,6 +318,7 @@
             "explanation": "All sharks lack swim bladder, so when they stop swimming they fall into bottom of ocean floor, and their bodies are so incompressible that it doesn't harm them, they can always ascent or descent for oxygen when needed",
             "twister": "consider either way so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -292,6 +327,7 @@
             "explanation": "Farmed fishes are both safe and healthy to eat, diets and environment those fishes live are monitored throughout their life span",
             "twister": "consider a true statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -300,6 +336,7 @@
             "explanation": "It's a matter of preference. While some enjoy wild fishes, and others enjoy farmed dishes as well, moreover they are both healthy for you",
             "twister": "consider a false statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -308,6 +345,7 @@
             "explanation": "Goldfish are one of those longest lived fishes around that can we have, and can live for several decades under right conditions",
             "twister": "consider a false statement so that result is FALSE",
             "twistedAnswer": false,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -316,6 +354,7 @@
             "explanation": "Both wild and farmed salmon get their pink color from a carotenoid anti-oxidant in their diet called astaxanthin which is traditionally produced by algae that wild salmon consume",
             "twister": "consider either way so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -324,6 +363,7 @@
             "explanation": "Honestly, we all have our superstitions about what bring the whales close, but most if not all of them are just wishful thinking. For one, the sound barrier between air and water is pretty good, so when you're on shore, chances are the whales can't hear you at all",
             "twister": "consider a false statement so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -332,6 +372,7 @@
             "explanation": "They have a memory span of at least three months, according to researchers at Plymouth University.",
             "twister": "consider either way so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         },
         {
@@ -340,6 +381,7 @@
             "explanation": "The 1992 book Sharks Don’t Get Cancer by I. William Lane is to blame for this animal myth. The author used the book’s premise to promote shark cartilage extract for cancer prevention. Cancerous tumors have in fact been found in sharks, disproving this theory.",
             "twister": "consider a false statement so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "bi-conditional"
         },
         {
@@ -348,6 +390,7 @@
             "explanation": "Yes, piranhas are fearsome-looking creatures with knife-sharp teeth, but by all accounts they're shy and non-aggressive. In fact, piranhas mostly scavenge for fish, plants and insects in South American rivers and lakes where they live.",
             "twister": "consider either way so that result is TRUE",
             "twistedAnswer": true,
+            "twistedExplanation": "",
             "lawUsed": "implication"
         }
     ],
@@ -357,120 +400,135 @@
             "question": "Chameleons change colors to blend in with their surroundings",
             "answer": false,
             "explanation": "Yes, chameleons can change colors but it is to regulate their body temperature or to communicate with other chameleons but not to camouflage themselves from its surroundings",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Chameleons can not chnages color to whatsoever at all",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Chameleons use their array of bright colors as social signal",
             "answer": true,
             "explanation": "Chameleons do not have to exert a lot of effort to blend in with natural state, as they often resembles leaves or branches, but more often they use it to social interactions among them",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "Chameleons uses magic to change their color",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by implication Law True & False  results to FALSE",
             "lawUsed": "implication"
         },
         {
             "question": "Baby snakes don't need parental guidance",
             "answer": true,
             "explanation": "Most snakes do not provide parental care like other animals to their young, and they are self sufficient at birth and their own, which means their parent may not be near them if you spot any baby snakes around",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "There is no such things as a baby snakes, snakes are just snakes",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Snakes can bite or strike under water",
             "answer": true,
             "explanation": "A snake can bite or strike above or below water surface. There are many species of snakes which hunts prey from water",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "Snakes only lives on land or dry land",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by implication Law True & False  results to FALSE",
             "lawUsed": "implication"
         },
         {
             "question": "Snakes are aggressive and will chase people",
             "answer": false,
             "explanation": "While 'aggressive' and 'defensive' can be twisted to mean same things in broader sense, in reality there is no snake that will chase or act aggressively rather 'defensively' towards any human being",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Snakes remember their offenders face forever",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Not all small snakes you see are babies",
             "answer": true,
             "explanation": "While many species of snakes may be small as hatchlings or babies, there are also many species of small, harmless snakes which do not exceed 8 to 15 inches long as an adult",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "All snakes are tall as pythons",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by implication Law True & False  results to FALSE",
             "lawUsed": "implication"
         },
         {
             "question": "When bitten by a venomous snakes, venom should be cut or sucked out",
             "answer": false,
             "explanation": "It has a potential of doing more harm than good, and is generally not recommended by most snake bite specialist, if not all",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Snakes will come back and suck venoms out of it's victims body when a snake charmer plays its flute",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Turtles and tortoise can climb out of their shells",
             "answer": false,
             "explanation": "A turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs",
-            "twister": "consider either way so that result is TRUE",
+            "twister": "Tortoise and Turtles shell is a part of their skeletal structure",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "Touching toads gives you warts",
             "answer": false,
             "explanation": "Toads have wart-like bumps, and human warts are contagious, but you could never catch a wart from a frog or toad. While humans get warts from viruses, the bumps on the amphibians are glands.",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Human warts are not contagious at all, unlike frogs warts they are very contagious",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Snakes do not have bones",
             "answer": false,
             "explanation": "All snakes are vertebrate animals, and do have bones. They have a skull and specialized jaw bones and ligaments, many connected vertebra, or a spinal backbone, and as many as 300-400 pairs of ribs or more, among a few other minor bones present.",
-            "twister": "consider either way so that result is TRUE",
+            "twister": "Snakes are vertebrate animals",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "A frog will sit in slowly heated water until it dies",
             "answer": false,
             "explanation": "This is another useful metaphor, yet untrue. A frog will try to escape a slowly heating pot of water when the temperature goes past its comfort zone.",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Frog loves a very very hot bath, more boiled up water merrier it gets for them",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Snakes do not have ears",
             "answer": true,
             "explanation": "Snakes lack both an outer ear and middle ear, according to a 2012 study in the Journal of Experimental Biology. However, they have one middle ear bone that connects the inner ear to the jaw. This enables snakes to hear vibrations, such as a predator creeping closer on the forest floor",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "Snakes have sattelite connections to detect noises from outside",
             "twistedAnswer": false,
+            "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> and by implication Law True & False  results to FALSE",
             "lawUsed": "implication"
         },
         {
             "question": "Snakes unhinge their jaws to swallow their prey",
             "answer": false,
             "explanation": "A snake swallowing large prey like a mouse or a bird doesn’t unhinge its jaws to swallow the meal. Instead, its jaws extend (because of it’s lower jaw quadrate bone) and its mouth gape increases (by way of flexible jaw bone ligaments) in order to begin swallowing.",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Snakes has laser like magic potions to make their preys small enough to gobble them up as a whole",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         },
         {
             "question": "Lizards are loners",
             "answer": false,
             "explanation": "Recent research has shown some lizards are devoted parents, and mates that can distinguish their kin from strangers; they can even recognize individuals.",
-            "twister": "consider either way so that result is TRUE",
+            "twister": "Lizards are devoted parents",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> and by implication Law True & True/False  results to TRUE",
             "lawUsed": "implication"
         },
         {
             "question": "A turtle or tortoise cannot feel when its shell is carved or painted into",
             "answer": false,
             "explanation": "Just as with human fingernails and skin, a turtle or tortoise’s shell has sensitive nerve endings which can feel sensations to what may seemingly be hardened armor also designed to protect them from predators.",
-            "twister": "consider a false statement so that result is TRUE",
+            "twister": "Turtle or Tortoise shell is made of hard stones, it doesnt feel a thing when touched or curved onto it",
             "twistedAnswer": true,
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> and by bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
         }
     ]

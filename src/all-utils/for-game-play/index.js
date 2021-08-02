@@ -10,7 +10,7 @@ const showQuestion = (text, mode) => {
 
 // add descriptive text to explanation div
 const prepareExplanation = (text) => {
-    $('#explanation-text').textContent = text;
+    $('#explanation-text').innerHTML = text;
 };
 
 // make ready twister statement

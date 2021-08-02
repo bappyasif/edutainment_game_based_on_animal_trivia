@@ -83,7 +83,7 @@ const makingQuestionPhaseReady = (mode) => {
     }
 
     // showing up modal and explanation in it on screen
-    prepareExplanation(questionData.explanation);
+    mode == 'hard' ? prepareExplanation(questionData.twistedExplanation) : prepareExplanation(questionData.explanation);
     // console.log(questionData.explanation)
 };
 
