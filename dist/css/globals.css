@@ -61,7 +61,7 @@ body {
     font-size: 40px;
     line-height: 49px;
 
-    background: rgba(232, 220, 179, 0.9);
+    background: rgb(232, 220, 179);
     box-sizing: border-box;
     border-radius: 12px;
     padding: 0.7rem;
