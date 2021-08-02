@@ -14,23 +14,24 @@ You will be presented with a statement and you have to decide if it's true or a 
 
 ### Hard
 
-Same gameplay but with a twist! Aside from the first statement, you'll also get what we call a "twister". You'll also be given a "law prompt" at top of "question statement" and you'll need to decide if those two statements when check against our provided "Truth-Table" where it falls into.
+Same gameplay but with a twist! Aside from the first statement, you'll also get what we call a "twister". You'll also be given a "law prompt" at top of "question statement" and you'll need to decide where those two statements in our "truth-table" falls into and decide it's coutcome.
 
-## Example
-    [] Easy: 
+### Example
+    ```
+        ## Easy: 
 
-        Question Statement: Humans are mammals
-        Explanation: Yes, humans fall under Mammals category among animal kingdom
-        Correct Answer: True
-    
-    [] Hard:
+            Question Statement: Humans are mammals
+            Explanation: Yes, humans fall under Mammals category among animal kingdom
+            Correct Answer: True
+        
+        ## Hard:
 
-        Law Used: Implication Rule
-        Question Statement: Humans are mammals   => True
-        Twister Statement: Humans can also breath under water  => False
-        Twister Explanation: No, Question statement, lets denote this as "A" and Twister Statement, lets denote this as "B", and here A does not implies B so Implication of A and B is False  ==> e.g. True and False "Implies" False
-        Correct Answer: False
-
+            Law Used: Implication Rule
+            Question Statement: Humans are mammals   => True
+            Twister Statement: Humans can also breath under water  => False
+            Twister Explanation: No, Question statement: "A" and Twister Statement: "B", here A does not implies B so Implication of A and B is False  ==> e.g. True and False "Implies" False
+            Correct Answer: False
+    ```
 
 ## Preview
 
@@ -59,4 +60,4 @@ All credits for the questions in this game goes to their rightful owner.
 
 ## Contributors
 
-Shin Andrei Riego ([@lemonadee71](https://github.com/lemonadee71)) and Bappy ([@bappyasif](https://github.com/bappyasif))
+Shin Andrei Riego ([@lemonadee71](https://github.com/lemonadee71)) and A.Bappy ([@bappyasif](https://github.com/bappyasif))
