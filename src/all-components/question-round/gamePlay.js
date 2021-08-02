@@ -1,3 +1,4 @@
+import HowToPlay from '../../all-layouts/HowToPlay';
 import { $ } from '../../all-utils/for-dom-calls';
 import {
     hideElement,
@@ -44,6 +45,18 @@ const commencePlaying = (category, mode) => {
         $('#help-modal').addEventListener('click', (e) => {
             if (e.target.matches('.backdrop')) {
                 hideElement('#help-modal');
+            }
+        });
+    }
+
+    const isFirstTime = JSON.parse(window.localStorage.getItem('isFirstTime'));
+    if (isFirstTime && mode === 'hard') {
+        $('#instructions').append(HowToPlay(true));
+        showElement('#instructions');
+
+        $('#instructions').addEventListener('click', (e) => {
+            if (e.target.matches('.backdrop')) {
+                hideElement('#instructions');
             }
         });
     }

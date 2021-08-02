@@ -70,7 +70,11 @@ const QuestionRound = (mode = 'easy') => {
                             </button>
                         `
                         : ''
-                }               
+                }
+                
+                <!-- How To Play Modal -->
+                <div id="instructions" class="backdrop"></div>
+                
             </div>
         </div>`
     );
