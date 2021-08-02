@@ -2,7 +2,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('../images/main-menu.png');
+    background-image: url('../images/main-menu-min.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,5 +56,11 @@
 @media (min-height: 700px) {
     .background {
         background-position: center bottom;
+        /* background-position: center; */
+        /* background-position: center top; */
+        /* background-size: contain; */
     }
+    /* body {
+        background-color: rgb(88, 168, 8);
+    } */
 }

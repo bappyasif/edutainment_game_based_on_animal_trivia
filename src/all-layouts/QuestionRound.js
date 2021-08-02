@@ -14,7 +14,7 @@ const QuestionRound = (mode = 'easy') => {
                             
                 ${
                     mode === 'hard'
-                        ? '<p class="question__text" id="law" style="margin-bottom: 2rem;"></p>'
+                        ? '<p class="question__text" id="law" style="margin-bottom: 2rem; color: greenyellow"></p>'
                         : ''
                 }
 
