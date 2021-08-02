@@ -1,7 +1,12 @@
 .ending-screen {
-    background: #ba73c6;
-    color: white;
+    /* background: #ba73c6; */
+    /* color: white; */
     height: 100%;
+
+    background-image: url('../images/ed-screen.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .score__text {
@@ -42,6 +47,6 @@
     justify-content: center;
 }
 
-.controls__btn {
+/* .controls__btn {
     background: linear-gradient(90deg, #ae3fb8 6.55%, #7c3fff 99.24%);
-}
+} */

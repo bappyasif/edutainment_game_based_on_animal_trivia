@@ -26,9 +26,9 @@
     align-items: center;
 }
 
-.nav__btn {
+/* .nav__btn {
     background: linear-gradient(90deg, #8fd61c 6.55%, #00761a 99.24%);
-}
+} */
 
 .difficulty__btn:first-child {
     margin-right: 2rem;
