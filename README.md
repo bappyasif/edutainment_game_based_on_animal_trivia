@@ -14,24 +14,22 @@ You will be presented with a statement and you have to decide if it's true or a 
 
 ### Hard
 
-Same gameplay but with a twist! Aside from the first statement, you'll also get what we call a "twister". You'll also be given a "law prompt" at top of "question statement" and you'll need to decide where those two statements in our "truth-table" falls into and decide it's coutcome.
+Same gameplay but with a twist! Aside from the first statement, you'll also get what we call a "twister". You'll also be given a "law prompt" at top of "question statement" and you'll need to decide where those two statements in our "truth-table" falls into and decide it's outcome.
 
-### Example
-    ```
-        ## Easy: 
+## Example
+### Easy
 
-            Question Statement: Humans are mammals
-            Explanation: Yes, humans fall under Mammals category among animal kingdom
-            Correct Answer: True
-        
-        ## Hard:
+- **Question Statement:** Humans are mammals
+- **Explanation:** Yes, humans fall under Mammals category among animal kingdom
+- **Correct Answer:** True
 
-            Law Used: Implication Rule
-            Question Statement: Humans are mammals   => True
-            Twister Statement: Humans can also breath under water  => False
-            Twister Explanation: No, Question statement: "A" and Twister Statement: "B", here A does not implies B so Implication of A and B is False  ==> e.g. True and False "Implies" False
-            Correct Answer: False
-    ```
+### Hard
+
+- **Law Used:** Implication Rule
+- **Question Statement (A):** Humans are mammals  ⇒  True
+- **Twister Statement (B):** Humans can also breath under water  ⇒  False
+- **Explanation:** Here A does not imply B so implication of A and B is False  ⇒  e.g. True and False "implies" False
+- **Correct Answer:** False
 
 ## Preview
 
