@@ -5,21 +5,25 @@ const HowToPlay = (isInQuestionRound = false) => {
     const easyInstructions = `
         <p class="modal__subtitle">Easy Mode</p>
         <p class="modal__body" style="--modal-body-mb: 2rem;">
-            you will be provided a Statement and you have to decide if it is True or a Myth, it's that simple, are you ready for it? just click <strong>Play</strong> and begin with your preffered <strong>Difficulty Level</strong> and see how many myths you busted!!
+            You will be provided a statement and you have to decide if it is True or a Myth. It's that simple!
         </p>
     `;
 
     const hardInstructions = `
         <p class="modal__subtitle">Hard Mode</p>
         <p class="modal__body" style="--modal-body-mb: 2rem;">
-        <strong>Info:</strong> you will be proivided Two Statements, and a "Law" that you have to use and check against a given Table, that you will find bottom of this screen (?), and see where it fits. <br /> <br />
-            <strong>for example:</strong> <br />
-            <strong>Statement (A): is false </strong> <br />
-            <strong>Statement (B): is false </strong> <br /> <br />
-            <strong>Law Used: is Implication </strong> <br />
-            <strong>Answer: should be True </strong> (<i>if it was "Easy Mode" answer would be "False" </i>)<br /> <br />
-            <strong>Explanation:</strong> Implication law says, if your begining statement/logic is false and any derevative statement/logic after that, whether True/Fale be Implied as True,
-            you will find full Table showing all possible options Or combinations by clicking <strong>(?)</strong> from <strong>bottom right</strong> corner of this screen  
+            You will be provided two statements A and B, and a "law" that you have to use and check against a given table and see where it fits.<br/><br/>  
+            <span class="modal__subtitle">Example:</span><br/>
+            <strong>Statement A</strong> is False <br/>
+            <strong>Statement B</strong> is False <br/><br/>
+            <strong>Law Used:</strong> Implication <br/>
+            <strong>Answer:</strong> True <br/><br/>
+            <strong>Explanation:</strong> Implication Logic is FALSE if "A" is true and "B" is false. The rest of the cases are TRUE. In this example, A and B are false, therefore the answer is true.<br/><br/>
+            ${
+                isInQuestionRound
+                    ? '<em>To see the table and for more information, just click the <strong>help button (?)</strong> at the bottom right of the screen</em>'
+                    : ''
+            }
         </p>
     `;
 
