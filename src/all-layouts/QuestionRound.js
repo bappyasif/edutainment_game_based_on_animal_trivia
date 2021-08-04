@@ -31,7 +31,7 @@ const QuestionRound = (mode = 'easy') => {
 
                 <div id="choices" class="choices">
                     <button data-answer="true" class="btn--secondary choices__btn">True</button>
-                    <button data-answer="false" class="btn--secondary choices__btn">Myth</button>
+                    <button data-answer="false" class="btn--secondary choices__btn">${mode=='hard' ? "False" : "Myth"}</button>
                 </div>
 
                 <!-- Explanation Modal -->

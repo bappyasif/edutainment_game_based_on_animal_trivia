@@ -1,5 +1,5 @@
 .ending-screen {
-    /* background: #ba73c6; */
+    background: #ba73c6;
     /* color: white; */
     height: 100%;
 
@@ -10,7 +10,7 @@
 }
 
 .score__text {
-    margin-top: 4rem;
+    margin-top: 11.87rem;
     margin-bottom: 0.5rem;
     padding: 0.8rem;
     font-family: 'Play', sans-serif;
@@ -42,11 +42,31 @@
 
 .controls {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: auto;
     justify-content: center;
+}
+
+.controls__btn:nth-child(1) {
+    margin-right: 4rem;
 }
 
 /* .controls__btn {
     background: linear-gradient(90deg, #ae3fb8 6.55%, #7c3fff 99.24%);
 } */
+
+@media (min-width: 800px) {
+    .controls {
+        margin-top: -9%;
+    }
+}
+
+@media (max-width: 800px) {
+    .ending-screen {
+        background-image: none;
+        height: auto;
+    }
+    .controls__btn {
+        background: linear-gradient(90deg, #ae3fb8 6.55%, #7c3fff 99.24%);
+    }
+}

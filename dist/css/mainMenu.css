@@ -53,7 +53,7 @@
     }
 }
 
-@media (min-height: 700px) {
+@media (min-height: 754px) {
     .background {
         background-position: center bottom;
         /* background-position: center; */
