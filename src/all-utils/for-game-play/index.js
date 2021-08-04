@@ -20,7 +20,7 @@ const prepareQuestionStatementTwister = (text, mode) => {
 
 // show twister statement rules is used
 const whichLawIsUsed = (text) => {
-    $('#law').textContent = "Use "+'"'+text+'"'+ " law. click ("+"\u003F"+") for more info";
+    $('#law').textContent = `Use ${text} law. Click (?) for more info.`;
 };
 
 // show laws truth table
