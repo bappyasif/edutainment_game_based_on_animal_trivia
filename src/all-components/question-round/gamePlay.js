@@ -1,5 +1,5 @@
 import HowToPlay from '../../all-layouts/HowToPlay';
-import { $ } from '../../all-utils/for-dom-calls';
+import { $, $all } from '../../all-utils/for-dom-calls';
 import {
     hideElement,
     showElement,
@@ -113,7 +113,13 @@ const feedQuestion = () => {
 
 // listen for which option they choosing from
 const listenForUserResponse = (mode) => {
+    // need to refactor this, so that in between spaces are not "click" event prone
     $('#choices').addEventListener('click', (evt) => handleResponse(evt, mode));
+    
+    // still clicking in between blank spaces of "True and False" buttons are activated
+    // trying to mitigate this by using two distinct "ids" for them but still having same effect as above statement
+    // $('#true-choice').addEventListener('click', (evt) => handleResponse(evt, mode));
+    // $('#false-choice').addEventListener('click', (evt) => handleResponse(evt, mode));
 };
 
 export { commencePlaying, questionData, makingQuestionPhaseReady };

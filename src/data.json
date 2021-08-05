@@ -279,7 +279,7 @@
             "explanation": "It’s not true that vultures stalk living animals that they know are about to die. In reality, they just have excellent senses, which helps them find food—which, in their case, is typically already-dead creatures",
             "twister": "Vultures has great sense in finding food, which is in their case is any already perished animal",
             "twistedAnswer": false,
-            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & True  results to FALSE",
+            "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Bi-conditional Law False & True  results to FALSE",
             "lawUsed": "bi-conditional"
         },
         {

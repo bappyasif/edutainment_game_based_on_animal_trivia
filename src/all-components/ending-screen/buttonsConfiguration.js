@@ -12,7 +12,7 @@ const handlePlayAgain = (mode) => {
     clearScreen();
     showStartingScreen();
     commenceCategorySelection(mode);
-    console.log(mode, 'here');
+    // console.log(mode, 'here');
 };
 
 export { handleBackToMenu, handlePlayAgain };
