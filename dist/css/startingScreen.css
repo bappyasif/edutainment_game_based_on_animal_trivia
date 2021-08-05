@@ -85,14 +85,8 @@
     }
 }
 
-@media (max-width: 1280px) and (min-height: 1000px) {
+@media (max-width: 880px) and (min-height: 1000px) {
     .categories {
         width: 50%;
-    }
-}
-
-@media (min-height: 840px) {
-    .category {
-        margin-bottom: 20vh;
     }
 }
