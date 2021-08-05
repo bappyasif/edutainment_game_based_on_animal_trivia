@@ -4,7 +4,7 @@
             "question": "Camels use their humps as nourishment when food is scarce",
             "answer": true,
             "explanation": "Some think they hold water but it's not. Their humps are fat stores, which look droopy if the animals’ bodies burn that fat when food is scarce. ",
-            "twister": "Camels use their humps to hold water for consumptions",
+            "twister": "Camels use their humps to hold water for their own consumption",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Implication Law, True & False  results to FALSE",
             "lawUsed": "implication"
@@ -13,7 +13,7 @@
             "question": "Giraffes only sleep for 30 minutes",
             "answer": false,
             "explanation": "According to research from the European Sleep Research Society, giraffes actually sleep 4.6 hours a day.",
-            "twister": "Giraffes does not sleep at all",
+            "twister": "Giraffes do not sleep at all",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -22,7 +22,7 @@
             "question": "Opossums can hang from their tails",
             "answer": false,
             "explanation": "Baby opossums can hang from their tails for a couple of seconds, but adults are too heavy and only use their tails to help keep their balance while using their legs to climb.",
-            "twister": "Only baby possums can hang from their tails for a couple of seconds",
+            "twister": "Only baby opossums can hang from their tails for a couple of seconds",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -31,7 +31,7 @@
             "question": "Bats have small eyes with sensitive vision that help them see in the dark",
             "answer": true,
             "explanation": "Bats do not use echolocatation only. Many fruit bats don’t even echolocate at all. In fact, they have particularly sharp vision.",
-            "twister": "Bats is completely blind",
+            "twister": "Bats are completely blind",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
@@ -40,7 +40,7 @@
             "question": "Bulls are colorblind to red",
             "answer": true,
             "explanation": "It may seem that bulls get mad at the color red but that's not true. They are colorblind to it. What really gets them riled up during a bullfight is the cape’s movement, and they’re more likely to charge at an object that’s moving the most, no matter what color it is.",
-            "twister": "Bullfighters Cape Movement is what makes Bulls riled up",
+            "twister": "It's the bullfighter's cape's movement that makes a bull riled up",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law True & True  results TRUE",
             "lawUsed": "implication"
@@ -49,7 +49,7 @@
             "question": "Porcupines can shoot their quills",
             "answer": false,
             "explanation": "Quills are mixed onto their back, sides, and tail and lay flat unless they are feeling threatened. They do detach easily when touched though.",
-            "twister": "Procupines lay flat Face Down when they are threatened",
+            "twister": "Porcupines lay flat face down when they are threatened",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -58,7 +58,7 @@
             "question": "Humans evolved from chimpanzees",
             "answer": false,
             "explanation": "Humans and monkeys are both primates. But humans are not descended from monkeys or any other primate living today. We do share a common ape ancestor with chimpanzees.",
-            "twister": "Humans and Monkeys are both primates",
+            "twister": "Humans and monkeys are both primates",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -76,7 +76,7 @@
             "question": "Dogs can only see in black and white",
             "answer": false,
             "explanation": "Their vision is limited but they definitely do not see things in black and white, their vision ranges from dark blue to grey to dark and light yellow from spectrum",
-            "twister": "Dogs vision is limited but it's not all black and white, theres is a spectrum of colors",
+            "twister": "Dog's vision is limited but it's not all black and white; there's a spectrum of colors",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -85,7 +85,7 @@
             "question": "Raccoons like clean food, that's why they wash it before eating it",
             "answer": false,
             "explanation": "Raccoons have extremely sensitive front feet and they appear to get more tactile information when their paws are wet than when they are dry, so when water is available they tend to turn their food over repeatedly before eating it.",
-            "twister": "Raccoons have extremely sensitive front feet and gets tactile information about their food",
+            "twister": "Raccoons have extremely sensitive front feet and can get tactile information about their food",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Bi-conditional Law False & True  results to FALSE",
             "lawUsed": "bi-conditional"
@@ -94,7 +94,7 @@
             "question": "Dogs sweat through their tongues",
             "answer": false,
             "explanation": "Dog pants to evaporate moisture from their tongues, nasal passages and lining of their lungs, which helps them to cool down",
-            "twister": "Dog pants to evaporate moisture from their tongues",
+            "twister": "Dogs pant to evaporate moisture from their tongues",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -103,7 +103,7 @@
             "question": "An elephant is not the only animal that cannot jump",
             "answer": true,
             "explanation": "An elephant can not jump and so are others like Rhinoceros, Hippopotamus, Manatees and Seals",
-            "twister": "No animals can jump even if they want to ",
+            "twister": "No animals can jump even if they want to",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law True & False  result to FALSE",
             "lawUsed": "bi-conditional"
@@ -121,7 +121,7 @@
             "question": "We humans use only 10 percent of our brains",
             "answer": false,
             "explanation": "We humans virtually speaking every part of our brain and most of our brain is active almost always",
-            "twister": "Humans brain is almost always active",
+            "twister": "Human brain is almost always active",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Bi-conditional Law False & True  results to FALSE",
             "lawUsed": "bi-conditional"
@@ -130,7 +130,7 @@
             "question": "Polar bear fur is not entirely white",
             "answer": true,
             "explanation": "Polar bears actually have black skin and translucent fur, which appears so that result is white due to its lack of pigmentation combined with way light reflects off bears snowy white surroundings",
-            "twister": "Polar bear has actually black skin with translucent fur",
+            "twister": "Polar bear actually has black skin with translucent fur",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law True & True  results to TRUE",
             "lawUsed": "implication"
@@ -139,7 +139,7 @@
             "question": "Bats do not suck blood",
             "answer": true,
             "explanation": "Bats do not suck any human beings blood, rather they have an anti clotting enzyme in their saliva that helps keep blood flowing",
-            "twister": "Bats only sucks humans blood, yum yum!!",
+            "twister": "Bats only suck human blood, yum yum!!",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
@@ -148,7 +148,7 @@
             "question": "Anteaters eat ants through their nose",
             "answer": false,
             "explanation": "It’s a myth that an anteater will consume ants through its nose. Instead, anteaters use their claws to rip open anthills and then use their long tongues to eat the insects.",
-            "twister": "Anteaters uses its long toungues to eat ants",
+            "twister": "Anteaters use its long tongues to eat ants",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -157,7 +157,7 @@
             "question": "Lemmings commit suicide",
             "answer": false,
             "explanation": "No, they don't. Not ever. The erroneous notion that lemmings catapult themselves off cliffs en masse apparently got major traction from a 1958 Academy Award-winning Disney nature documentary called \"White Wilderness\".",
-            "twister": "Lemmings catapult themselves off cliffs always",
+            "twister": "Lemmings catapult themselves off cliffs all the time",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False results to TRUE",
             "lawUsed": "bi-conditional"
@@ -175,7 +175,7 @@
             "question": "Mice only eat cheese",
             "answer": false,
             "explanation": "A popular myth portrayed in many kids’ cartoons is a mouse always seeking a chunk of cheese to eat. While mice will eat just about anything available, they prefer sweet, sugary foods over cheese.",
-            "twister": "Mice hates anything sweet and sugary foods",
+            "twister": "Mice hates anything sweet and sugary",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -196,7 +196,7 @@
             "question": "Ostriches sometimes flop on ground",
             "answer": true,
             "explanation": "When feeiling threatened, ostriches sometimes flop on the ground",
-            "twister": "Ostriches are tallest and heaviest bird on planet Earth",
+            "twister": "Ostriches are the tallest and heaviest bird",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law True & True  results to TRUE",
             "lawUsed": "implication"
@@ -214,7 +214,7 @@
             "question": "Bald eagle got its name because of its light-colored head which gives it a 'bald' appearance",
             "answer": false,
             "explanation": "It's more related to an old english word 'Balde' which means color white. It has nothing to do with the appearance of baldness",
-            "twister": "Bald eagle name has everything to do with appearance of Baldness",
+            "twister": "Bald eagle's name has everything to do with the appearance of baldness",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -232,7 +232,7 @@
             "question": "Birds sing because they are happy",
             "answer": false,
             "explanation": "Male birds sings to signal others male birds to stay away as a form of aggression, and female birds like those male birds can sing very often and have complex songs",
-            "twister": "Male birds sings to send signals to other Male birds to hangout",
+            "twister": "Male birds sing to send signals to other male birds to hangout",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -286,7 +286,7 @@
             "question": "Hens have teeth",
             "answer": true,
             "explanation": "You may have heard the idiom “rare as hen’s teeth,” but according to a study published in 2006, hens can grow teeth. Around 70-80 million years ago, birds had chompers. They went away, but the genes are still there.",
-            "twister": "Chickens are closely related to Dinosaures from Jurassic period",
+            "twister": "Chickens are closely related to dinosaurs from the Jurassic period",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law True & True  results to TRUE",
             "lawUsed": "implication"
@@ -298,7 +298,7 @@
             "question": "There is a species of jellyfish that technically doesn't perish and thus immortal",
             "answer": true,
             "explanation": "A species of jellyfish known as Turritopsis dohrnii is essentially an immortal sea creature that revert back into juvenile state after adulthood, so it can live alongside its offspring!",
-            "twister": "Turritopsis Dohrnii is an unknown species of Jelly Fish",
+            "twister": "Turritopsis Dohrnii is an unknown species of jelly fish",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Implication Law True & False  results to FALSE",
             "lawUsed": "implication"
@@ -316,7 +316,7 @@
             "question": "Any sharks that stop swimming will suffocate and die",
             "answer": false,
             "explanation": "All sharks lack swim bladder, so when they stop swimming they fall into bottom of ocean floor, and their bodies are so incompressible that it doesn't harm them, they can always ascent or descent for oxygen when needed",
-            "twister": "All sharks has huge swim bladder",
+            "twister": "All sharks have huge swim bladder",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -325,7 +325,7 @@
             "question": "Farmed fish is not safe to eat",
             "answer": false,
             "explanation": "Farmed fishes are both safe and healthy to eat, diets and environment those fishes live are monitored throughout their life span",
-            "twister": "Firmed fishes are monitored throughout their life span",
+            "twister": "Farmed fishes are monitored throughout their life span",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Bi-conditional Law False & True  results to FALSE",
             "lawUsed": "bi-conditional"
@@ -334,7 +334,7 @@
             "question": "Farmed fish taste just as good as wild fish",
             "answer": true,
             "explanation": "It's a matter of preference. While some enjoy wild fishes, and others enjoy farmed dishes as well, moreover they are both healthy for you",
-            "twister": "consider a false statement so that result is FALSE",
+            "twister": "Farmed fish are not healthy for you",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Implication Law True & False  results to FALSE",
             "lawUsed": "implication"
@@ -343,7 +343,7 @@
             "question": "Goldfish can live for several decades",
             "answer": true,
             "explanation": "Goldfish are one of those longest lived fishes around that can we have, and can live for several decades under right conditions",
-            "twister": "Goldfishes can not live outside of their natural habitat",
+            "twister": "Goldfishes cannot live outside of their natural habitat",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
@@ -361,7 +361,7 @@
             "question": "Whales respond to screams and other loud noises made by humans",
             "answer": false,
             "explanation": "Honestly, we all have our superstitions about what bring the whales close, but most if not all of them are just wishful thinking. For one, the sound barrier between air and water is pretty good, so when you're on shore, chances are the whales can't hear you at all",
-            "twister": "Whales can hear noises from a greater distances",
+            "twister": "Whales can hear noises from a great distance",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -370,7 +370,7 @@
             "question": "Goldfish have a three-second memory",
             "answer": false,
             "explanation": "They have a memory span of at least three months, according to researchers at Plymouth University.",
-            "twister": "Gold fishes has a memory of at least three months",
+            "twister": "Gold fishes have a memory of at least three months",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -379,7 +379,7 @@
             "question": "Sharks don't get cancer",
             "answer": false,
             "explanation": "The 1992 book Sharks Don’t Get Cancer by I. William Lane is to blame for this animal myth. The author used the book’s premise to promote shark cartilage extract for cancer prevention. Cancerous tumors have in fact been found in sharks, disproving this theory.",
-            "twister": "All sharks are same",
+            "twister": "All sharks are the same",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -388,7 +388,7 @@
             "question": "Piranhas can devour a human being in seconds.",
             "answer": false,
             "explanation": "Yes, piranhas are fearsome-looking creatures with knife-sharp teeth, but by all accounts they're shy and non-aggressive. In fact, piranhas mostly scavenge for fish, plants and insects in South American rivers and lakes where they live.",
-            "twister": "Piranhas only scavenge on fishes, plants, and insects from where they live ",
+            "twister": "Piranhas only scavenge on fishes, plants, and insects from where they live",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -400,7 +400,7 @@
             "question": "Chameleons change colors to blend in with their surroundings",
             "answer": false,
             "explanation": "Yes, chameleons can change colors but it is to regulate their body temperature or to communicate with other chameleons but not to camouflage themselves from its surroundings",
-            "twister": "Chameleons can not chnages color to whatsoever at all",
+            "twister": "Chameleons can not change color to whatsoever at all",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -418,7 +418,7 @@
             "question": "Baby snakes don't need parental guidance",
             "answer": true,
             "explanation": "Most snakes do not provide parental care like other animals to their young, and they are self sufficient at birth and their own, which means their parent may not be near them if you spot any baby snakes around",
-            "twister": "There is no such things as a baby snakes, snakes are just snakes",
+            "twister": "There is no such things as baby snakes, snakes are just snakes",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law True & False  results to FALSE",
             "lawUsed": "bi-conditional"
@@ -436,7 +436,7 @@
             "question": "Snakes are aggressive and will chase people",
             "answer": false,
             "explanation": "While 'aggressive' and 'defensive' can be twisted to mean same things in broader sense, in reality there is no snake that will chase or act aggressively rather 'defensively' towards any human being",
-            "twister": "Snakes remember their offenders face forever",
+            "twister": "Snakes remember their offender's face forever",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -463,7 +463,7 @@
             "question": "Turtles and tortoise can climb out of their shells",
             "answer": false,
             "explanation": "A turtle and tortoise can not actually slide or climb out of their shells, it's apart of their skeletal structure and their spinal cord and other internal organs",
-            "twister": "Tortoise and Turtles shell is a part of their skeletal structure",
+            "twister": "Tortoise and turtle shell is a part of their skeletal structure",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is True <br /> <br /> And by Implication Law False & True/False  results to TRUE",
             "lawUsed": "implication"
@@ -472,7 +472,7 @@
             "question": "Touching toads gives you warts",
             "answer": false,
             "explanation": "Toads have wart-like bumps, and human warts are contagious, but you could never catch a wart from a frog or toad. While humans get warts from viruses, the bumps on the amphibians are glands.",
-            "twister": "Human warts are not contagious at all, unlike frogs warts they are very contagious",
+            "twister": "Human warts are not contagious at all, unlike frogs warts that are very contagious",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -499,7 +499,7 @@
             "question": "Snakes do not have ears",
             "answer": true,
             "explanation": "Snakes lack both an outer ear and middle ear, according to a 2012 study in the Journal of Experimental Biology. However, they have one middle ear bone that connects the inner ear to the jaw. This enables snakes to hear vibrations, such as a predator creeping closer on the forest floor",
-            "twister": "Snakes have sattelite connections to detect noises from outside",
+            "twister": "Snakes have satellite connections to detect noises from their surroundings",
             "twistedAnswer": false,
             "twistedExplanation": "Statement (A) is True <br /> <br /> Statement (B) is False <br /> <br /> And by Implication Law True & False  results to FALSE",
             "lawUsed": "implication"
@@ -508,7 +508,7 @@
             "question": "Snakes unhinge their jaws to swallow their prey",
             "answer": false,
             "explanation": "A snake swallowing large prey like a mouse or a bird doesn’t unhinge its jaws to swallow the meal. Instead, its jaws extend (because of it’s lower jaw quadrate bone) and its mouth gape increases (by way of flexible jaw bone ligaments) in order to begin swallowing.",
-            "twister": "Snakes has laser like magic potions to make their preys small enough to gobble them up as a whole",
+            "twister": "Snakes have laser like magic potions to make their preys small enough to gobble them up as a whole",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
@@ -526,7 +526,7 @@
             "question": "A turtle or tortoise cannot feel when its shell is carved or painted into",
             "answer": false,
             "explanation": "Just as with human fingernails and skin, a turtle or tortoise’s shell has sensitive nerve endings which can feel sensations to what may seemingly be hardened armor also designed to protect them from predators.",
-            "twister": "Turtle or Tortoise shell is made of hard stones, it doesnt feel a thing when touched or curved onto it",
+            "twister": "Turtle or tortoise shell is made of hard stones. They don't feel a thing when touched through it",
             "twistedAnswer": true,
             "twistedExplanation": "Statement (A) is False <br /> <br /> Statement (B) is False <br /> <br /> And by Bi-conditional Law False & False  results to TRUE",
             "lawUsed": "bi-conditional"
