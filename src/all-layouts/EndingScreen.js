@@ -32,6 +32,7 @@ const EndingScreen = (noOfCorrect = 0) => {
                 <button id="ed-mainMenu" class="btn--primary controls__btn">Main Menu</button>
             </div>
         </div>
+        <a class="attribution" href="https://www.vecteezy.com/free-vector/cat-border">Cat Border Vectors created by Graphics RF from Vecteezy</a>
     </div>
 `);
 };

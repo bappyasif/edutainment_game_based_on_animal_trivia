@@ -31,7 +31,9 @@ const QuestionRound = (mode = 'easy') => {
 
                 <div id="choices" class="choices">
                     <button data-answer="true" class="btn--secondary choices__btn">True</button>
-                    <button data-answer="false" class="btn--secondary choices__btn">${mode=='hard' ? "False" : "Myth"}</button>
+                    <button data-answer="false" class="btn--secondary choices__btn">${
+                        mode === 'hard' ? 'False' : 'Myth'
+                    }</button>
                 </div>
 
                 <!-- Explanation Modal -->
@@ -75,6 +77,7 @@ const QuestionRound = (mode = 'easy') => {
                 <!-- How To Play Modal -->
                 <div id="instructions" class="backdrop"></div>
                 
+                <a class="attribution" href="https://www.vecteezy.com/free-vector/nature">Nature Vectors created by Graphics RF from Vecteezy</a>
             </div>
         </div>`
     );

@@ -21,6 +21,7 @@ const StartingScreen = () => {
                 </div>
             </div>
             <span id="backToMenu" class="return-button">&#8249; Back to menu</span>
+            <a class="attribution" href="https://www.freepik.com/vectors/character">Character vector created by brgfx from Freepik</a>
         </div>
     `);
 };
