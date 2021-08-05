@@ -1,5 +1,5 @@
 .ending-screen {
-    background: #ba73c6;
+    /* background: #ba73c6; */
     /* color: white; */
     height: 100%;
 
@@ -55,12 +55,12 @@
     background: linear-gradient(90deg, #ae3fb8 6.55%, #7c3fff 99.24%);
 } */
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .controls {
         margin-top: -4%;
     }
-}
-
+} */
+/* 
 @media (max-width: 800px) {
     .ending-screen {
         background-image: none;
@@ -68,5 +68,21 @@
     }
     .controls__btn {
         background: linear-gradient(90deg, #ae3fb8 6.55%, #7c3fff 99.24%);
+    }
+} */
+@media (min-width: 1280px) {
+    .score__text {
+        font-size: 5vw;
+    }
+
+    .score__message {
+        font-size: 3vw;
+        margin-bottom: 8vw;
+    }
+}
+
+@media (min-height: 720px) {
+    .score__text {
+        margin-top: 28vh;
     }
 }
