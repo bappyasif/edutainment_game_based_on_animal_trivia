@@ -57,7 +57,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.35rem;
     text-transform: uppercase;
     color: white;
@@ -145,4 +145,11 @@ p {
     line-height: 37px;
     text-align: justify;
     margin-bottom: var(--modal-body-mb);
+}
+
+@media (min-width: 1280px) {
+    .btn--primary {
+        font-size: 2vw;
+        padding: 2vw 1vw;
+    }
 }
