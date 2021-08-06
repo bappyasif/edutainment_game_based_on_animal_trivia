@@ -12,6 +12,10 @@ const bundle = 5;
 const handleResponse = (e, mode) => {
     // mapping responses from button classes to make assesment against questionData.answer value
     const selectedAnswer = e.target.dataset.answer;
+    
+    // if any click events does not have any data-answer value in it we are ignoring those clicks
+    if (!selectedAnswer) return;
+    
     // checking either true==true or false==false, from button class and questionData.answer
     const correctAnswer =
         mode === 'hard'
