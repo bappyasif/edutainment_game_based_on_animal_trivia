@@ -33,10 +33,10 @@ Same gameplay but with a twist! Aside from the first statement, you'll also get 
 
 ## Preview
 
-![main menu](https://i.imgur.com/fcvoPUx.png)
+![main menu](https://www.freepik.com/free-vector/many-cute-animals-bamboo-forest_5288851.htm)
 ![starting screen](https://i.imgur.com/chjZbJx.png)
 ![question round](https://i.imgur.com/s9MQXrh.png)
-![ending screen](https://i.imgur.com/Fc66Kmh.png)
+![ending screen](https://www.vecteezy.com/vector-art/697241-border-template-with-cute-animals && https://i.imgur.com/Fc66Kmh.png)
 
 ## References
 
