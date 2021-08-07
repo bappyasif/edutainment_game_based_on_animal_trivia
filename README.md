@@ -38,6 +38,12 @@ Same gameplay but with a twist! Aside from the first statement, you'll also get 
 ![question round](https://i.imgur.com/Hvd4ck3.png)
 ![ending screen](https://i.imgur.com/zVJX8U6.png)
 
+## Credits
+Assets were made by or sourced from:
+- [Main menu background](https://www.freepik.com/free-vector/many-cute-animals-bamboo-forest_5288851.htm) and [animal icons](https://www.freepik.com/free-vector/set-cute-animal-character_4666142.htm) by brgfx from [Freepik](https://www.freepik.com/)
+- [Question round background](https://www.vecteezy.com/vector-art/369975-wild-animals-from-all-over-the-world) and [ending screen background](https://www.vecteezy.com/vector-art/697241-border-template-with-cute-animals) by Graphics RF from [Vecteezy](https://www.vecteezy.com/)
+
+
 ## References
 
 All credits for the questions in this game goes to their rightful owner.
